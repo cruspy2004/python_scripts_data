@@ -1,0 +1,1886 @@
+complaint_id,product,issue,company,state,city,zip_code,status,date_received,date_sent_to_company,response_time_days,timely_response?,consumer_disputed?,company_response_to_consumer
+100000,Mortgage,,Metro Loans,Ny,New York,75285.0,Closed,2023-11-10,2024-01-01,52,N,,
+100001,Mortgage,Collection Harassment,Nan,Fl,Miami,43383.0,Resolved,2023-03-12,2023-03-21,9,,N,
+100002,,Other,Nan,Ny,,43864.0,Closed,2023-10-20,2023-11-27,38,FALSE,,
+100003,Student  Loan,Fees,Metro Loans,Ga,New York,,,2023-02-17,2023-03-13,24,,No,
+100004,Credit Card,Collection Harassment,United Credit,Pa,New York,62086.0,,2023-11-21,2023-11-23,2,Yes,,
+100005,Mortgage,Fees,Acme Bank,Ca,Miami,93641.0,Open,2023-11-11,2023-12-22,41,FALSE,Y,Closed with explanation
+100006,Mortgage,Other,Metro Loans,Mi,Nan,73944.0,Resolved,2023-02-12,2023-04-02,49,,No,In progress
+100007,Mortgage,Incorrect Information,Northstar Finance,Tx,Detroit,89667.0,,2024-01-14,2024-02-15,32,No,Y,
+100008,Credit  Card,Incorrect Information,Metro Loans,Il,Nan,,Open,2023-07-27,2023-08-02,6,FALSE,No,
+100009,Credit Reporting,Incorrect Information,,,Chicago,94435.0,,2024-01-29,2024-02-03,5,No,TRUE,
+100010,Debt Collection,Other,Metro Loans,Ny,Miami,94980.0,Resolved,2023-01-21,2023-02-12,22,,No,In progress
+100011,Debt Collection,Fees,,Fl,Nan,13669.0,Resolved,2023-03-31,2023-04-27,27,,No,
+100012,Debt Collection,Billing Disputes,Acme Bank,Il,Nan,,Open,2023-09-04,2023-10-04,30,Yes,FALSE,In progress
+100013,Mortgage,Fees,Metro Loans,Fl,Philadelphia,47743.0,In Progress,2023-06-14,2023-07-11,27,N,N,In progress
+100015,Mortgage,Collection Harassment,Acme Bank,,Miami,80055.0,Open,2023-11-27,2023-12-11,14,,FALSE,Closed with explanation
+100016,Mortgage,Incorrect Information,Nan,Ny,Atlanta,72865.0,,2023-03-14,2023-04-22,39,Y,N,In progress
+100017,Mortgage,Fees,,,Nan,29159.0,Resolved,2023-12-05,2024-01-20,46,FALSE,Yes,Closed
+100018,Credit Card,Collection Harassment,Finserv Co,Ga,Nan,64790.0,,2023-02-21,2023-03-30,37,Yes,No,Closed with explanation
+100019,Bank Account,Fees,Metro Loans,Ny,Columbus,,Open,2023-03-29,2023-03-24,-5,No,,
+100020,Credit Card,Other,Finserv Co,Ca,Miami,49610.0,,2023-10-21,2023-12-19,59,,,
+100021,Mortgage,Fees,Northstar Finance,Ca,Nan,93538.0,Resolved,2024-02-01,2024-01-28,-4,N,Y,Closed with explanation
+100022,Credit  Card,Collection Harassment,United Credit,Il,Atlanta,68476.0,Resolved,2023-03-27,2023-05-25,59,,,
+100023,Mortgage,Collection Harassment,Finserv Co,Il,Columbus,,Closed,2023-05-30,2023-05-27,-3,,Yes,
+100024,Student Loan,Fees,Northstar Finance,Nc,New York,,,2024-04-07,2024-05-05,28,,Yes,Closed with explanation
+100025,Bank Account,Billing Disputes,Nan,Il,,11500.0,Closed,2024-05-09,2024-05-10,1,Yes,,
+100026,Credit Reporting,Incorrect Information,Northstar Finance,Nan,Houston,,,2023-10-18,2023-10-19,1,No,FALSE,Closed
+100027,Mortgage,Billing Disputes,United Credit,Il,Nan,,In Progress,2023-08-12,2023-09-20,39,FALSE,TRUE,
+100028,Credit Reporting,Fees,Metro Loans,Fl,Columbus,,In Progress,2023-06-23,2023-08-04,42,,Y,
+100029,Credit Card,Billing Disputes,United Credit,Fl,New York,82720.0,Resolved,2023-11-03,2023-11-05,2,,,Closed with explanation
+100030,Debt  Collection,Fees,Finserv Co,Il,Miami,,Open,2023-10-23,2023-12-20,58,FALSE,TRUE,
+100031,,Incorrect Information,Finserv Co,,Atlanta,,In Progress,2023-05-28,2023-06-12,15,Yes,N,Closed with explanation
+100032,Bank Account,Billing Disputes,Metro Loans,Fl,New York,47745.0,Closed,2023-01-12,2023-01-27,15,FALSE,N,
+100033,Credit Reporting,,Metro Loans,Fl,Detroit,37267.0,,2023-03-17,2023-03-31,14,Y,Y,Closed
+100034,Mortgage,Fees,Acme Bank,,Houston,59843.0,In Progress,2024-04-24,2024-05-18,24,,TRUE,In progress
+100035,Credit Card,Billing Disputes,Northstar Finance,Mi,Atlanta,,Open,2023-07-29,2023-08-04,6,TRUE,FALSE,
+100036,Student Loan,Other,Acme Bank,Tx,Chicago,13977.0,Open,2023-08-30,2023-09-21,22,No,,
+100037,Credit Card,Collection Harassment,,Nan,Miami,49342.0,,2023-08-22,2023-08-30,8,,N,
+100038,Student Loan,Collection Harassment,Northstar Finance,Tx,Los Angeles,,Open,2024-01-27,2024-01-25,-2,,Y,Closed with explanation
+100039,Student Loan,Identity Theft,United Credit,Tx,Miami,38347.0,Open,2023-02-02,2023-02-20,18,TRUE,TRUE,Closed
+100040,Credit Reporting,Collection Harassment,,Oh,Houston,,Closed,2023-02-11,2023-03-21,38,,TRUE,
+100041,,Fees,Nan,Mi,Detroit,24761.0,Closed,2023-05-18,2023-07-01,44,Yes,Y,Closed with explanation
+100042,Credit Reporting,Incorrect Information,Nan,Tx,Columbus,35433.0,Open,2023-09-01,2023-09-18,17,Y,Yes,In progress
+100043,Credit  Card,Billing Disputes,Acme Bank,Nan,Philadelphia,36889.0,,2023-12-02,2023-12-18,16,No,Y,Closed
+100044,Debt Collection,Fees,Metro Loans,Tx,Los Angeles,33336.0,Open,2023-09-03,2023-10-19,46,Y,Yes,Closed
+100045,Nan,Collection Harassment,Metro Loans,Nan,Chicago,40930.0,,2023-08-09,2023-09-17,39,N,Yes,
+100046,Nan,Billing Disputes,United Credit,Ca,Miami,,,2024-04-13,2024-06-01,49,N,,
+100047,Student Loan,Billing Disputes,,Oh,Columbus,71273.0,Resolved,2023-03-22,2023-05-14,53,Y,,
+100048,Student  Loan,Incorrect Information,Finserv Co,Nc,Los Angeles,40420.0,Open,2023-10-13,2023-11-30,48,TRUE,Yes,
+100049,Student Loan,Fees,Northstar Finance,Fl,Miami,77927.0,,2023-09-29,2023-11-23,55,No,Y,
+100050,Mortgage,Incorrect Information,United Credit,Nc,,,Closed,2023-08-25,2023-09-16,22,Y,Y,Closed
+100051,Credit Card,Incorrect Information,United Credit,Mi,Detroit,67642.0,In Progress,2024-02-08,2024-02-28,20,,,In progress
+100052,Nan,Identity Theft,,Mi,Los Angeles,62520.0,Closed,2023-05-14,2023-05-29,15,TRUE,N,Closed with explanation
+100053,Debt  Collection,Nan,Acme Bank,Pa,Houston,93056.0,,2024-04-21,2024-05-01,10,Yes,Y,
+100054,Credit Card,Billing Disputes,Finserv Co,Nan,Philadelphia,33013.0,Resolved,2023-06-15,2023-07-28,43,Y,FALSE,
+100055,Credit Reporting,Nan,,Nan,Philadelphia,98413.0,Open,2023-09-30,2023-11-10,41,,N,Closed with explanation
+100056,Credit Reporting,Collection Harassment,Metro Loans,Il,Miami,28577.0,In Progress,2023-09-18,2023-11-04,47,No,No,Closed
+100057,Debt Collection,Collection Harassment,Nan,Nan,Philadelphia,22440.0,,2024-02-29,2024-03-05,5,,Y,Closed
+100058,Student Loan,Incorrect Information,Finserv Co,Nan,Los Angeles,84371.0,,2023-08-08,2023-09-03,26,Y,No,
+100059,,Billing Disputes,,,Miami,90635.0,,2023-05-23,2023-06-01,9,FALSE,FALSE,
+100060,Credit Card,Incorrect Information,Northstar Finance,Nan,Detroit,18345.0,Open,2023-01-11,2023-03-05,53,N,,Closed
+100061,Mortgage,Other,Acme Bank,Nan,,,,2023-07-01,2023-07-13,12,FALSE,,Closed with explanation
+100062,Bank Account,Identity Theft,Nan,,Charlotte,56153.0,Resolved,2024-02-18,2024-02-22,4,,N,In progress
+100063,Credit Card,Incorrect Information,Northstar Finance,Il,Los Angeles,29809.0,,2023-01-05,2023-02-06,32,No,N,
+100064,Credit Card,Fees,Acme Bank,Nan,Los Angeles,,In Progress,2024-03-24,2024-05-15,52,Y,Yes,Closed with explanation
+100065,Bank Account,Identity Theft,Finserv Co,Tx,New York,71719.0,Resolved,2023-09-29,2023-11-22,54,TRUE,Y,In progress
+100066,Student Loan,Incorrect Information,Metro Loans,Pa,Nan,61671.0,Closed,2023-03-12,2023-03-13,1,Y,Yes,
+100067,Student Loan,,Nan,,Nan,56777.0,Resolved,2023-06-01,2023-06-17,16,N,FALSE,
+100068,Student  Loan,Incorrect Information,Northstar Finance,Fl,Detroit,89707.0,Closed,2023-10-05,2023-10-09,4,,,Closed
+100069,Student  Loan,Collection Harassment,Acme Bank,,,30297.0,In Progress,2023-06-07,2023-06-22,15,No,No,Closed
+100070,Bank Account,Fees,Acme Bank,Pa,Miami,66151.0,In Progress,2023-02-24,2023-03-25,29,No,FALSE,In progress
+100071,Debt  Collection,Billing Disputes,United Credit,Tx,Houston,,,2023-11-29,2023-12-12,13,TRUE,TRUE,Closed
+100072,Credit Reporting,Billing Disputes,Acme Bank,Ca,Los Angeles,97626.0,Resolved,2023-12-03,2023-12-02,-1,Yes,N,
+100073,Credit Card,Other,United Credit,Oh,Nan,88420.0,Closed,2023-05-21,2023-05-19,-2,,FALSE,Closed
+100075,Student Loan,Billing Disputes,Metro Loans,Ga,Nan,66890.0,In Progress,2023-05-02,2023-05-11,9,Y,Y,In progress
+100076,Mortgage,Billing Disputes,Nan,Ny,Nan,,In Progress,2023-11-26,2023-11-21,-5,Yes,,
+100077,Credit Reporting,Collection Harassment,United Credit,Fl,Atlanta,,,2024-01-01,2024-01-01,0,FALSE,FALSE,
+100078,Debt Collection,Incorrect Information,Metro Loans,Ny,Chicago,,Closed,2023-12-30,2024-01-22,23,N,Y,Closed
+100079,,Identity Theft,Acme Bank,Il,Houston,,Open,2024-04-14,2024-06-03,50,N,FALSE,Closed
+100080,Credit Card,Identity Theft,United Credit,,Houston,41029.0,Resolved,2024-01-20,2024-03-05,45,N,FALSE,
+100081,Bank Account,Fees,Finserv Co,Tx,,,,2023-06-10,2023-06-11,1,No,Yes,
+100082,Debt Collection,Nan,Finserv Co,Mi,Nan,45235.0,,2023-02-23,2023-02-20,-3,,No,Closed
+100083,Mortgage,Identity Theft,Finserv Co,Ga,Atlanta,,In Progress,2024-04-03,2024-05-10,37,N,Yes,
+100085,Credit Reporting,Fees,Metro Loans,Nan,Houston,,Closed,2024-05-02,2024-06-14,43,Y,N,In progress
+100086,Debt Collection,Other,Acme Bank,Il,Detroit,30925.0,Resolved,2023-04-26,2023-06-13,48,FALSE,N,
+100087,Credit Reporting,Identity Theft,Finserv Co,Tx,Columbus,37613.0,Open,2023-04-29,2023-05-16,17,TRUE,,
+100088,,Incorrect Information,United Credit,Ga,Miami,30010.0,,2023-01-19,2023-01-24,5,N,No,
+100089,Credit Card,Billing Disputes,Nan,Fl,New York,,,2023-03-12,2023-03-08,-4,TRUE,TRUE,
+100090,Credit Reporting,Fees,Nan,Nan,,44324.0,Resolved,2023-10-05,2023-10-09,4,No,FALSE,
+100091,Credit  Card,Billing Disputes,United Credit,,New York,46438.0,Closed,2023-10-01,2023-09-30,-1,No,N,
+100092,Mortgage,Identity Theft,,Mi,Columbus,70481.0,Closed,2023-07-05,2023-08-24,50,,,Closed
+100093,Credit Reporting,Collection Harassment,Metro Loans,Nc,Philadelphia,,,2023-06-04,2023-06-16,12,TRUE,Y,
+100094,Nan,Billing Disputes,United Credit,Nc,Los Angeles,,Open,2024-02-19,2024-04-07,48,FALSE,N,Closed with explanation
+100095,Credit Reporting,Other,United Credit,Nan,New York,,Open,2023-08-19,2023-09-18,30,,Yes,Closed
+100096,Debt Collection,Incorrect Information,,Oh,Chicago,97849.0,In Progress,2024-02-09,2024-03-10,30,,N,Closed with explanation
+100097,Student Loan,Incorrect Information,Northstar Finance,,Atlanta,90984.0,Closed,2024-04-26,2024-05-20,24,TRUE,Yes,Closed with explanation
+100098,Mortgage,Fees,Acme Bank,Il,Charlotte,28217.0,,2023-06-08,2023-07-26,48,,,
+100099,Student Loan,Fees,Finserv Co,Ny,Atlanta,24402.0,Open,2023-04-12,2023-04-09,-3,TRUE,No,Closed with explanation
+100100,Debt  Collection,Incorrect Information,,Mi,New York,45356.0,,2024-04-21,2024-04-22,1,No,,Closed
+100101,Credit Card,Other,Nan,Mi,Houston,85182.0,,2023-11-14,2023-12-06,22,TRUE,Yes,In progress
+100102,Nan,Other,,,Charlotte,,Closed,2023-05-26,2023-06-15,20,,Y,
+100103,Debt Collection,Identity Theft,,Pa,Miami,73235.0,Resolved,2023-11-07,2023-12-07,30,,Yes,
+100104,Mortgage,Collection Harassment,Nan,Pa,Charlotte,,,2023-09-15,2023-10-27,42,TRUE,Y,
+100105,Debt Collection,Identity Theft,Nan,Ga,Houston,31032.0,,2024-03-28,2024-04-30,33,,TRUE,Closed with explanation
+100106,Debt  Collection,,,Pa,Los Angeles,63304.0,,2023-05-08,2023-05-19,11,No,N,Closed with explanation
+100107,Credit Card,Identity Theft,Finserv Co,Nan,Chicago,26588.0,,2024-05-10,2024-05-26,16,Yes,TRUE,In progress
+100108,Credit Card,Identity Theft,Acme Bank,Pa,New York,58567.0,Open,2024-04-13,2024-05-26,43,N,,Closed
+100109,Student Loan,Collection Harassment,,Nan,Nan,27437.0,Resolved,2023-04-01,2023-04-09,8,No,Yes,Closed with explanation
+100110,Mortgage,Collection Harassment,Northstar Finance,Pa,Philadelphia,,,2023-03-24,2023-04-20,27,,N,
+100111,Bank Account,Billing Disputes,Finserv Co,Fl,Houston,97055.0,Closed,2023-09-24,2023-10-24,30,Yes,TRUE,In progress
+100112,Bank Account,Fees,Acme Bank,,New York,,Closed,2023-01-23,2023-03-07,43,TRUE,TRUE,In progress
+100113,Bank Account,Incorrect Information,Northstar Finance,Ga,Philadelphia,71678.0,Open,2023-05-30,2023-07-10,41,,No,Closed with explanation
+100114,Debt Collection,Fees,Northstar Finance,Mi,Los Angeles,66294.0,,2023-08-06,2023-08-31,25,Yes,No,In progress
+100115,Debt  Collection,Fees,,Nc,,31599.0,,2024-04-29,2024-05-14,15,Yes,N,In progress
+100116,Student  Loan,Other,Acme Bank,Pa,Nan,61449.0,Open,2024-05-11,2024-05-29,18,TRUE,FALSE,Closed
+100117,Credit Reporting,Other,Acme Bank,,Nan,77326.0,Closed,2023-03-17,2023-04-07,21,,,
+100118,Mortgage,Fees,Metro Loans,Pa,,58554.0,In Progress,2024-03-21,2024-03-30,9,Yes,Y,
+100119,Bank Account,Collection Harassment,Finserv Co,,Detroit,,,2023-02-15,2023-03-22,35,Yes,TRUE,
+100120,Credit Reporting,Other,Metro Loans,Oh,Philadelphia,45271.0,,2024-01-10,2024-01-18,8,,Y,
+100121,Student Loan,Collection Harassment,Nan,Ny,Miami,32919.0,,2024-03-21,2024-05-03,43,FALSE,N,Closed with explanation
+100123,Debt  Collection,Collection Harassment,Metro Loans,,Nan,96525.0,Resolved,2023-04-22,2023-06-18,57,Y,Y,In progress
+100124,Credit Reporting,Billing Disputes,United Credit,Ga,Columbus,77978.0,Closed,2024-03-22,2024-03-24,2,Y,No,Closed with explanation
+100125,Bank Account,Other,Nan,Pa,Columbus,90120.0,Resolved,2023-02-27,2023-04-12,44,N,FALSE,
+100126,Student  Loan,Collection Harassment,Acme Bank,,Los Angeles,55860.0,In Progress,2023-09-17,2023-09-17,0,No,Y,
+100127,Credit  Card,Incorrect Information,Northstar Finance,Nc,Philadelphia,30136.0,,2023-08-23,2023-09-08,16,N,No,
+100128,Credit Card,Incorrect Information,Nan,Mi,Philadelphia,13054.0,In Progress,2023-06-07,2023-06-13,6,,N,Closed with explanation
+100129,Bank Account,Other,Acme Bank,Tx,Los Angeles,45918.0,Closed,2024-01-22,2024-01-28,6,,FALSE,
+100131,Nan,Other,Acme Bank,Ca,New York,20231.0,,2023-06-17,2023-06-14,-3,N,N,Closed with explanation
+100132,Credit  Card,Collection Harassment,Finserv Co,Nan,Columbus,93573.0,In Progress,2023-11-27,2024-01-14,48,,,
+100133,Mortgage,Fees,United Credit,Ny,Nan,,In Progress,2023-07-25,2023-07-23,-2,N,Yes,Closed
+100134,Student  Loan,Billing Disputes,Acme Bank,Nan,Miami,43650.0,,2023-07-06,2023-07-26,20,TRUE,Y,
+100135,Mortgage,Other,,Ca,New York,,In Progress,2024-03-19,2024-04-28,40,FALSE,TRUE,
+100136,Bank Account,Billing Disputes,Metro Loans,Fl,Philadelphia,47190.0,Open,2023-02-17,2023-04-17,59,,N,
+100137,Mortgage,Identity Theft,Nan,Mi,Miami,54712.0,In Progress,2024-01-04,2024-02-23,50,,FALSE,
+100138,Mortgage,Billing Disputes,Nan,Nc,Houston,66155.0,,2024-01-09,2024-01-12,3,Yes,FALSE,
+100139,Credit  Card,Other,United Credit,Nan,Detroit,47478.0,,2023-07-09,2023-09-06,59,,N,Closed
+100140,Credit Reporting,Incorrect Information,Nan,Nc,New York,82149.0,Resolved,2023-05-12,2023-06-18,37,FALSE,,
+100141,Credit Reporting,Identity Theft,,Ny,Philadelphia,27040.0,Resolved,2023-01-03,2023-01-09,6,FALSE,,In progress
+100142,Credit Card,Billing Disputes,Nan,,Charlotte,70160.0,Closed,2024-04-13,2024-05-07,24,Yes,N,
+100143,Mortgage,Incorrect Information,Northstar Finance,Fl,Atlanta,98480.0,,2024-04-18,2024-06-11,54,N,,
+100144,,Collection Harassment,Nan,Ca,Nan,,Resolved,2023-05-01,2023-05-21,20,,FALSE,Closed
+100145,Debt Collection,Other,,Nan,Los Angeles,,Open,2023-01-16,2023-01-22,6,,No,
+100146,Student Loan,Fees,Acme Bank,Tx,Charlotte,20257.0,,2023-03-03,2023-04-23,51,No,Yes,
+100147,Credit Card,Nan,Nan,Oh,Atlanta,,Open,2024-02-20,2024-04-18,58,,No,
+100149,Mortgage,Other,Acme Bank,Nan,Columbus,,In Progress,2024-03-21,2024-05-17,57,,Y,
+100150,Bank Account,Identity Theft,Finserv Co,Ny,Miami,91352.0,,2023-03-18,2023-05-08,51,Y,Yes,In progress
+100151,Credit  Card,Other,Acme Bank,Ca,Miami,23475.0,,2024-01-09,2024-02-02,24,,TRUE,
+100152,Student  Loan,Fees,Finserv Co,Pa,Nan,56722.0,Closed,2023-03-31,2023-04-07,7,,N,
+100153,Credit Card,Other,Nan,Oh,Detroit,75328.0,Open,2023-07-03,2023-08-07,35,No,TRUE,
+100154,Credit Card,Billing Disputes,Metro Loans,,Houston,,,2023-10-27,2023-11-05,9,Yes,TRUE,Closed
+100155,Debt  Collection,Billing Disputes,Northstar Finance,Nc,Columbus,79931.0,,2023-12-26,2024-01-20,25,Yes,Y,Closed with explanation
+100156,,Other,United Credit,Tx,,,,2024-03-13,2024-04-19,37,No,TRUE,In progress
+100157,Mortgage,Collection Harassment,,,Miami,,Resolved,2023-01-23,2023-03-20,56,FALSE,,
+100158,Mortgage,Identity Theft,,Oh,Los Angeles,50314.0,,2023-04-09,2023-04-22,13,N,Y,Closed with explanation
+100159,Credit Card,Other,Northstar Finance,,Miami,94588.0,In Progress,2023-05-21,2023-06-01,11,FALSE,Y,
+100160,Bank Account,Billing Disputes,Metro Loans,,Los Angeles,,,2023-06-05,2023-07-17,42,Yes,TRUE,In progress
+100161,Nan,Collection Harassment,Finserv Co,Ny,Los Angeles,39373.0,Closed,2024-05-14,2024-05-09,-5,TRUE,,Closed
+100163,Debt Collection,Billing Disputes,Nan,Pa,Philadelphia,,Closed,2023-06-10,2023-07-23,43,,,
+100164,Credit Reporting,Collection Harassment,Northstar Finance,Oh,Philadelphia,98280.0,Closed,2024-04-30,2024-05-30,30,Y,Yes,
+100165,Mortgage,Other,,Il,,86290.0,Closed,2023-09-07,2023-09-26,19,TRUE,Yes,
+100166,Credit Reporting,Billing Disputes,Northstar Finance,Ga,New York,33322.0,In Progress,2023-09-08,2023-10-26,48,N,N,
+100168,Credit  Card,Fees,Metro Loans,Tx,Nan,63379.0,In Progress,2023-03-13,2023-04-23,41,FALSE,Yes,
+100169,Mortgage,Nan,United Credit,Il,,91591.0,In Progress,2024-04-12,2024-05-07,25,TRUE,No,
+100170,Mortgage,Collection Harassment,Northstar Finance,Tx,Detroit,37022.0,Closed,2023-01-07,2023-01-03,-4,,Y,
+100171,Credit Card,Other,Nan,,Nan,99490.0,In Progress,2023-03-29,2023-04-27,29,Yes,,
+100172,Bank Account,Collection Harassment,Acme Bank,Mi,Columbus,,,2023-04-25,2023-04-23,-2,No,,Closed with explanation
+100173,Mortgage,Identity Theft,Finserv Co,Pa,Detroit,74516.0,In Progress,2023-05-20,2023-07-14,55,TRUE,Y,Closed with explanation
+100174,Student Loan,Identity Theft,Acme Bank,Pa,Charlotte,45798.0,Open,2023-03-07,2023-04-10,34,TRUE,,
+100175,Debt Collection,Billing Disputes,Finserv Co,Il,New York,40153.0,Resolved,2023-12-05,2023-12-31,26,FALSE,Y,Closed
+100176,Debt Collection,Fees,Northstar Finance,Nan,,85895.0,In Progress,2024-04-29,2024-06-03,35,Yes,N,
+100178,Credit Card,Incorrect Information,Acme Bank,Ny,,67365.0,Open,2023-03-02,2023-03-13,11,N,,
+100179,Student Loan,Collection Harassment,Nan,Tx,Philadelphia,35989.0,Open,2023-05-29,2023-06-11,13,,N,Closed with explanation
+100180,Credit Card,Nan,Acme Bank,,Detroit,96483.0,Open,2023-09-11,2023-10-03,22,,Y,In progress
+100181,Student Loan,Collection Harassment,Finserv Co,Ga,Detroit,73825.0,,2024-04-08,2024-04-19,11,,,Closed
+100182,Credit Reporting,Collection Harassment,Metro Loans,Ny,Charlotte,48576.0,Closed,2023-12-14,2024-01-27,44,N,FALSE,Closed with explanation
+100183,Student Loan,Identity Theft,Finserv Co,Oh,Nan,22229.0,In Progress,2024-01-19,2024-01-20,1,Yes,N,
+100184,Debt Collection,Incorrect Information,Northstar Finance,Nan,Miami,97598.0,,2023-10-18,2023-12-05,48,No,,Closed
+100185,Mortgage,Billing Disputes,Acme Bank,Il,Nan,77948.0,Resolved,2023-07-28,2023-08-14,17,,FALSE,
+100186,Credit Reporting,Incorrect Information,Finserv Co,Pa,New York,70101.0,Open,2023-04-10,2023-05-11,31,Y,Y,
+100187,Mortgage,Identity Theft,,Nc,Nan,84979.0,,2024-03-08,2024-03-13,5,,N,In progress
+100188,Debt  Collection,Billing Disputes,Finserv Co,Nc,Detroit,,Closed,2024-02-07,2024-02-27,20,Yes,Yes,Closed with explanation
+100189,Student Loan,Fees,United Credit,Nan,Charlotte,30880.0,,2023-01-13,2023-02-26,44,N,Yes,Closed with explanation
+100190,Credit Reporting,Fees,United Credit,Fl,Nan,31339.0,,2023-12-24,2024-01-05,12,,,In progress
+100192,Credit Card,Identity Theft,Metro Loans,Tx,Los Angeles,15662.0,Open,2024-01-05,2024-02-02,28,Yes,,
+100193,,,Northstar Finance,Mi,,,Resolved,2024-02-17,2024-02-22,5,Y,No,Closed with explanation
+100194,Credit Card,Collection Harassment,United Credit,Ga,Los Angeles,,Closed,2023-03-07,2023-03-22,15,Yes,TRUE,Closed with explanation
+100195,Bank Account,Nan,Nan,Il,Nan,24752.0,,2023-08-05,2023-08-29,24,TRUE,FALSE,Closed with explanation
+100196,Credit Reporting,Billing Disputes,Acme Bank,Mi,Los Angeles,61657.0,,2023-03-03,2023-04-03,31,No,,
+100197,Bank Account,Identity Theft,United Credit,Pa,,,,2023-10-11,2023-11-16,36,No,Y,
+100198,Credit Reporting,Other,United Credit,Tx,Miami,47296.0,,2024-04-08,2024-05-16,38,TRUE,,
+100199,Mortgage,Nan,Acme Bank,Ga,Nan,81165.0,Closed,2023-02-10,2023-03-31,49,Y,N,In progress
+100200,Mortgage,Collection Harassment,Acme Bank,Oh,Chicago,83076.0,Open,2023-07-18,2023-07-17,-1,FALSE,,Closed
+100201,Mortgage,Incorrect Information,Metro Loans,Pa,Miami,95386.0,Resolved,2024-05-01,2024-05-19,18,,Yes,
+100202,Mortgage,Identity Theft,Acme Bank,Oh,Chicago,37951.0,Resolved,2023-05-31,2023-05-26,-5,,Y,Closed with explanation
+100203,,Identity Theft,United Credit,Nan,Atlanta,95385.0,,2023-03-08,2023-03-03,-5,FALSE,TRUE,In progress
+100204,Debt Collection,Billing Disputes,Metro Loans,Fl,Chicago,,Resolved,2023-09-02,2023-09-10,8,,FALSE,Closed with explanation
+100205,Student Loan,Collection Harassment,Finserv Co,Fl,Houston,40475.0,,2023-09-12,2023-10-15,33,FALSE,,In progress
+100206,Debt Collection,Incorrect Information,Acme Bank,Ga,Charlotte,39516.0,In Progress,2023-11-28,2024-01-20,53,Yes,Y,
+100207,Mortgage,Nan,Metro Loans,Ny,Miami,,Open,2023-06-06,2023-07-21,45,,TRUE,
+100208,Credit  Card,Billing Disputes,Acme Bank,Tx,Houston,92878.0,Open,2024-04-22,2024-05-29,37,TRUE,TRUE,
+100209,Bank Account,Collection Harassment,Metro Loans,Ga,Charlotte,28297.0,In Progress,2023-09-18,2023-11-02,45,Yes,,
+100210,Credit Reporting,Identity Theft,Metro Loans,Ga,New York,34116.0,Open,2023-05-24,2023-05-30,6,TRUE,Yes,In progress
+100211,Credit Reporting,Nan,,Mi,Los Angeles,47162.0,Resolved,2024-04-25,2024-06-13,49,No,Yes,
+100212,Mortgage,Other,Metro Loans,Ca,Los Angeles,22379.0,In Progress,2024-04-07,2024-05-29,52,TRUE,TRUE,
+100213,Debt  Collection,Collection Harassment,,,Los Angeles,82536.0,Closed,2023-09-07,2023-09-08,1,FALSE,Yes,
+100214,Student Loan,Fees,Acme Bank,Oh,New York,,Resolved,2023-01-13,2023-02-07,25,Yes,No,Closed with explanation
+100215,Bank Account,Other,Nan,Tx,Chicago,,,2023-10-26,2023-12-13,48,N,TRUE,
+100216,Credit Card,Identity Theft,Acme Bank,Il,Philadelphia,24656.0,Open,2023-10-05,2023-10-30,25,Yes,Y,Closed with explanation
+100217,Bank Account,Other,United Credit,Fl,,11979.0,In Progress,2023-03-16,2023-05-04,49,Yes,Y,Closed
+100218,Credit Card,Fees,Northstar Finance,Oh,Chicago,95441.0,,2023-11-13,2024-01-07,55,No,Y,Closed
+100219,Nan,Incorrect Information,Acme Bank,Oh,Miami,49220.0,Closed,2024-02-25,2024-03-21,25,,FALSE,Closed with explanation
+100220,Bank Account,Identity Theft,Northstar Finance,Oh,Nan,68999.0,,2023-02-22,2023-02-20,-2,N,Y,
+100221,Credit Card,Collection Harassment,Finserv Co,Oh,Nan,,In Progress,2023-12-28,2024-01-14,17,Yes,,
+100222,Mortgage,Other,,Nan,Miami,30777.0,Closed,2023-03-12,2023-03-20,8,FALSE,No,In progress
+100223,Bank Account,Collection Harassment,Acme Bank,,Los Angeles,,,2024-01-10,2024-02-04,25,TRUE,Yes,In progress
+100224,Bank Account,Billing Disputes,Finserv Co,Oh,Chicago,28793.0,In Progress,2023-07-29,2023-08-31,33,No,No,
+100225,Debt Collection,Incorrect Information,Northstar Finance,,Miami,65163.0,,2023-01-04,2023-01-29,25,TRUE,,
+100226,Credit Card,Collection Harassment,Nan,,Nan,93147.0,Resolved,2024-04-28,2024-05-05,7,No,Y,Closed
+100227,Student  Loan,Incorrect Information,United Credit,,New York,,,2023-03-24,2023-04-07,14,FALSE,Yes,In progress
+100228,Credit Reporting,Collection Harassment,United Credit,Fl,Philadelphia,64706.0,,2023-10-26,2023-12-04,39,,Y,
+100230,Student Loan,Billing Disputes,Nan,Il,Detroit,,Resolved,2024-04-11,2024-04-19,8,FALSE,Y,
+100231,Nan,Fees,Nan,Ca,Detroit,10694.0,,2024-01-05,2024-02-27,53,Yes,N,
+100232,,Identity Theft,Nan,Ca,Miami,,Open,2024-02-07,2024-02-08,1,N,Yes,In progress
+100233,Debt  Collection,,,Nc,Nan,,In Progress,2023-08-05,2023-08-26,21,,FALSE,
+100234,Credit Card,Incorrect Information,Northstar Finance,Pa,Philadelphia,93284.0,In Progress,2023-08-22,2023-08-30,8,Yes,No,Closed
+100235,Credit Reporting,Collection Harassment,United Credit,,Charlotte,,Open,2023-11-14,2023-11-15,1,,Yes,
+100236,Mortgage,,Acme Bank,Mi,New York,56803.0,,2024-01-28,2024-02-19,22,Yes,FALSE,
+100237,Credit Reporting,Incorrect Information,Nan,Ca,Nan,61551.0,,2024-02-28,2024-03-27,28,N,,Closed
+100238,Mortgage,,Metro Loans,,Atlanta,70157.0,,2023-01-09,2023-01-15,6,No,TRUE,Closed
+100239,Credit Reporting,Fees,Nan,Oh,Philadelphia,,Resolved,2023-11-28,2023-11-28,0,Yes,,Closed with explanation
+100240,Bank Account,,Metro Loans,Ga,Nan,43558.0,Resolved,2023-02-24,2023-02-27,3,Y,N,Closed with explanation
+100241,Debt Collection,Fees,Northstar Finance,,Nan,90093.0,In Progress,2023-05-24,2023-06-30,37,TRUE,TRUE,Closed with explanation
+100242,Mortgage,Collection Harassment,Acme Bank,Nc,Detroit,15322.0,,2024-02-19,2024-04-09,50,FALSE,Y,
+100244,Credit Card,Collection Harassment,United Credit,Tx,Miami,96216.0,Closed,2024-02-03,2024-02-18,15,N,,
+100245,Debt Collection,Billing Disputes,Acme Bank,Pa,Atlanta,25945.0,In Progress,2023-08-20,2023-09-06,17,No,FALSE,Closed with explanation
+100246,Debt Collection,Incorrect Information,United Credit,Ny,Los Angeles,,Open,2023-04-27,2023-05-15,18,FALSE,Yes,
+100247,Bank Account,Incorrect Information,Finserv Co,Tx,New York,35736.0,,2023-06-17,2023-06-27,10,No,TRUE,
+100248,,Fees,Nan,,Nan,42808.0,Resolved,2023-09-23,2023-09-21,-2,,N,Closed
+100249,Bank Account,Fees,Finserv Co,Ca,New York,12518.0,Resolved,2024-01-18,2024-02-16,29,No,TRUE,
+100250,Debt Collection,Collection Harassment,Metro Loans,Tx,Atlanta,,Closed,2023-10-31,2023-11-18,18,FALSE,TRUE,Closed
+100251,Credit  Card,Incorrect Information,Finserv Co,Ga,Los Angeles,42336.0,Open,2024-04-11,2024-04-28,17,Y,TRUE,
+100252,Credit  Card,Identity Theft,Nan,Ca,Nan,,,2024-03-09,2024-03-21,12,,,
+100254,Mortgage,Other,Metro Loans,,,,In Progress,2023-10-29,2023-12-02,34,,,
+100255,Mortgage,Identity Theft,,Nc,New York,,,2023-05-25,2023-06-16,22,,TRUE,
+100256,Bank Account,Billing Disputes,Northstar Finance,,Chicago,16579.0,Resolved,2023-07-26,2023-08-03,8,N,Y,In progress
+100257,Mortgage,Other,Metro Loans,Il,Nan,54929.0,Resolved,2023-03-01,2023-04-17,47,N,No,Closed
+100258,Debt Collection,Identity Theft,Acme Bank,Nc,Miami,45213.0,Closed,2023-07-07,2023-08-28,52,Y,,In progress
+100259,Mortgage,Fees,Nan,Fl,Nan,13346.0,Resolved,2024-04-08,2024-04-05,-3,N,,
+100260,Mortgage,Collection Harassment,,Pa,Detroit,14707.0,Open,2023-08-01,2023-09-25,55,N,Yes,Closed with explanation
+100261,Student Loan,Identity Theft,Acme Bank,Tx,Detroit,,Closed,2023-02-26,2023-04-07,40,No,No,
+100262,Bank Account,Incorrect Information,Metro Loans,,Charlotte,45518.0,In Progress,2023-11-22,2023-11-23,1,Y,FALSE,In progress
+100263,Nan,Identity Theft,Nan,Tx,Charlotte,21677.0,Closed,2024-04-26,2024-06-08,43,,No,
+100264,Student Loan,Billing Disputes,Acme Bank,Tx,,22455.0,,2024-03-09,2024-03-10,1,,Yes,
+100265,Credit Card,Billing Disputes,United Credit,Oh,Miami,82433.0,Open,2023-05-18,2023-05-16,-2,Yes,,Closed with explanation
+100266,Debt Collection,Identity Theft,Northstar Finance,Oh,Nan,,,2023-08-15,2023-08-17,2,FALSE,Yes,Closed with explanation
+100267,Nan,Incorrect Information,Acme Bank,Il,Philadelphia,64700.0,Open,2023-09-23,2023-10-17,24,No,No,Closed
+100268,Bank Account,Fees,,Il,Detroit,,,2023-05-04,2023-06-08,35,FALSE,,
+100269,Mortgage,Billing Disputes,Metro Loans,Il,New York,16237.0,In Progress,2023-05-15,2023-06-05,21,TRUE,Yes,In progress
+100270,Credit Reporting,Other,,Nan,Charlotte,71902.0,,2023-04-29,2023-05-01,2,,,Closed with explanation
+100271,Mortgage,Collection Harassment,Nan,Nc,Detroit,77726.0,Resolved,2024-05-12,2024-05-19,7,FALSE,TRUE,
+100272,Debt  Collection,Billing Disputes,Finserv Co,Nan,New York,28044.0,In Progress,2024-01-09,2024-02-28,50,,TRUE,Closed
+100273,Credit Card,Other,Finserv Co,,Philadelphia,58272.0,Open,2024-02-25,2024-04-22,57,,,
+100274,Credit Reporting,Billing Disputes,Nan,Mi,Atlanta,79015.0,In Progress,2024-02-13,2024-03-28,44,FALSE,Yes,
+100275,Credit Reporting,Fees,United Credit,,Nan,64311.0,Resolved,2024-04-24,2024-04-25,1,N,Yes,
+100277,Mortgage,Fees,,,,69826.0,Closed,2024-03-16,2024-04-24,39,Y,N,
+100278,Student Loan,,Metro Loans,Mi,Philadelphia,10873.0,Closed,2023-08-26,2023-08-30,4,Y,Yes,
+100280,Nan,Identity Theft,Northstar Finance,Fl,Nan,61065.0,Closed,2023-10-25,2023-12-23,59,Y,N,In progress
+100281,,Fees,Finserv Co,Ca,Miami,55414.0,,2023-06-28,2023-07-21,23,TRUE,N,Closed with explanation
+100282,Student Loan,Other,Nan,Nan,,,Open,2023-03-15,2023-03-12,-3,Y,No,Closed with explanation
+100283,Bank Account,Collection Harassment,United Credit,Oh,,,,2023-04-07,2023-04-15,8,Y,Y,Closed
+100284,Credit Reporting,Other,Nan,Ca,Nan,17514.0,Open,2024-02-17,2024-03-09,21,FALSE,No,In progress
+100285,Student  Loan,Incorrect Information,United Credit,Mi,,77514.0,,2023-06-09,2023-06-08,-1,Y,No,Closed
+100286,Debt Collection,Identity Theft,Northstar Finance,Ny,Charlotte,84475.0,In Progress,2023-06-05,2023-06-21,16,Yes,TRUE,
+100287,Credit Card,Fees,Nan,Oh,Chicago,47732.0,Open,2024-04-06,2024-05-01,25,Yes,,In progress
+100288,Credit Card,Collection Harassment,Finserv Co,Mi,New York,94567.0,Resolved,2023-03-13,2023-05-08,56,,N,Closed
+100289,Debt Collection,Other,,Nan,Miami,,,2024-04-02,2024-04-02,0,,FALSE,
+100290,Bank Account,Collection Harassment,United Credit,Oh,,,,2024-04-05,2024-05-07,32,FALSE,FALSE,In progress
+100291,Credit Card,Collection Harassment,Northstar Finance,Pa,,,Closed,2023-10-27,2023-12-20,54,Yes,,
+100292,Credit Card,Fees,Acme Bank,,New York,96807.0,Resolved,2023-03-24,2023-05-10,47,TRUE,,
+100293,Student Loan,Identity Theft,,Tx,Nan,64881.0,Resolved,2023-03-19,2023-05-13,55,Y,,
+100294,,Incorrect Information,United Credit,Ca,Philadelphia,94069.0,In Progress,2023-05-23,2023-05-29,6,Y,,
+100295,Credit Card,Incorrect Information,Finserv Co,Tx,Philadelphia,98107.0,,2023-10-16,2023-12-02,47,,,Closed with explanation
+100296,Debt  Collection,Collection Harassment,Nan,,New York,27514.0,In Progress,2023-03-18,2023-05-15,58,,,Closed with explanation
+100297,Credit Card,Fees,Acme Bank,Oh,Philadelphia,69460.0,In Progress,2023-08-16,2023-09-01,16,FALSE,FALSE,
+100298,Student  Loan,Billing Disputes,Nan,Tx,New York,83806.0,,2023-09-28,2023-10-27,29,TRUE,Y,Closed
+100300,,Collection Harassment,Metro Loans,Ny,Philadelphia,41437.0,,2023-01-11,2023-02-07,27,,TRUE,Closed with explanation
+100301,Bank Account,Fees,Metro Loans,,Miami,,,2023-12-21,2024-01-03,13,FALSE,,
+100302,Bank Account,Other,Finserv Co,Oh,Nan,53876.0,Open,2023-01-28,2023-03-27,58,TRUE,,Closed with explanation
+100303,Credit Reporting,Incorrect Information,Nan,Ny,Detroit,,Closed,2023-04-08,2023-06-04,57,Yes,TRUE,In progress
+100304,Bank Account,Incorrect Information,Finserv Co,Fl,,,Open,2023-03-29,2023-04-17,19,,Yes,Closed
+100305,Debt Collection,Billing Disputes,Nan,Nc,Philadelphia,38907.0,Open,2024-02-20,2024-04-07,47,,Y,In progress
+100306,Student Loan,Collection Harassment,,Nc,New York,97729.0,,2023-01-27,2023-02-16,20,Y,TRUE,
+100307,Bank Account,Collection Harassment,,,,,,2023-08-03,2023-09-18,46,Y,N,
+100308,Credit Reporting,Nan,Finserv Co,Ny,Chicago,,Open,2023-10-23,2023-11-25,33,,N,Closed with explanation
+100309,Debt  Collection,Billing Disputes,United Credit,Ny,Nan,90607.0,In Progress,2023-09-15,2023-10-10,25,,Y,Closed with explanation
+100310,Credit Reporting,Identity Theft,,Ny,Nan,,Closed,2023-12-07,2023-12-10,3,N,Yes,
+100311,Credit Card,Other,Finserv Co,Pa,,,Open,2024-02-06,2024-03-14,37,No,N,Closed
+100312,Credit Card,Nan,,Nan,Miami,43432.0,In Progress,2023-07-16,2023-07-31,15,,N,In progress
+100313,Credit Card,Fees,Finserv Co,Mi,Los Angeles,86318.0,Open,2024-02-19,2024-02-28,9,FALSE,,
+100314,Student Loan,Other,Finserv Co,Mi,Philadelphia,86938.0,,2024-05-07,2024-07-04,58,TRUE,N,Closed
+100316,,Other,,Tx,Charlotte,79475.0,Closed,2024-01-04,2024-02-19,46,No,Y,In progress
+100318,,Identity Theft,Northstar Finance,Nan,Detroit,93311.0,In Progress,2024-03-13,2024-05-03,51,TRUE,Y,In progress
+100319,Student Loan,Fees,,Pa,Atlanta,81155.0,,2024-02-01,2024-01-29,-3,Y,Yes,
+100320,Bank Account,Collection Harassment,,Ny,Los Angeles,38929.0,Open,2024-03-01,2024-04-03,33,No,TRUE,
+100321,Debt  Collection,Other,,Pa,Houston,56935.0,,2023-09-26,2023-10-28,32,,,Closed
+100322,Debt Collection,Billing Disputes,,Nan,Los Angeles,52524.0,Open,2023-01-22,2023-02-09,18,Y,N,In progress
+100323,Credit Card,Other,Nan,Mi,New York,,Closed,2023-09-04,2023-10-12,38,No,N,
+100324,Credit  Card,Incorrect Information,United Credit,Fl,Los Angeles,63388.0,In Progress,2023-04-01,2023-04-22,21,,FALSE,
+100325,Credit Reporting,Billing Disputes,Finserv Co,Nan,Los Angeles,,In Progress,2024-03-20,2024-04-12,23,,N,
+100326,Mortgage,Fees,Finserv Co,Pa,Houston,45400.0,Closed,2023-04-29,2023-05-22,23,N,N,
+100327,Student Loan,Collection Harassment,Northstar Finance,Oh,Miami,19865.0,,2023-04-25,2023-06-11,47,Y,,
+100328,Student Loan,Billing Disputes,United Credit,Ca,Houston,55375.0,,2023-05-05,2023-06-10,36,No,Y,
+100329,Mortgage,Billing Disputes,Finserv Co,,Houston,62112.0,In Progress,2023-11-18,2023-12-07,19,FALSE,,In progress
+100330,Credit  Card,Other,Northstar Finance,,,19513.0,In Progress,2023-10-13,2023-12-07,55,TRUE,Y,
+100331,Student Loan,Other,,Tx,Houston,67143.0,Open,2024-04-19,2024-06-05,47,TRUE,TRUE,Closed with explanation
+100332,Credit Card,Billing Disputes,Acme Bank,Ga,,25090.0,Resolved,2023-07-28,2023-09-21,55,,Y,Closed with explanation
+100333,Debt  Collection,Other,Northstar Finance,Nan,Philadelphia,,Closed,2023-05-22,2023-07-03,42,N,FALSE,
+100334,Credit Reporting,Other,,Ga,Miami,46098.0,Closed,2023-01-25,2023-02-14,20,FALSE,N,
+100335,Student Loan,Other,Nan,Tx,Nan,,,2023-01-04,2023-02-18,45,FALSE,No,Closed
+100336,Student Loan,Identity Theft,Metro Loans,,Los Angeles,92343.0,Resolved,2023-07-06,2023-07-22,16,,FALSE,
+100337,,Fees,,Fl,Philadelphia,,,2024-04-07,2024-04-19,12,FALSE,,Closed with explanation
+100338,Credit  Card,Other,United Credit,Il,Detroit,41441.0,Closed,2023-09-19,2023-10-13,24,Yes,Yes,
+100339,Mortgage,Other,Metro Loans,Pa,Nan,,Resolved,2024-03-22,2024-05-19,58,TRUE,TRUE,In progress
+100340,Mortgage,Fees,Nan,Nan,Houston,32481.0,Open,2023-02-20,2023-03-23,31,,FALSE,
+100341,Nan,Identity Theft,,Ga,Houston,98340.0,Closed,2023-02-16,2023-03-07,19,TRUE,FALSE,In progress
+100342,Credit Reporting,Billing Disputes,United Credit,Nan,Philadelphia,76856.0,,2024-02-21,2024-03-17,25,TRUE,No,
+100343,Credit  Card,Identity Theft,Nan,Nan,Chicago,95146.0,In Progress,2023-02-23,2023-03-08,13,TRUE,Yes,Closed with explanation
+100344,Student Loan,Billing Disputes,Metro Loans,Nan,Miami,95420.0,Resolved,2023-01-26,2023-03-04,37,TRUE,TRUE,
+100345,Bank Account,Identity Theft,Metro Loans,,Houston,19824.0,,2023-07-22,2023-08-08,17,N,FALSE,In progress
+100346,Bank Account,Billing Disputes,Finserv Co,Nan,Nan,51320.0,,2024-04-07,2024-05-08,31,,Y,Closed
+100348,Mortgage,Fees,Nan,,Houston,10774.0,Resolved,2023-02-19,2023-03-06,15,,TRUE,Closed with explanation
+100349,Bank Account,Fees,Finserv Co,Mi,Charlotte,50683.0,,2024-02-23,2024-04-21,58,No,N,
+100350,Mortgage,Collection Harassment,,Ca,New York,71932.0,Closed,2024-02-26,2024-03-14,17,No,N,Closed with explanation
+100351,Student Loan,Incorrect Information,Finserv Co,Ca,New York,81358.0,,2024-02-05,2024-02-04,-1,TRUE,FALSE,
+100352,Credit Card,,Nan,,Nan,,Resolved,2024-03-27,2024-04-15,19,FALSE,,Closed with explanation
+100353,Credit Card,Nan,Northstar Finance,Il,New York,,Closed,2023-04-30,2023-05-29,29,,,Closed
+100354,Student Loan,Incorrect Information,,,New York,,,2024-05-04,2024-05-05,1,Y,Yes,
+100355,Bank Account,Identity Theft,Nan,,New York,,,2023-06-10,2023-06-24,14,Yes,Y,
+100356,Credit Card,Fees,Northstar Finance,Mi,Los Angeles,,Open,2024-02-06,2024-02-11,5,Y,Yes,In progress
+100357,Credit Reporting,Other,United Credit,Nan,Nan,94411.0,,2023-10-17,2023-11-13,27,TRUE,,Closed
+100358,Credit Card,Fees,Northstar Finance,Fl,,10216.0,,2024-01-25,2024-03-07,42,Y,FALSE,In progress
+100359,Credit Reporting,Identity Theft,,Oh,Columbus,19722.0,Resolved,2023-11-10,2024-01-06,57,Y,No,
+100360,Student Loan,Collection Harassment,Acme Bank,,New York,41004.0,Resolved,2023-11-18,2023-12-08,20,,,
+100361,Credit Reporting,Collection Harassment,,,Chicago,99442.0,Open,2023-11-05,2023-12-26,51,TRUE,TRUE,Closed with explanation
+100362,Credit Reporting,Incorrect Information,Metro Loans,Tx,Atlanta,,In Progress,2024-01-25,2024-02-02,8,FALSE,Yes,
+100363,,Identity Theft,Acme Bank,,Miami,23289.0,,2024-01-05,2024-02-19,45,FALSE,No,
+100364,Student Loan,Collection Harassment,Nan,Oh,New York,45379.0,,2023-03-09,2023-04-09,31,N,,
+100365,Nan,Identity Theft,Nan,,Los Angeles,94557.0,In Progress,2024-02-18,2024-04-02,44,FALSE,Y,Closed
+100366,Debt Collection,Other,,Ga,,29725.0,Closed,2023-09-26,2023-11-09,44,,TRUE,In progress
+100367,Mortgage,Identity Theft,Metro Loans,Nc,,61792.0,,2023-06-11,2023-07-10,29,FALSE,,
+100368,Credit Reporting,Collection Harassment,Northstar Finance,Il,Nan,78440.0,Closed,2024-04-28,2024-05-27,29,,Yes,In progress
+100370,Debt Collection,Billing Disputes,Acme Bank,Nan,Charlotte,,,2024-03-04,2024-04-21,48,No,Yes,In progress
+100371,Credit Card,Identity Theft,United Credit,,Miami,,Closed,2024-02-21,2024-04-19,58,Yes,,Closed with explanation
+100372,Mortgage,Billing Disputes,Nan,Ca,Atlanta,,,2023-08-20,2023-10-14,55,N,TRUE,In progress
+100373,Student Loan,Incorrect Information,Acme Bank,Ca,New York,,,2024-01-28,2024-02-03,6,TRUE,Y,Closed with explanation
+100374,Debt  Collection,Fees,Finserv Co,Mi,Los Angeles,72256.0,Resolved,2023-07-12,2023-08-14,33,N,Yes,Closed with explanation
+100375,Bank Account,Identity Theft,Nan,Oh,Nan,47709.0,In Progress,2023-12-10,2023-12-11,1,Y,FALSE,In progress
+100377,Mortgage,Collection Harassment,Finserv Co,Ny,Miami,67218.0,Open,2023-05-05,2023-07-03,59,,Yes,
+100378,Bank Account,Other,Northstar Finance,Il,Houston,43366.0,Open,2023-05-14,2023-05-12,-2,Y,TRUE,In progress
+100379,Credit Reporting,Fees,Northstar Finance,Mi,,97329.0,Resolved,2023-03-11,2023-05-06,56,Y,TRUE,Closed
+100381,Bank Account,Billing Disputes,United Credit,Nan,Chicago,84338.0,Closed,2023-08-05,2023-09-24,50,Yes,,
+100382,Credit Reporting,Fees,United Credit,Tx,Nan,90522.0,Resolved,2023-08-27,2023-09-16,20,Yes,Y,
+100383,Student  Loan,Other,Finserv Co,Il,Charlotte,36983.0,,2023-03-24,2023-03-25,1,No,TRUE,Closed
+100384,Credit Card,Collection Harassment,Northstar Finance,,Miami,38454.0,Resolved,2023-07-28,2023-09-21,55,,Y,In progress
+100385,Debt Collection,Identity Theft,Finserv Co,Ny,Los Angeles,39109.0,,2023-10-30,2023-12-23,54,N,Y,
+100386,Debt Collection,Identity Theft,,,Columbus,12798.0,Open,2023-04-27,2023-05-29,32,FALSE,No,Closed
+100387,Credit Card,Collection Harassment,Northstar Finance,Nan,Los Angeles,,Open,2023-06-19,2023-08-16,58,,,
+100388,Credit  Card,Nan,Nan,Tx,Detroit,37747.0,Resolved,2023-07-03,2023-06-28,-5,Yes,FALSE,Closed
+100389,Student Loan,Identity Theft,Nan,Ca,Philadelphia,98862.0,Resolved,2023-09-10,2023-10-15,35,Yes,FALSE,
+100390,Mortgage,Billing Disputes,United Credit,Mi,Miami,28424.0,,2023-07-03,2023-06-30,-3,,No,Closed with explanation
+100391,Credit Card,Incorrect Information,Acme Bank,Ny,Detroit,55702.0,,2024-01-04,2024-02-28,55,TRUE,Yes,In progress
+100392,Mortgage,Fees,United Credit,Ga,Houston,59252.0,Open,2023-06-13,2023-07-22,39,TRUE,,
+100393,Mortgage,Incorrect Information,Metro Loans,Ny,Nan,,,2023-08-05,2023-09-28,54,Y,FALSE,
+100394,Credit  Card,Other,Acme Bank,Ga,Nan,92686.0,Open,2023-07-09,2023-08-09,31,,Yes,In progress
+100395,Student Loan,Nan,Finserv Co,Mi,Nan,88329.0,,2023-12-09,2023-12-05,-4,Y,,Closed with explanation
+100397,Student  Loan,Billing Disputes,Nan,Nan,New York,76934.0,,2023-04-28,2023-05-14,16,FALSE,,
+100398,Debt  Collection,,United Credit,Oh,Atlanta,37524.0,Closed,2023-05-29,2023-07-11,43,Yes,Y,
+100399,Bank Account,Collection Harassment,,Nc,New York,79094.0,Resolved,2024-02-01,2024-02-05,4,No,Y,
+100400,Credit Reporting,Incorrect Information,United Credit,Nc,Philadelphia,48573.0,,2024-04-19,2024-06-08,50,No,,
+100401,Credit Reporting,Fees,Metro Loans,,Chicago,,Closed,2023-12-02,2023-12-12,10,,N,In progress
+100402,Credit Card,Collection Harassment,Acme Bank,Fl,New York,13288.0,,2024-04-03,2024-04-30,27,FALSE,FALSE,In progress
+100403,Credit Reporting,Other,,Fl,Los Angeles,,Resolved,2024-03-03,2024-03-11,8,Yes,,
+100404,Credit Card,Fees,Nan,Pa,New York,58974.0,Open,2023-08-29,2023-09-23,25,,N,
+100405,Credit Card,Billing Disputes,,Nan,,93830.0,Closed,2024-01-21,2024-02-14,24,,TRUE,In progress
+100406,Debt Collection,Fees,Finserv Co,Nan,Columbus,,,2023-06-14,2023-06-09,-5,N,N,In progress
+100407,,Collection Harassment,United Credit,Fl,Nan,80012.0,In Progress,2023-08-19,2023-09-19,31,No,TRUE,Closed with explanation
+100408,Credit Card,Billing Disputes,Acme Bank,Ca,,94473.0,,2023-09-25,2023-11-10,46,N,Yes,Closed
+100409,Mortgage,Collection Harassment,United Credit,Nc,Nan,53773.0,In Progress,2024-04-25,2024-06-19,55,TRUE,,
+100410,Mortgage,Nan,Northstar Finance,Nc,Los Angeles,88023.0,In Progress,2024-02-29,2024-03-16,16,FALSE,TRUE,
+100411,Nan,Other,Metro Loans,Pa,Charlotte,,,2023-09-02,2023-10-24,52,Y,No,
+100412,Credit Reporting,Fees,Northstar Finance,Tx,Philadelphia,,,2023-11-23,2024-01-14,52,Yes,TRUE,Closed
+100413,Mortgage,Identity Theft,Finserv Co,,Houston,86875.0,Closed,2023-04-12,2023-06-10,59,TRUE,N,Closed
+100414,Credit  Card,Billing Disputes,Nan,,Nan,,,2024-02-07,2024-02-26,19,FALSE,,In progress
+100415,,Billing Disputes,Northstar Finance,Nan,Columbus,11132.0,Closed,2023-10-04,2023-11-23,50,Y,,
+100416,Credit  Card,Collection Harassment,Finserv Co,Nc,Columbus,61121.0,,2023-09-24,2023-10-25,31,FALSE,N,
+100417,Credit Card,Incorrect Information,,Fl,Houston,,Open,2024-01-19,2024-01-17,-2,TRUE,FALSE,Closed with explanation
+100418,Bank Account,Other,Metro Loans,Pa,Miami,82121.0,Resolved,2023-11-13,2023-11-25,12,TRUE,Yes,In progress
+100419,Debt Collection,Identity Theft,Northstar Finance,Ny,New York,79414.0,Open,2023-02-06,2023-03-16,38,Yes,,
+100420,Debt  Collection,Other,United Credit,Fl,Columbus,52808.0,,2023-05-25,2023-05-30,5,Y,TRUE,Closed
+100421,Student  Loan,Other,Nan,Oh,Detroit,,,2023-03-30,2023-04-22,23,Y,FALSE,In progress
+100422,Bank Account,Billing Disputes,,Oh,Chicago,27259.0,,2024-01-03,2024-02-17,45,,FALSE,Closed with explanation
+100423,Credit Card,Fees,Northstar Finance,Ca,Los Angeles,18010.0,In Progress,2023-01-18,2023-01-22,4,,Y,In progress
+100424,Debt Collection,Other,,,,67585.0,,2023-04-12,2023-05-09,27,,FALSE,
+100425,Mortgage,Identity Theft,Northstar Finance,Fl,Columbus,96378.0,Closed,2023-10-26,2023-11-03,8,N,N,
+100426,Student  Loan,Billing Disputes,Northstar Finance,Ga,Philadelphia,17225.0,Resolved,2023-12-14,2024-01-12,29,Y,FALSE,Closed with explanation
+100427,Mortgage,Other,Metro Loans,Oh,Miami,73243.0,,2023-09-09,2023-09-19,10,N,Yes,
+100428,Credit Card,Incorrect Information,Northstar Finance,Oh,New York,62612.0,In Progress,2024-03-06,2024-05-02,57,,No,
+100429,Student Loan,Billing Disputes,United Credit,,Detroit,25469.0,Open,2024-04-04,2024-04-03,-1,TRUE,,
+100430,Debt Collection,Other,United Credit,Nan,Columbus,,In Progress,2023-03-08,2023-05-04,57,TRUE,FALSE,Closed with explanation
+100431,Credit Card,Collection Harassment,Northstar Finance,Nan,,35600.0,In Progress,2024-04-21,2024-06-06,46,N,No,In progress
+100432,Student Loan,Billing Disputes,,Pa,,71643.0,,2023-11-04,2023-12-24,50,FALSE,No,
+100433,Credit  Card,Identity Theft,United Credit,Fl,Chicago,,,2023-11-15,2024-01-04,50,,TRUE,
+100435,Student  Loan,Other,,Ga,Nan,43277.0,,2023-11-07,2024-01-01,55,N,N,Closed
+100436,Debt Collection,Billing Disputes,Nan,Il,Atlanta,19857.0,Open,2023-12-29,2024-01-31,33,,Y,Closed
+100437,Bank Account,Collection Harassment,Northstar Finance,Oh,New York,18592.0,Closed,2023-10-18,2023-12-14,57,,No,
+100438,Bank Account,Fees,,Tx,Houston,46023.0,Resolved,2023-02-12,2023-04-05,52,,Y,Closed
+100439,Bank Account,Fees,,Nc,New York,46710.0,,2023-09-19,2023-10-21,32,,Y,In progress
+100440,Credit Card,Collection Harassment,Northstar Finance,Mi,,76016.0,,2024-04-12,2024-05-01,19,Y,Yes,Closed with explanation
+100441,Mortgage,Other,Finserv Co,Ga,Houston,53071.0,Resolved,2023-12-28,2023-12-30,2,N,FALSE,
+100442,Credit  Card,Billing Disputes,United Credit,Nan,Charlotte,24733.0,Open,2023-03-10,2023-03-11,1,No,Y,Closed with explanation
+100443,Student Loan,Billing Disputes,Nan,,Atlanta,,,2024-04-24,2024-05-14,20,Y,Yes,
+100445,Debt  Collection,Collection Harassment,Nan,Ca,New York,40074.0,Closed,2023-03-26,2023-04-22,27,FALSE,,In progress
+100446,Student Loan,Fees,,Nan,Nan,70464.0,In Progress,2024-02-05,2024-03-02,26,Yes,Yes,
+100447,Credit Reporting,Nan,Nan,Il,Chicago,93070.0,,2023-07-23,2023-08-02,10,,,
+100448,Mortgage,Identity Theft,Nan,Oh,New York,41931.0,Closed,2023-10-24,2023-11-24,31,No,No,
+100449,Credit Card,Fees,,Pa,Philadelphia,59668.0,Resolved,2023-08-11,2023-09-16,36,No,Yes,In progress
+100450,Student Loan,Collection Harassment,United Credit,Fl,Philadelphia,84877.0,Open,2024-01-27,2024-03-25,58,TRUE,TRUE,Closed
+100451,Credit Card,Incorrect Information,United Credit,Nan,Los Angeles,28931.0,,2024-05-13,2024-06-24,42,No,,
+100452,Credit Card,Other,,Nc,Charlotte,55958.0,Open,2024-02-02,2024-03-07,34,,Yes,
+100453,Credit Reporting,,Nan,,New York,37471.0,,2024-04-10,2024-06-03,54,No,Y,
+100454,Credit Reporting,Collection Harassment,,,Philadelphia,66428.0,,2024-04-18,2024-05-10,22,No,,
+100455,Student Loan,Incorrect Information,,Pa,Los Angeles,,,2023-02-15,2023-04-11,55,,Yes,Closed
+100456,Student  Loan,Other,,Nan,Atlanta,22678.0,In Progress,2023-05-07,2023-05-26,19,Y,No,
+100457,Credit Card,Collection Harassment,Acme Bank,Ga,Detroit,26871.0,,2023-12-27,2023-12-30,3,FALSE,Y,
+100458,Credit Card,Fees,Nan,Oh,,12084.0,Open,2023-10-23,2023-11-14,22,FALSE,,In progress
+100459,Mortgage,Incorrect Information,Nan,Nan,Philadelphia,11085.0,Closed,2023-01-26,2023-01-29,3,No,,Closed
+100460,Credit Card,Collection Harassment,Northstar Finance,Mi,Houston,14567.0,Open,2023-02-17,2023-02-19,2,TRUE,FALSE,In progress
+100461,Credit Reporting,Fees,Metro Loans,Nan,Los Angeles,73612.0,Open,2023-09-18,2023-11-09,52,TRUE,FALSE,In progress
+100462,,Identity Theft,Finserv Co,Nan,New York,91351.0,In Progress,2023-11-05,2023-12-21,46,Yes,Yes,
+100463,Bank Account,Other,United Credit,Nc,Detroit,46872.0,Resolved,2023-03-25,2023-04-03,9,,No,Closed
+100464,Credit Reporting,Billing Disputes,,Nan,,89436.0,,2023-03-27,2023-05-15,49,,,
+100465,Student Loan,Collection Harassment,Metro Loans,Ca,Detroit,75671.0,Open,2023-03-06,2023-03-05,-1,,FALSE,Closed
+100466,Mortgage,Fees,Nan,Nan,Nan,82682.0,In Progress,2023-10-10,2023-10-23,13,Yes,No,
+100467,Debt Collection,Fees,Nan,Pa,Los Angeles,76589.0,,2023-01-04,2023-02-13,40,No,FALSE,
+100468,Bank Account,Billing Disputes,Nan,Oh,Detroit,,Closed,2023-10-14,2023-10-28,14,,FALSE,
+100469,Student Loan,Incorrect Information,,Nan,Los Angeles,57102.0,,2023-08-26,2023-10-07,42,Y,FALSE,Closed with explanation
+100470,Debt Collection,Other,,Fl,Atlanta,57290.0,Resolved,2023-08-21,2023-10-11,51,FALSE,,
+100471,Mortgage,Identity Theft,,Nan,,67744.0,Resolved,2023-12-06,2023-12-05,-1,Y,TRUE,
+100472,Credit Reporting,Other,Nan,Il,Nan,20137.0,Closed,2023-12-30,2024-02-24,56,TRUE,,In progress
+100474,Debt  Collection,Other,Nan,Il,Los Angeles,70719.0,,2024-01-17,2024-02-14,28,No,Yes,In progress
+100475,Credit Card,Fees,United Credit,Pa,Miami,84972.0,,2024-04-05,2024-05-02,27,No,FALSE,In progress
+100476,Debt  Collection,Identity Theft,Nan,,Houston,20396.0,In Progress,2024-02-04,2024-02-29,25,TRUE,,Closed
+100477,Credit Reporting,Collection Harassment,Nan,Ca,New York,47346.0,Resolved,2023-09-16,2023-10-09,23,No,No,
+100478,Credit Reporting,,,Ga,Miami,90597.0,Resolved,2023-09-04,2023-10-13,39,No,,
+100479,Debt Collection,Fees,United Credit,,Philadelphia,,Resolved,2023-04-28,2023-05-30,32,,,Closed
+100480,Credit Card,Collection Harassment,,Oh,New York,24461.0,,2023-10-27,2023-11-01,5,TRUE,FALSE,
+100481,Bank Account,Collection Harassment,United Credit,Ga,Detroit,,Resolved,2023-03-11,2023-04-15,35,TRUE,Y,Closed with explanation
+100482,Student  Loan,Identity Theft,,Il,Atlanta,25461.0,Open,2024-04-10,2024-05-18,38,No,No,Closed with explanation
+100483,Credit Reporting,Collection Harassment,Acme Bank,Ca,Nan,73177.0,Open,2024-02-27,2024-02-29,2,No,FALSE,
+100484,Credit Card,Fees,Acme Bank,Nc,Miami,,,2023-03-01,2023-03-20,19,N,No,Closed with explanation
+100485,Mortgage,Other,,Nan,Los Angeles,,,2024-01-28,2024-03-14,46,N,FALSE,In progress
+100486,Debt  Collection,Fees,Acme Bank,Ga,,53615.0,Closed,2023-02-28,2023-04-04,35,N,No,
+100487,Credit Card,Other,,Oh,Philadelphia,48587.0,Open,2023-12-27,2023-12-30,3,No,Y,In progress
+100488,Credit Reporting,Other,Finserv Co,Ca,Nan,,Closed,2023-02-13,2023-02-10,-3,,TRUE,Closed
+100489,Bank Account,Collection Harassment,Finserv Co,Nan,Houston,,Resolved,2023-11-25,2023-12-20,25,,,
+100491,Credit Reporting,Fees,United Credit,Nan,Houston,90598.0,Closed,2023-12-31,2024-02-26,57,N,FALSE,Closed
+100492,Nan,Billing Disputes,Finserv Co,Pa,Los Angeles,98324.0,Closed,2023-07-29,2023-08-26,28,N,Yes,Closed with explanation
+100493,Student Loan,Incorrect Information,Nan,Nc,Nan,87927.0,Closed,2024-04-05,2024-05-30,55,Yes,,In progress
+100494,Mortgage,Incorrect Information,United Credit,Oh,Houston,20766.0,In Progress,2024-01-23,2024-01-31,8,FALSE,FALSE,Closed
+100495,Student  Loan,Collection Harassment,United Credit,Fl,Nan,,Closed,2023-04-15,2023-05-09,24,Yes,,
+100496,Debt Collection,Fees,,Tx,Miami,78124.0,In Progress,2023-12-02,2023-12-06,4,FALSE,TRUE,
+100497,Credit Card,Incorrect Information,Acme Bank,Pa,Atlanta,,Open,2024-01-01,2024-02-02,32,,FALSE,
+100498,Mortgage,Billing Disputes,,Ga,,40088.0,,2023-06-16,2023-06-23,7,Y,N,
+100499,Mortgage,Collection Harassment,Acme Bank,Ca,,38006.0,,2024-01-05,2024-01-31,26,,No,
+100500,Nan,Incorrect Information,United Credit,Mi,,20534.0,In Progress,2024-03-25,2024-04-11,17,FALSE,No,
+100501,Mortgage,Billing Disputes,Nan,Oh,Atlanta,39917.0,,2024-02-13,2024-02-20,7,Yes,Y,Closed
+100502,Debt Collection,Identity Theft,Northstar Finance,Nan,Miami,47973.0,Resolved,2024-01-17,2024-01-18,1,No,Y,Closed with explanation
+100503,Debt Collection,Other,Metro Loans,Fl,New York,47432.0,Open,2023-11-14,2023-12-12,28,FALSE,,Closed with explanation
+100504,Mortgage,Billing Disputes,Finserv Co,Ny,Nan,59387.0,Closed,2023-05-16,2023-07-11,56,FALSE,TRUE,Closed
+100505,Student Loan,Incorrect Information,,Il,Nan,34568.0,Open,2024-02-02,2024-02-09,7,Yes,N,
+100506,Mortgage,Fees,Acme Bank,,Charlotte,28536.0,,2023-07-02,2023-07-23,21,FALSE,FALSE,Closed
+100507,Student Loan,Billing Disputes,Nan,Il,Los Angeles,89875.0,,2023-09-24,2023-10-03,9,,FALSE,Closed with explanation
+100508,Mortgage,Billing Disputes,Nan,Mi,Nan,46473.0,Resolved,2023-06-07,2023-07-24,47,Yes,,
+100509,Credit Reporting,Other,Nan,,Miami,32927.0,Open,2023-06-06,2023-06-27,21,,Y,In progress
+100510,Mortgage,Fees,Nan,Fl,Charlotte,67210.0,Closed,2023-03-20,2023-05-17,58,TRUE,No,In progress
+100511,Credit Card,Identity Theft,Metro Loans,Nc,New York,58808.0,In Progress,2024-04-25,2024-05-05,10,TRUE,Yes,Closed
+100512,Credit Card,Identity Theft,Nan,Tx,Houston,61879.0,Open,2023-03-15,2023-03-15,0,Yes,No,
+100513,Student  Loan,Incorrect Information,United Credit,Pa,Los Angeles,,Open,2023-02-13,2023-03-17,32,TRUE,TRUE,In progress
+100514,Credit Reporting,Collection Harassment,Northstar Finance,Il,Los Angeles,75083.0,Closed,2024-04-13,2024-05-20,37,N,,
+100515,Mortgage,Collection Harassment,,Mi,Nan,27306.0,Resolved,2023-10-05,2023-12-03,59,Y,TRUE,
+100516,Bank Account,Identity Theft,,Nan,Nan,85275.0,Open,2023-08-07,2023-09-27,51,,,In progress
+100517,Bank Account,Collection Harassment,Northstar Finance,Fl,Columbus,48164.0,,2024-01-04,2024-02-25,52,No,FALSE,
+100518,Credit Card,Other,Northstar Finance,Il,Columbus,46822.0,In Progress,2023-07-11,2023-08-16,36,Yes,,Closed with explanation
+100519,Debt Collection,Identity Theft,Nan,,Columbus,44963.0,Closed,2023-03-05,2023-03-23,18,N,Y,
+100520,Student Loan,Billing Disputes,,Oh,Philadelphia,48066.0,Open,2023-12-31,2024-01-22,22,FALSE,Y,
+100521,Credit Reporting,Other,Northstar Finance,Ga,Charlotte,,,2023-03-29,2023-04-01,3,No,,Closed
+100522,Credit Reporting,Fees,Northstar Finance,Mi,Philadelphia,54701.0,Resolved,2023-10-04,2023-10-27,23,,FALSE,Closed with explanation
+100523,Credit Card,Collection Harassment,,Ca,Detroit,21412.0,,2024-04-19,2024-05-07,18,FALSE,N,Closed with explanation
+100524,Mortgage,Identity Theft,Nan,Nan,Columbus,60971.0,,2024-04-13,2024-04-10,-3,,,
+100525,Debt Collection,Identity Theft,Finserv Co,Pa,New York,,,2023-06-30,2023-07-08,8,N,,Closed
+100526,,Identity Theft,,Mi,Nan,19748.0,,2024-01-26,2024-02-24,29,Yes,Y,In progress
+100527,Bank Account,Identity Theft,Finserv Co,Oh,Chicago,85592.0,,2023-11-03,2023-11-22,19,No,TRUE,In progress
+100528,Credit Card,Incorrect Information,Northstar Finance,Nan,Los Angeles,38136.0,,2023-08-28,2023-10-26,59,TRUE,N,Closed
+100529,Credit Card,Billing Disputes,Northstar Finance,Nc,Charlotte,63553.0,,2023-03-11,2023-04-06,26,TRUE,N,Closed with explanation
+100530,Mortgage,Fees,Acme Bank,Tx,Chicago,40537.0,Resolved,2023-11-22,2023-12-29,37,,FALSE,
+100532,Student Loan,Other,,Nan,Miami,44726.0,,2024-05-08,2024-05-05,-3,,Yes,In progress
+100533,Credit  Card,Fees,Nan,Ga,Columbus,22050.0,,2023-01-03,2023-01-11,8,TRUE,TRUE,
+100534,Credit Reporting,Identity Theft,Acme Bank,Fl,,97600.0,Open,2023-12-25,2024-02-03,40,Yes,FALSE,
+100535,Mortgage,Fees,Northstar Finance,Tx,,38043.0,Open,2024-02-28,2024-03-29,30,TRUE,TRUE,
+100536,Credit Card,Billing Disputes,Northstar Finance,Ca,Houston,62445.0,Closed,2024-04-20,2024-05-04,14,,Y,
+100537,Mortgage,Collection Harassment,United Credit,Nan,Atlanta,60896.0,,2023-07-31,2023-08-28,28,,FALSE,In progress
+100538,Student Loan,Collection Harassment,Metro Loans,,New York,,In Progress,2023-03-01,2023-04-23,53,,,Closed
+100539,Credit Card,Billing Disputes,Nan,Pa,Atlanta,62704.0,Resolved,2023-05-16,2023-06-05,20,Yes,Yes,Closed
+100540,Credit Card,Fees,Finserv Co,Tx,Chicago,60933.0,Open,2024-03-01,2024-02-27,-3,N,TRUE,
+100541,Credit Reporting,Fees,Northstar Finance,Pa,,17205.0,Open,2024-03-14,2024-03-29,15,TRUE,,In progress
+100542,Bank Account,Identity Theft,Metro Loans,Ca,Miami,70216.0,,2023-11-15,2024-01-09,55,No,N,In progress
+100543,Mortgage,Billing Disputes,Nan,Ga,Chicago,20278.0,Closed,2023-03-03,2023-04-16,44,N,Y,In progress
+100544,Student Loan,Collection Harassment,United Credit,Nc,New York,49145.0,Open,2023-03-02,2023-04-20,49,Yes,No,
+100545,Credit Reporting,Nan,Nan,,Houston,42823.0,Closed,2023-08-28,2023-10-21,54,No,No,
+100546,Mortgage,Fees,Finserv Co,Il,Chicago,50293.0,Closed,2023-10-22,2023-10-24,2,Yes,N,
+100547,Bank Account,Identity Theft,Acme Bank,Tx,Chicago,16471.0,In Progress,2023-01-17,2023-01-30,13,,,
+100548,,Fees,Metro Loans,Ca,Los Angeles,73125.0,,2023-12-10,2023-12-08,-2,,No,
+100549,Mortgage,Billing Disputes,Acme Bank,Pa,,47670.0,Closed,2023-09-30,2023-09-25,-5,N,No,Closed with explanation
+100550,Nan,Fees,Nan,Ny,Nan,10317.0,Closed,2023-02-17,2023-04-13,55,Y,,In progress
+100552,Credit Reporting,Incorrect Information,United Credit,Nan,,58606.0,In Progress,2023-08-16,2023-08-21,5,N,No,In progress
+100553,Credit Reporting,Fees,United Credit,Oh,Atlanta,69962.0,Closed,2023-12-28,2024-02-07,41,No,N,In progress
+100554,Mortgage,Nan,United Credit,,Columbus,,In Progress,2024-02-17,2024-03-17,29,FALSE,N,Closed with explanation
+100555,Debt Collection,Nan,United Credit,Oh,New York,74839.0,Resolved,2023-08-04,2023-08-03,-1,,Y,
+100556,Credit  Card,Nan,United Credit,Tx,Philadelphia,78106.0,Resolved,2023-05-28,2023-07-21,54,,No,Closed with explanation
+100557,Debt  Collection,Incorrect Information,United Credit,Ny,Detroit,88476.0,Open,2024-04-29,2024-06-19,51,,Yes,
+100558,Credit Card,Billing Disputes,Nan,Ga,Nan,98437.0,Open,2023-08-18,2023-09-18,31,,TRUE,
+100559,Nan,Other,Acme Bank,Ga,Chicago,89630.0,Closed,2023-06-07,2023-07-18,41,Yes,Yes,In progress
+100560,Bank Account,Collection Harassment,Acme Bank,,Miami,81617.0,,2023-08-10,2023-08-30,20,TRUE,TRUE,In progress
+100561,Bank Account,Collection Harassment,Metro Loans,Nan,Nan,48787.0,Closed,2023-01-07,2023-02-22,46,TRUE,Yes,
+100562,Bank Account,Collection Harassment,Nan,Tx,Charlotte,55340.0,Resolved,2023-05-31,2023-06-23,23,Yes,No,
+100563,Mortgage,Collection Harassment,Northstar Finance,Il,Philadelphia,65443.0,In Progress,2023-09-15,2023-11-13,59,No,Yes,Closed with explanation
+100564,Student  Loan,Collection Harassment,Northstar Finance,Tx,Miami,25250.0,In Progress,2024-04-04,2024-04-03,-1,TRUE,N,In progress
+100565,Student Loan,Fees,Nan,Ca,Nan,70987.0,Open,2024-01-05,2024-01-11,6,FALSE,Y,Closed
+100566,Student Loan,Billing Disputes,United Credit,Ny,Nan,,In Progress,2024-01-26,2024-03-23,57,No,Y,Closed with explanation
+100567,Debt Collection,Fees,,Ca,Los Angeles,56817.0,,2023-09-30,2023-10-13,13,N,Y,Closed with explanation
+100568,Debt Collection,Collection Harassment,Acme Bank,Tx,Chicago,71844.0,Closed,2023-07-15,2023-08-30,46,Yes,N,
+100570,Student  Loan,Incorrect Information,Metro Loans,Tx,Charlotte,93916.0,Resolved,2024-05-13,2024-05-20,7,TRUE,,
+100571,Credit  Card,Other,United Credit,Ca,Miami,97885.0,Closed,2023-01-23,2023-02-20,28,TRUE,No,Closed
+100572,Mortgage,Fees,,Nan,New York,,,2024-03-15,2024-03-28,13,,N,In progress
+100573,Bank Account,Fees,Metro Loans,Nc,New York,36811.0,Resolved,2023-12-09,2023-12-16,7,,Yes,
+100574,Bank Account,Other,United Credit,,Nan,27006.0,,2023-05-22,2023-07-18,57,No,Y,
+100575,Nan,Incorrect Information,Northstar Finance,Ca,Los Angeles,36937.0,,2024-01-24,2024-01-31,7,Y,Yes,Closed with explanation
+100576,Mortgage,Nan,Northstar Finance,Tx,Detroit,74131.0,Closed,2024-02-23,2024-02-24,1,,Yes,
+100577,Credit Reporting,Incorrect Information,,Oh,,87785.0,In Progress,2023-01-22,2023-03-01,38,Yes,No,
+100578,Mortgage,Other,Northstar Finance,Mi,Detroit,89213.0,Resolved,2023-02-23,2023-04-15,51,,No,In progress
+100579,Bank Account,Collection Harassment,Metro Loans,Ca,Charlotte,71557.0,Closed,2023-11-29,2023-12-02,3,,Y,In progress
+100580,Credit Reporting,Billing Disputes,,Tx,Chicago,71290.0,,2024-05-14,2024-06-24,41,Yes,FALSE,
+100581,Bank Account,Incorrect Information,,Pa,Miami,95673.0,Resolved,2023-01-12,2023-02-11,30,No,No,
+100582,Bank Account,Incorrect Information,Northstar Finance,Ny,Miami,71716.0,Closed,2023-11-29,2024-01-16,48,FALSE,TRUE,Closed
+100583,Credit Reporting,Nan,Acme Bank,Pa,Miami,22687.0,In Progress,2023-03-10,2023-03-13,3,N,Y,
+100584,,Billing Disputes,,Nan,Los Angeles,,,2023-11-22,2024-01-19,58,,N,
+100585,Debt  Collection,,Nan,Ga,Los Angeles,42280.0,In Progress,2023-11-08,2023-12-13,35,TRUE,,Closed with explanation
+100586,Debt Collection,Collection Harassment,United Credit,Oh,Los Angeles,67327.0,,2023-02-15,2023-04-05,49,FALSE,N,Closed
+100587,Credit  Card,Identity Theft,Nan,Oh,Houston,,,2023-12-07,2023-12-25,18,No,Y,In progress
+100588,Bank Account,Billing Disputes,Northstar Finance,,Detroit,36493.0,In Progress,2024-03-24,2024-05-19,56,Y,No,
+100589,Credit Reporting,Fees,,Ga,Detroit,36972.0,,2024-03-07,2024-04-11,35,No,No,Closed
+100590,Debt  Collection,Identity Theft,,Ga,New York,17992.0,In Progress,2023-01-15,2023-01-18,3,No,,In progress
+100591,,Other,United Credit,,Philadelphia,,Resolved,2023-05-03,2023-06-26,54,Yes,FALSE,Closed with explanation
+100592,Credit Card,Collection Harassment,Metro Loans,Tx,Nan,,,2023-05-01,2023-06-16,46,,Y,Closed with explanation
+100593,Debt Collection,Other,United Credit,Ca,Atlanta,68961.0,Open,2023-08-15,2023-08-29,14,Yes,N,In progress
+100594,Mortgage,Nan,Acme Bank,Oh,Chicago,94882.0,,2023-03-13,2023-04-12,30,TRUE,TRUE,
+100595,Credit Reporting,Other,Acme Bank,Il,Los Angeles,93367.0,Resolved,2024-03-03,2024-03-23,20,TRUE,Yes,In progress
+100596,Bank Account,Billing Disputes,Finserv Co,Tx,,87113.0,Resolved,2024-01-24,2024-02-23,30,Yes,,In progress
+100597,Nan,Identity Theft,Metro Loans,Ca,Los Angeles,26171.0,,2024-02-09,2024-04-06,57,,,In progress
+100598,Credit Card,Billing Disputes,Northstar Finance,Nan,Atlanta,40051.0,In Progress,2023-04-10,2023-06-02,53,TRUE,TRUE,
+100599,Credit Reporting,Collection Harassment,Acme Bank,Nc,Chicago,15173.0,,2023-01-08,2023-01-17,9,No,FALSE,
+100600,Credit Reporting,Fees,United Credit,Mi,Los Angeles,,Resolved,2024-03-31,2024-05-28,58,No,Yes,
+100601,Student Loan,Nan,Finserv Co,Ca,Houston,30795.0,Closed,2023-05-25,2023-06-17,23,FALSE,,Closed with explanation
+100602,Nan,Identity Theft,United Credit,Il,Los Angeles,35212.0,Resolved,2023-11-25,2024-01-04,40,TRUE,FALSE,Closed with explanation
+100603,Credit Card,Fees,,Nc,Charlotte,11385.0,Closed,2024-03-30,2024-05-13,44,N,,In progress
+100604,Credit  Card,Identity Theft,Nan,Ga,Chicago,,,2023-01-19,2023-02-14,26,N,,Closed
+100605,Student Loan,Fees,,Mi,Houston,,Open,2023-01-03,2023-01-27,24,Yes,TRUE,
+100606,Student Loan,Fees,,Mi,Miami,69022.0,In Progress,2023-01-03,2023-01-27,24,Yes,Y,
+100607,Student  Loan,Identity Theft,Acme Bank,Pa,Los Angeles,68819.0,,2023-03-20,2023-05-10,51,TRUE,FALSE,Closed
+100608,Credit Card,,Nan,Nan,Atlanta,97001.0,Open,2023-01-26,2023-02-15,20,Y,TRUE,In progress
+100609,Nan,Incorrect Information,Finserv Co,Fl,Houston,,In Progress,2024-02-14,2024-02-27,13,Y,N,Closed
+100610,Credit Reporting,Fees,Finserv Co,Ca,Los Angeles,40840.0,Resolved,2023-10-30,2023-11-17,18,N,FALSE,In progress
+100611,Credit Reporting,,Acme Bank,Nan,Atlanta,37754.0,In Progress,2024-05-05,2024-05-12,7,TRUE,,In progress
+100612,Student Loan,Incorrect Information,,Ny,Houston,59631.0,,2024-02-05,2024-02-25,20,Y,No,Closed with explanation
+100613,Nan,Fees,Finserv Co,Fl,Los Angeles,,Closed,2024-04-26,2024-04-28,2,Y,TRUE,
+100615,Credit Card,Fees,United Credit,Fl,Charlotte,60456.0,Closed,2023-05-24,2023-07-05,42,FALSE,Y,
+100616,Student Loan,,,Pa,Nan,31059.0,Resolved,2024-02-29,2024-02-29,0,Yes,Y,
+100617,Credit Reporting,Billing Disputes,Nan,Ca,Miami,60825.0,,2023-05-03,2023-06-03,31,,Yes,Closed
+100618,Bank Account,Identity Theft,Finserv Co,Oh,Detroit,96767.0,Closed,2023-01-29,2023-03-15,45,TRUE,Y,
+100619,Mortgage,Identity Theft,Northstar Finance,Nan,,62097.0,In Progress,2023-12-01,2024-01-12,42,No,TRUE,Closed with explanation
+100620,Student Loan,Billing Disputes,Nan,Ca,,63315.0,Closed,2024-02-05,2024-02-28,23,,,
+100621,Credit Card,Other,Acme Bank,Nan,,25839.0,Closed,2024-04-29,2024-05-06,7,,TRUE,
+100622,Student  Loan,Identity Theft,United Credit,Pa,Nan,10710.0,,2024-04-08,2024-06-02,55,Yes,Y,
+100623,Credit Reporting,Collection Harassment,Acme Bank,Nc,Detroit,28862.0,,2023-03-02,2023-04-20,49,No,,
+100624,Student Loan,Other,Metro Loans,Oh,New York,12263.0,,2024-01-22,2024-02-25,34,No,No,In progress
+100625,Credit Reporting,Collection Harassment,,Il,Los Angeles,50702.0,Resolved,2024-02-28,2024-02-28,0,Yes,No,Closed with explanation
+100626,Bank Account,Nan,Nan,Ca,Los Angeles,89398.0,Resolved,2023-12-16,2023-12-13,-3,FALSE,TRUE,
+100627,Debt Collection,Billing Disputes,United Credit,Nc,New York,,,2024-02-14,2024-02-29,15,No,,
+100628,Mortgage,Incorrect Information,United Credit,Nan,Houston,68074.0,Resolved,2024-02-23,2024-02-28,5,N,No,
+100629,Credit Reporting,Collection Harassment,United Credit,Ga,,87005.0,,2023-08-12,2023-10-01,50,,Yes,Closed with explanation
+100630,Student Loan,Fees,,Nc,New York,78675.0,Closed,2023-01-21,2023-01-29,8,TRUE,FALSE,Closed
+100631,Credit  Card,Billing Disputes,Nan,Mi,Columbus,,Open,2023-08-17,2023-08-30,13,FALSE,TRUE,
+100632,Credit Reporting,Fees,Acme Bank,Pa,Columbus,80560.0,In Progress,2023-04-11,2023-06-08,58,Yes,FALSE,
+100633,Bank Account,Collection Harassment,,Ga,Los Angeles,47840.0,Open,2023-03-04,2023-03-13,9,Yes,Yes,Closed
+100635,Credit  Card,Incorrect Information,Metro Loans,Nan,Atlanta,45908.0,Open,2023-12-15,2024-01-03,19,FALSE,Y,In progress
+100636,Bank Account,Identity Theft,Northstar Finance,Il,Philadelphia,81874.0,Open,2023-09-10,2023-10-08,28,FALSE,N,Closed with explanation
+100637,Debt Collection,Identity Theft,Acme Bank,Nan,Los Angeles,46789.0,,2023-09-27,2023-11-04,38,N,N,Closed with explanation
+100638,Debt Collection,Identity Theft,Finserv Co,,Chicago,94376.0,Resolved,2024-01-08,2024-03-03,55,,,Closed with explanation
+100639,Bank Account,Incorrect Information,,Fl,Columbus,26795.0,,2023-10-02,2023-11-22,51,,No,
+100640,Student Loan,Identity Theft,Northstar Finance,Nc,,25495.0,Closed,2023-11-12,2024-01-09,58,Yes,Y,Closed with explanation
+100641,Nan,Incorrect Information,Nan,Nan,Columbus,74454.0,Closed,2023-02-13,2023-02-10,-3,,No,
+100642,Credit Reporting,Billing Disputes,Acme Bank,Oh,,,In Progress,2024-03-01,2024-03-11,10,No,TRUE,Closed
+100643,Debt  Collection,Identity Theft,United Credit,Mi,Los Angeles,,,2023-08-13,2023-09-13,31,,,
+100644,Credit  Card,Identity Theft,,Nan,Nan,37700.0,,2023-03-19,2023-03-17,-2,,,Closed with explanation
+100645,,Billing Disputes,Northstar Finance,Nc,Nan,,,2024-02-11,2024-02-29,18,TRUE,No,
+100647,Student Loan,Collection Harassment,Acme Bank,,Los Angeles,51996.0,,2023-01-27,2023-03-23,55,,FALSE,
+100648,Bank Account,Other,,,Houston,,Closed,2023-04-07,2023-04-06,-1,TRUE,Yes,Closed with explanation
+100649,Mortgage,Fees,Northstar Finance,,Nan,92983.0,In Progress,2023-01-08,2023-01-12,4,No,FALSE,Closed with explanation
+100650,Debt  Collection,Billing Disputes,Finserv Co,Fl,New York,87733.0,Closed,2023-05-16,2023-05-23,7,N,No,Closed with explanation
+100651,Student  Loan,Other,Metro Loans,Ny,Los Angeles,79752.0,Open,2023-02-19,2023-02-23,4,,Yes,
+100652,Bank Account,Incorrect Information,Northstar Finance,Tx,,11985.0,In Progress,2023-12-21,2024-01-21,31,No,Yes,In progress
+100653,Credit Card,Collection Harassment,Northstar Finance,Fl,Miami,21467.0,,2023-09-19,2023-10-07,18,,,In progress
+100654,Credit Card,Incorrect Information,,Mi,,49052.0,Closed,2024-05-05,2024-06-28,54,No,FALSE,
+100655,Debt  Collection,Incorrect Information,United Credit,Ga,Philadelphia,,,2024-01-10,2024-01-21,11,FALSE,,Closed
+100656,Debt Collection,Incorrect Information,United Credit,Oh,Philadelphia,,Resolved,2023-11-02,2023-12-01,29,FALSE,FALSE,
+100657,Credit Reporting,Identity Theft,,Ny,Detroit,36665.0,,2023-09-12,2023-10-19,37,No,,Closed
+100658,Bank Account,Fees,Metro Loans,Mi,Nan,19937.0,Closed,2023-01-28,2023-03-04,35,N,N,Closed with explanation
+100659,Student Loan,Collection Harassment,Nan,Pa,Philadelphia,39534.0,,2023-02-05,2023-03-23,46,No,,
+100660,Bank Account,Billing Disputes,Metro Loans,Nan,Atlanta,,Closed,2023-11-05,2023-11-13,8,Y,Yes,In progress
+100661,,Billing Disputes,Acme Bank,Ca,Charlotte,98790.0,In Progress,2023-01-03,2023-01-30,27,,TRUE,
+100662,Bank Account,Other,Acme Bank,Il,Chicago,94770.0,,2023-01-22,2023-03-10,47,Yes,,In progress
+100663,Bank Account,Fees,Acme Bank,Ny,New York,63390.0,,2023-04-20,2023-06-10,51,,,
+100664,Student Loan,Other,Nan,Fl,Philadelphia,18184.0,Closed,2024-03-18,2024-04-22,35,FALSE,Y,Closed
+100665,Credit  Card,Fees,Metro Loans,Nan,Miami,,Closed,2023-08-18,2023-09-24,37,FALSE,No,
+100666,Bank Account,Fees,,Oh,Columbus,23765.0,In Progress,2023-12-21,2024-02-10,51,Y,FALSE,In progress
+100667,Mortgage,Other,Finserv Co,Oh,Los Angeles,34146.0,In Progress,2023-07-25,2023-08-29,35,,Yes,
+100668,Student  Loan,Fees,Northstar Finance,Fl,Detroit,97667.0,Open,2023-03-28,2023-05-23,56,Y,,In progress
+100669,Student  Loan,Identity Theft,Finserv Co,Fl,Los Angeles,,Closed,2023-07-05,2023-07-08,3,TRUE,FALSE,
+100670,Bank Account,Fees,Finserv Co,Mi,Nan,27806.0,Open,2023-02-15,2023-03-04,17,Yes,FALSE,In progress
+100671,Credit Reporting,Identity Theft,Nan,,Miami,55189.0,Open,2024-01-21,2024-01-23,2,,Y,In progress
+100672,Bank Account,Incorrect Information,Metro Loans,Nan,Charlotte,17104.0,In Progress,2023-04-02,2023-04-02,0,FALSE,Yes,
+100673,Credit Card,Collection Harassment,Northstar Finance,Nan,Charlotte,,Open,2023-07-08,2023-08-02,25,No,TRUE,
+100674,Bank Account,Billing Disputes,Northstar Finance,Oh,Los Angeles,95696.0,,2024-05-05,2024-05-14,9,FALSE,Y,In progress
+100675,Student Loan,Collection Harassment,Acme Bank,Ca,Detroit,36870.0,,2023-10-23,2023-11-13,21,No,N,Closed with explanation
+100676,Credit Card,Fees,Nan,Nan,Miami,90335.0,Closed,2023-08-18,2023-09-10,23,N,No,Closed with explanation
+100677,Credit Card,Identity Theft,Metro Loans,,Nan,58863.0,,2023-09-29,2023-11-03,35,TRUE,Y,
+100678,Mortgage,Billing Disputes,Northstar Finance,Ga,Los Angeles,,Resolved,2024-01-28,2024-03-24,56,,,Closed with explanation
+100679,Credit Reporting,Collection Harassment,Acme Bank,Ca,Philadelphia,73268.0,Closed,2023-05-08,2023-06-27,50,Y,,
+100680,Bank Account,Collection Harassment,Acme Bank,Mi,New York,59628.0,Closed,2023-11-15,2023-12-04,19,Yes,Y,
+100681,Credit Reporting,Collection Harassment,Nan,Nan,Charlotte,13086.0,In Progress,2024-03-12,2024-03-28,16,N,No,
+100683,Bank Account,,Nan,Tx,Houston,52751.0,Open,2023-08-12,2023-08-15,3,,No,Closed
+100684,Bank Account,Incorrect Information,Acme Bank,Nan,Detroit,68996.0,Open,2023-03-14,2023-04-13,30,Yes,Yes,
+100685,Mortgage,Incorrect Information,Acme Bank,Il,Los Angeles,59848.0,In Progress,2023-05-05,2023-05-27,22,Yes,FALSE,Closed
+100686,Credit Card,Identity Theft,Acme Bank,Nan,New York,69255.0,,2024-04-18,2024-04-24,6,,FALSE,
+100687,Debt Collection,Identity Theft,,Mi,Detroit,41922.0,Closed,2023-09-28,2023-11-02,35,FALSE,,Closed with explanation
+100688,Bank Account,Other,,Fl,,,,2023-05-31,2023-06-15,15,TRUE,Y,
+100689,Credit  Card,Fees,United Credit,Ny,Detroit,30188.0,Resolved,2023-07-29,2023-08-05,7,Yes,,In progress
+100690,Mortgage,Identity Theft,Acme Bank,Ga,Nan,68791.0,Closed,2023-10-17,2023-11-23,37,Y,No,Closed with explanation
+100691,Credit Card,Other,United Credit,Pa,Philadelphia,62011.0,,2023-09-26,2023-10-02,6,,No,Closed
+100692,Student Loan,Billing Disputes,,,New York,55330.0,Open,2023-12-16,2024-01-23,38,No,,
+100693,Credit Reporting,Fees,Northstar Finance,Pa,New York,11976.0,Resolved,2023-05-09,2023-05-14,5,No,,
+100694,Student  Loan,Billing Disputes,,Fl,Chicago,45074.0,Resolved,2023-11-21,2023-12-14,23,N,TRUE,Closed with explanation
+100695,Debt Collection,Incorrect Information,Metro Loans,Nan,New York,14279.0,,2023-08-10,2023-09-26,47,FALSE,TRUE,Closed with explanation
+100696,Bank Account,Fees,Acme Bank,Nan,Houston,55281.0,,2024-04-15,2024-04-24,9,,FALSE,
+100697,Credit Reporting,Other,Finserv Co,Nc,,71897.0,,2023-03-20,2023-05-03,44,TRUE,,
+100698,Bank Account,Other,Metro Loans,,Nan,,Resolved,2023-03-16,2023-04-26,41,N,No,In progress
+100699,Mortgage,Other,Nan,Nan,Miami,78133.0,Open,2023-08-19,2023-10-11,53,N,Yes,Closed with explanation
+100700,Mortgage,Identity Theft,Acme Bank,Nan,Detroit,42474.0,Closed,2023-09-12,2023-09-17,5,Yes,No,Closed with explanation
+100701,Student Loan,Billing Disputes,United Credit,,Philadelphia,37552.0,In Progress,2023-12-12,2024-01-22,41,Y,Y,Closed with explanation
+100702,Student  Loan,Other,Nan,Ny,Nan,30621.0,Open,2024-04-01,2024-05-15,44,Yes,TRUE,
+100704,Credit Reporting,Identity Theft,Acme Bank,Nc,Nan,82167.0,Open,2023-08-26,2023-09-02,7,FALSE,No,In progress
+100706,Student Loan,Fees,Finserv Co,,Philadelphia,47485.0,,2023-03-01,2023-03-02,1,TRUE,FALSE,
+100707,Debt Collection,,,Mi,Nan,,,2024-05-01,2024-06-03,33,No,Yes,
+100708,Debt  Collection,Billing Disputes,Nan,Ga,Nan,12300.0,,2023-03-09,2023-04-05,27,TRUE,Y,Closed
+100709,Mortgage,Other,Finserv Co,Nc,Columbus,,In Progress,2024-04-18,2024-05-17,29,No,TRUE,
+100710,Mortgage,Incorrect Information,Nan,Ca,Columbus,,,2023-05-20,2023-06-17,28,FALSE,Yes,Closed with explanation
+100711,Credit Card,Fees,Acme Bank,Ny,Charlotte,30856.0,In Progress,2023-06-02,2023-06-30,28,Y,,In progress
+100713,Student Loan,Incorrect Information,Finserv Co,Nan,New York,56096.0,Closed,2023-11-04,2023-12-29,55,No,Y,Closed with explanation
+100714,Credit Card,Fees,Northstar Finance,,Atlanta,81421.0,Resolved,2023-08-02,2023-08-25,23,,Yes,
+100715,Debt Collection,Other,Acme Bank,Fl,Nan,51060.0,Closed,2024-01-28,2024-02-09,12,No,TRUE,Closed
+100716,Credit  Card,Identity Theft,Metro Loans,Pa,Miami,50435.0,In Progress,2023-11-02,2023-12-31,59,No,,
+100717,Credit  Card,Fees,Metro Loans,Oh,Philadelphia,15390.0,,2023-07-20,2023-07-21,1,Y,Y,In progress
+100718,Debt Collection,Collection Harassment,Nan,Fl,Columbus,35227.0,Resolved,2023-11-14,2023-12-10,26,,,
+100719,Credit Reporting,Incorrect Information,Nan,Pa,Philadelphia,,Closed,2024-04-30,2024-05-28,28,N,,
+100720,Credit Reporting,Other,Finserv Co,Il,,82962.0,,2023-07-25,2023-08-20,26,Y,Y,In progress
+100722,Debt  Collection,Incorrect Information,Acme Bank,Nan,Charlotte,11729.0,Resolved,2023-07-24,2023-08-15,22,Y,Yes,In progress
+100723,Credit Reporting,Other,Acme Bank,Ca,Miami,84790.0,Open,2024-02-25,2024-04-23,58,FALSE,TRUE,
+100724,,,,Oh,,25682.0,Closed,2023-04-19,2023-04-18,-1,N,,Closed
+100725,Credit Reporting,Other,United Credit,,New York,61708.0,Open,2024-04-19,2024-05-31,42,TRUE,,In progress
+100726,Credit Card,Collection Harassment,United Credit,Nan,,84425.0,,2023-10-22,2023-11-24,33,N,No,Closed with explanation
+100727,Mortgage,Collection Harassment,Nan,,Houston,80858.0,Closed,2023-10-28,2023-11-07,10,N,FALSE,In progress
+100728,Mortgage,Identity Theft,United Credit,Nan,Miami,,In Progress,2023-06-08,2023-06-17,9,N,Yes,Closed with explanation
+100729,Credit Card,Incorrect Information,Acme Bank,Ny,Columbus,,,2024-04-05,2024-05-16,41,N,Y,In progress
+100730,Student  Loan,Other,Finserv Co,,Miami,,,2023-01-19,2023-02-24,36,,,
+100731,Credit Reporting,Fees,Northstar Finance,Nan,New York,72525.0,Closed,2023-05-30,2023-07-03,34,Y,FALSE,In progress
+100732,Debt Collection,Identity Theft,,Nan,Miami,85435.0,,2023-07-29,2023-07-27,-2,,N,In progress
+100733,Student  Loan,Identity Theft,,Nan,Columbus,56245.0,,2023-08-27,2023-09-29,33,FALSE,,
+100734,Student Loan,Collection Harassment,Finserv Co,Fl,Miami,94775.0,Resolved,2023-08-26,2023-10-23,58,TRUE,,Closed with explanation
+100735,Student  Loan,Identity Theft,,Ny,Nan,79275.0,Closed,2023-03-15,2023-03-11,-4,Y,Yes,
+100736,Student  Loan,Billing Disputes,Northstar Finance,Mi,New York,15708.0,,2023-04-23,2023-05-18,25,N,Yes,
+100737,Bank Account,Collection Harassment,Nan,Oh,Atlanta,36450.0,Resolved,2023-02-17,2023-03-16,27,,FALSE,In progress
+100738,Credit Card,Identity Theft,United Credit,Ny,Houston,81930.0,In Progress,2023-10-14,2023-12-06,53,No,,Closed
+100739,Credit Reporting,Collection Harassment,Nan,Fl,Houston,20447.0,Resolved,2023-06-25,2023-07-08,13,TRUE,No,
+100740,Bank Account,Fees,,,New York,73788.0,Closed,2023-10-10,2023-11-04,25,,TRUE,In progress
+100741,Credit Reporting,Other,,Pa,Houston,40651.0,Resolved,2023-10-22,2023-12-02,41,FALSE,,In progress
+100742,Credit Reporting,Fees,United Credit,Fl,Nan,28632.0,Open,2023-12-18,2023-12-16,-2,No,,
+100743,Credit  Card,Other,Finserv Co,Mi,Atlanta,58591.0,Closed,2023-10-01,2023-11-17,47,TRUE,FALSE,In progress
+100744,Debt Collection,Other,Nan,Mi,Nan,93852.0,In Progress,2023-11-20,2024-01-07,48,No,,
+100745,Credit  Card,Identity Theft,Finserv Co,Il,,90788.0,Open,2023-10-21,2023-12-01,41,,,Closed
+100746,,Other,Northstar Finance,,Miami,46377.0,,2023-11-23,2023-12-30,37,Y,,
+100747,Credit Reporting,Collection Harassment,,Nc,Nan,10332.0,,2023-11-05,2023-12-18,43,N,FALSE,
+100748,Credit Reporting,Billing Disputes,United Credit,Tx,Los Angeles,,In Progress,2023-06-08,2023-07-23,45,,,
+100749,Credit Reporting,Billing Disputes,Metro Loans,Il,New York,90752.0,Resolved,2023-05-04,2023-06-26,53,N,Yes,In progress
+100750,Credit Reporting,Identity Theft,Finserv Co,,,,Closed,2024-01-29,2024-02-20,22,No,Yes,Closed
+100751,Bank Account,Billing Disputes,United Credit,Ca,New York,66570.0,Closed,2023-06-21,2023-07-15,24,,TRUE,In progress
+100752,Debt  Collection,Incorrect Information,Northstar Finance,Ny,Los Angeles,57406.0,,2023-10-02,2023-11-07,36,FALSE,FALSE,
+100753,Credit Reporting,Other,Finserv Co,Mi,,,In Progress,2023-04-09,2023-04-16,7,TRUE,,In progress
+100754,Bank Account,Incorrect Information,Finserv Co,Oh,Philadelphia,24356.0,,2023-08-04,2023-09-23,50,Yes,FALSE,
+100755,Bank Account,Billing Disputes,United Credit,Fl,Los Angeles,22904.0,Open,2023-09-22,2023-11-06,45,N,No,Closed with explanation
+100756,Mortgage,Incorrect Information,United Credit,Oh,Charlotte,92288.0,Open,2023-11-10,2023-12-16,36,N,,Closed
+100757,Student Loan,Identity Theft,Northstar Finance,Tx,Charlotte,,In Progress,2023-09-21,2023-10-05,14,Y,Yes,
+100758,Nan,Other,Acme Bank,Pa,New York,,,2023-06-30,2023-07-17,17,TRUE,Yes,
+100759,Bank Account,Billing Disputes,Metro Loans,Fl,Atlanta,42651.0,In Progress,2024-04-25,2024-05-18,23,No,FALSE,Closed with explanation
+100760,Debt  Collection,Collection Harassment,Northstar Finance,Nc,New York,10548.0,,2023-09-14,2023-10-22,38,N,,
+100761,Credit  Card,Incorrect Information,,Mi,Los Angeles,92730.0,Open,2024-02-09,2024-03-25,45,,TRUE,In progress
+100762,Credit Card,Billing Disputes,Northstar Finance,Nan,Charlotte,11645.0,,2024-01-04,2024-02-11,38,FALSE,No,
+100763,Bank Account,Incorrect Information,Metro Loans,Il,Los Angeles,79986.0,Closed,2024-03-19,2024-05-15,57,No,,Closed with explanation
+100765,Student Loan,Collection Harassment,,Fl,Detroit,81430.0,Resolved,2023-03-06,2023-04-15,40,Yes,Y,
+100766,Nan,Fees,Acme Bank,Nc,Chicago,24574.0,,2024-04-05,2024-04-24,19,Y,FALSE,Closed
+100768,Student  Loan,Incorrect Information,Nan,Nan,Atlanta,63885.0,Open,2023-09-09,2023-10-01,22,No,No,
+100769,Student Loan,Billing Disputes,United Credit,Nan,Nan,,,2024-01-02,2024-02-06,35,,FALSE,Closed
+100770,Mortgage,Billing Disputes,Finserv Co,Nan,Charlotte,71296.0,Closed,2023-09-18,2023-11-04,47,,FALSE,
+100771,Credit Reporting,Nan,Metro Loans,Tx,New York,,Resolved,2023-05-15,2023-06-03,19,TRUE,N,Closed
+100772,Credit Card,Incorrect Information,United Credit,Ny,Los Angeles,35142.0,In Progress,2024-02-04,2024-03-02,27,,TRUE,Closed with explanation
+100773,Bank Account,Collection Harassment,Acme Bank,Nan,Philadelphia,35940.0,,2023-05-03,2023-04-30,-3,N,N,In progress
+100774,Credit Reporting,Incorrect Information,Northstar Finance,,Nan,,In Progress,2023-06-07,2023-07-19,42,TRUE,TRUE,Closed
+100775,Bank Account,Other,Metro Loans,Fl,Nan,,Closed,2023-09-17,2023-10-13,26,,,
+100776,Credit Reporting,Identity Theft,United Credit,Ny,Nan,31623.0,In Progress,2024-02-23,2024-03-18,24,Yes,FALSE,Closed
+100777,Credit Card,Incorrect Information,Finserv Co,Mi,Los Angeles,32104.0,,2023-07-11,2023-08-09,29,Y,Y,
+100778,Bank Account,Collection Harassment,,Nc,Detroit,95167.0,,2023-09-05,2023-09-14,9,Yes,No,In progress
+100779,Student Loan,Billing Disputes,,Nan,New York,56338.0,Open,2023-01-21,2023-02-23,33,,FALSE,
+100780,Bank Account,Identity Theft,Nan,Nc,Detroit,,Resolved,2023-02-27,2023-04-11,43,,FALSE,
+100781,Credit Reporting,Collection Harassment,Metro Loans,Nan,Houston,39715.0,Open,2023-01-28,2023-02-14,17,FALSE,Y,
+100782,Debt Collection,Fees,Acme Bank,,Nan,35923.0,Resolved,2023-02-06,2023-02-09,3,TRUE,,
+100783,Bank Account,Nan,Nan,Ny,Los Angeles,35433.0,Resolved,2024-03-10,2024-03-30,20,N,N,Closed
+100784,Debt Collection,Fees,Metro Loans,Tx,Charlotte,57592.0,,2024-02-25,2024-03-03,7,Yes,Y,
+100785,Credit Reporting,Other,Acme Bank,Nan,,80115.0,Closed,2024-02-15,2024-03-05,19,,TRUE,In progress
+100786,Credit Card,Other,Metro Loans,Tx,New York,55056.0,,2023-01-28,2023-03-04,35,,No,
+100787,Mortgage,Other,,Tx,,36544.0,,2023-02-08,2023-02-10,2,,FALSE,Closed
+100788,Credit Card,Billing Disputes,United Credit,Nan,Los Angeles,96401.0,Resolved,2023-05-21,2023-07-03,43,Y,,
+100789,Student Loan,Fees,United Credit,Tx,Nan,61517.0,Resolved,2023-10-10,2023-10-19,9,No,,
+100790,Mortgage,Billing Disputes,Acme Bank,Tx,Los Angeles,45462.0,Resolved,2023-06-17,2023-08-09,53,FALSE,N,
+100791,Mortgage,Nan,Northstar Finance,Ny,Miami,10871.0,Open,2023-09-01,2023-10-13,42,Yes,Y,
+100792,Student  Loan,Identity Theft,Finserv Co,Oh,Charlotte,60599.0,,2023-03-28,2023-04-09,12,Yes,N,Closed with explanation
+100793,Mortgage,Fees,Nan,Nc,New York,65895.0,In Progress,2024-01-01,2024-02-01,31,,Yes,
+100794,Credit Card,Incorrect Information,Northstar Finance,Nan,Nan,93582.0,Open,2023-06-06,2023-06-08,2,,FALSE,Closed with explanation
+100795,Credit Card,Other,Metro Loans,Nan,Atlanta,30762.0,Resolved,2023-02-03,2023-02-04,1,N,N,Closed
+100796,Mortgage,Identity Theft,Northstar Finance,Mi,New York,24652.0,,2024-01-07,2024-03-04,57,TRUE,Yes,
+100797,Nan,Fees,Metro Loans,Nan,,99935.0,,2024-03-27,2024-05-13,47,TRUE,TRUE,Closed with explanation
+100798,Credit Reporting,Other,Nan,Il,Detroit,12418.0,,2023-08-07,2023-08-20,13,No,No,Closed with explanation
+100800,Mortgage,Identity Theft,Metro Loans,Il,New York,19510.0,,2024-02-18,2024-02-25,7,Y,N,Closed
+100801,Mortgage,Collection Harassment,Nan,Ny,,52784.0,Closed,2023-12-20,2024-01-09,20,,,Closed with explanation
+100802,Credit  Card,Billing Disputes,Metro Loans,,New York,65574.0,Resolved,2024-03-04,2024-03-17,13,N,FALSE,In progress
+100803,Debt Collection,Fees,United Credit,Fl,Charlotte,31932.0,,2023-07-27,2023-08-12,16,FALSE,,
+100804,Bank Account,Incorrect Information,Northstar Finance,Oh,Philadelphia,,Open,2023-07-06,2023-08-04,29,No,N,
+100805,Student  Loan,Other,Northstar Finance,Il,New York,76261.0,In Progress,2023-12-21,2023-12-28,7,,N,
+100806,Mortgage,Collection Harassment,,Ny,Atlanta,97086.0,In Progress,2023-03-18,2023-05-09,52,,N,Closed with explanation
+100807,Student Loan,Other,Nan,Nan,,54194.0,Open,2023-04-30,2023-06-11,42,N,N,In progress
+100808,Bank Account,Other,Nan,Fl,Houston,47386.0,Closed,2023-10-28,2023-12-11,44,No,No,
+100809,Mortgage,Incorrect Information,Acme Bank,Ca,Miami,42501.0,Resolved,2023-12-01,2023-12-07,6,,Yes,Closed with explanation
+100810,Credit Reporting,Collection Harassment,,Il,Chicago,22256.0,Closed,2023-03-01,2023-04-11,41,,,Closed with explanation
+100811,Debt Collection,Billing Disputes,,Tx,Los Angeles,14749.0,Closed,2023-09-12,2023-10-31,49,TRUE,TRUE,Closed
+100812,,Fees,Finserv Co,,Chicago,,Closed,2023-07-02,2023-07-08,6,Y,TRUE,
+100813,Credit Reporting,Billing Disputes,Finserv Co,Tx,Detroit,13342.0,Open,2023-09-08,2023-10-21,43,TRUE,TRUE,
+100814,Credit Reporting,Collection Harassment,United Credit,Il,Miami,83877.0,Resolved,2024-04-24,2024-05-12,18,Y,N,
+100815,Credit Reporting,Collection Harassment,Northstar Finance,Ny,Miami,72536.0,Resolved,2024-05-12,2024-06-07,26,,N,
+100817,Credit Reporting,Other,Acme Bank,Ny,,95642.0,,2023-08-13,2023-09-29,47,N,TRUE,
+100818,Student  Loan,Identity Theft,Finserv Co,Ga,Columbus,77392.0,In Progress,2024-01-22,2024-01-26,4,Yes,TRUE,
+100819,Mortgage,Other,Finserv Co,Fl,,75656.0,,2023-08-01,2023-08-21,20,TRUE,No,Closed
+100820,Bank Account,Fees,,Ca,Houston,33824.0,Closed,2023-06-05,2023-06-17,12,,No,
+100821,,Collection Harassment,,Il,Los Angeles,63834.0,,2024-01-21,2024-02-01,11,No,No,Closed with explanation
+100822,Bank Account,Collection Harassment,United Credit,Fl,Los Angeles,67784.0,Closed,2023-12-10,2023-12-25,15,,Y,In progress
+100823,Bank Account,Fees,Metro Loans,Pa,Miami,48276.0,Closed,2023-03-14,2023-04-02,19,Y,No,Closed
+100824,Bank Account,Identity Theft,,,Los Angeles,,,2023-12-19,2023-12-22,3,FALSE,No,Closed with explanation
+100825,Debt  Collection,Fees,,Il,Chicago,92118.0,In Progress,2024-01-12,2024-02-21,40,FALSE,,
+100827,Bank Account,Other,,Nan,Los Angeles,97609.0,,2024-04-07,2024-05-25,48,Yes,,Closed with explanation
+100828,Credit Card,Incorrect Information,United Credit,Ny,New York,93904.0,In Progress,2023-11-17,2023-12-27,40,,N,
+100829,Credit Card,Fees,United Credit,Ga,Miami,11697.0,Closed,2023-06-16,2023-06-20,4,FALSE,,
+100830,Credit Reporting,Fees,,Oh,Philadelphia,76530.0,In Progress,2023-01-06,2023-01-05,-1,FALSE,,
+100831,Credit Reporting,Billing Disputes,United Credit,Ga,Los Angeles,67066.0,In Progress,2023-12-04,2023-12-26,22,Y,,Closed with explanation
+100832,Bank Account,Billing Disputes,,Tx,Nan,,In Progress,2023-04-15,2023-05-11,26,Yes,Y,
+100833,Credit  Card,Billing Disputes,Metro Loans,Oh,Detroit,83149.0,Closed,2024-01-14,2024-01-24,10,Y,Yes,In progress
+100834,Student Loan,Fees,United Credit,Ca,Charlotte,20024.0,,2023-09-20,2023-11-04,45,TRUE,Y,
+100835,Credit Card,Incorrect Information,Northstar Finance,,Philadelphia,32381.0,Resolved,2023-08-22,2023-09-23,32,FALSE,FALSE,Closed
+100836,Debt Collection,Other,Nan,Nc,Nan,95401.0,,2023-03-23,2023-05-05,43,Y,FALSE,
+100837,Mortgage,Collection Harassment,Metro Loans,Ny,Los Angeles,,Resolved,2023-12-22,2023-12-24,2,No,FALSE,
+100838,Credit Card,Billing Disputes,,Ga,Houston,20096.0,In Progress,2023-03-24,2023-05-10,47,No,,
+100839,Student  Loan,,,Nan,Chicago,22967.0,Closed,2023-07-28,2023-08-05,8,,No,In progress
+100840,Debt  Collection,Incorrect Information,Acme Bank,Nan,Miami,33136.0,,2024-02-23,2024-03-18,24,FALSE,N,Closed with explanation
+100841,Nan,Other,Acme Bank,Fl,Atlanta,,Open,2024-04-05,2024-04-28,23,,N,
+100842,Debt  Collection,Billing Disputes,Finserv Co,Nan,Nan,26436.0,Closed,2024-05-09,2024-06-26,48,Yes,No,
+100843,Credit Card,Identity Theft,Nan,Tx,New York,61457.0,,2024-04-24,2024-05-06,12,N,FALSE,Closed with explanation
+100844,Debt Collection,Billing Disputes,Metro Loans,Fl,Columbus,10671.0,Resolved,2023-10-05,2023-10-15,10,N,Yes,
+100845,Mortgage,Other,Nan,Nan,New York,38271.0,Open,2024-02-24,2024-03-13,18,N,Yes,
+100847,Student  Loan,Collection Harassment,Nan,Nan,Miami,97377.0,Closed,2024-02-05,2024-02-11,6,Yes,Yes,
+100848,Mortgage,Incorrect Information,Nan,Ga,Nan,97675.0,Resolved,2024-05-10,2024-05-16,6,Yes,No,In progress
+100849,Credit Card,Billing Disputes,Acme Bank,Mi,Nan,86091.0,Closed,2023-11-22,2023-12-02,10,,,Closed with explanation
+100850,Bank Account,,Metro Loans,Fl,Charlotte,40770.0,In Progress,2023-03-12,2023-04-06,25,N,,
+100851,Credit Reporting,Fees,Nan,Ny,,57457.0,,2023-09-09,2023-09-26,17,No,,
+100852,Debt Collection,Identity Theft,United Credit,,Miami,55386.0,Resolved,2023-08-13,2023-09-02,20,Y,,
+100853,Credit Card,Collection Harassment,,,Atlanta,87414.0,Resolved,2024-02-26,2024-04-07,41,,,Closed
+100854,Credit Reporting,Other,Finserv Co,Ny,Charlotte,,Closed,2023-07-16,2023-07-26,10,N,N,Closed with explanation
+100856,Bank Account,Billing Disputes,,Ny,Miami,92726.0,Resolved,2024-02-22,2024-02-28,6,Yes,No,Closed
+100857,Mortgage,Collection Harassment,Nan,Nan,Los Angeles,76922.0,,2024-01-13,2024-01-28,15,TRUE,No,
+100859,Mortgage,Identity Theft,Metro Loans,Fl,New York,69546.0,,2023-08-05,2023-08-17,12,,No,
+100861,Bank Account,Identity Theft,Finserv Co,Il,Philadelphia,40209.0,In Progress,2023-08-28,2023-09-15,18,N,Y,Closed
+100862,Bank Account,Billing Disputes,United Credit,Nan,,64770.0,Closed,2023-08-23,2023-08-26,3,No,N,
+100863,Mortgage,Incorrect Information,,Il,Detroit,,Closed,2024-04-04,2024-03-30,-5,TRUE,Yes,
+100864,Debt  Collection,Collection Harassment,Acme Bank,Fl,New York,,,2023-03-17,2023-04-09,23,Y,FALSE,
+100865,Credit Card,Identity Theft,United Credit,Ca,New York,32930.0,In Progress,2023-06-03,2023-07-13,40,No,,Closed
+100866,Nan,Billing Disputes,United Credit,,Miami,,,2023-04-01,2023-04-15,14,Yes,TRUE,Closed with explanation
+100867,Student Loan,,Nan,Nan,New York,,,2023-05-03,2023-06-22,50,FALSE,Yes,
+100868,Credit Reporting,Collection Harassment,Northstar Finance,Ca,Chicago,73916.0,Resolved,2024-03-29,2024-04-17,19,FALSE,,In progress
+100869,Mortgage,Incorrect Information,Nan,,New York,29960.0,Open,2024-04-15,2024-06-07,53,No,N,
+100870,Nan,Identity Theft,Nan,Tx,Nan,81258.0,,2023-01-23,2023-02-02,10,TRUE,Y,
+100871,Bank Account,Billing Disputes,Northstar Finance,Ca,,82233.0,Closed,2023-11-13,2023-12-13,30,,,Closed with explanation
+100872,Student Loan,Collection Harassment,Finserv Co,Pa,,23103.0,Resolved,2023-04-27,2023-06-10,44,,,In progress
+100873,,Other,,Oh,New York,41501.0,Closed,2023-04-07,2023-04-05,-2,N,N,In progress
+100874,Credit Card,Collection Harassment,United Credit,,Miami,,Open,2023-05-27,2023-07-21,55,Yes,N,In progress
+100875,Mortgage,Fees,Metro Loans,Mi,Charlotte,88618.0,Resolved,2023-04-08,2023-04-26,18,FALSE,,
+100876,Mortgage,Collection Harassment,United Credit,Tx,Philadelphia,,In Progress,2023-09-03,2023-09-30,27,TRUE,No,In progress
+100877,Mortgage,Incorrect Information,United Credit,Nc,Detroit,52452.0,Resolved,2024-05-12,2024-06-16,35,,N,Closed with explanation
+100878,Debt Collection,Billing Disputes,Nan,Nan,Nan,36996.0,In Progress,2023-10-21,2023-11-26,36,TRUE,TRUE,In progress
+100879,Credit Reporting,Incorrect Information,United Credit,Mi,,91896.0,In Progress,2023-12-28,2023-12-24,-4,FALSE,Y,
+100880,Credit Card,Collection Harassment,Northstar Finance,Fl,,88711.0,Open,2023-09-04,2023-10-25,51,TRUE,Y,In progress
+100881,Student  Loan,Fees,Northstar Finance,Ca,,90713.0,Closed,2023-01-07,2023-02-11,35,TRUE,Yes,Closed
+100882,Bank Account,Other,Finserv Co,Oh,,,,2023-02-12,2023-04-12,59,Y,Y,
+100883,Bank Account,Other,Northstar Finance,Oh,Los Angeles,49277.0,,2023-05-15,2023-06-09,25,N,Y,Closed with explanation
+100884,Bank Account,Identity Theft,United Credit,Il,Miami,,In Progress,2023-05-02,2023-06-05,34,Y,,In progress
+100885,Credit Card,Nan,Nan,Ca,,95907.0,Open,2024-02-25,2024-03-19,23,N,Y,Closed with explanation
+100886,Student Loan,Identity Theft,Acme Bank,Ca,Los Angeles,88037.0,,2024-02-26,2024-04-18,52,,No,
+100887,Mortgage,Other,Northstar Finance,Ga,New York,25593.0,,2024-03-03,2024-04-21,49,Y,,
+100888,Debt  Collection,Collection Harassment,Northstar Finance,,Atlanta,32231.0,Open,2023-11-15,2024-01-08,54,N,Y,In progress
+100889,Bank Account,Billing Disputes,Finserv Co,Nc,Los Angeles,59683.0,Closed,2023-10-06,2023-11-02,27,,,
+100890,Bank Account,Billing Disputes,Finserv Co,Oh,Miami,47394.0,Closed,2023-11-21,2024-01-06,46,No,Yes,
+100891,Mortgage,Fees,,,Nan,,,2023-07-23,2023-08-10,18,Y,Yes,
+100892,Debt Collection,Fees,,Mi,,43112.0,,2023-12-02,2023-12-26,24,N,,Closed
+100893,,Other,Nan,Nan,,,In Progress,2024-02-02,2024-03-17,44,N,Yes,Closed with explanation
+100894,Credit Card,Collection Harassment,Nan,Nc,New York,90824.0,Closed,2024-01-17,2024-01-17,0,Y,Yes,Closed with explanation
+100895,Student Loan,Identity Theft,Nan,Nan,New York,,Resolved,2023-11-03,2023-12-14,41,,FALSE,In progress
+100896,Credit Card,Billing Disputes,Northstar Finance,Ga,New York,50970.0,Closed,2023-01-30,2023-01-26,-4,N,Y,In progress
+100897,Debt Collection,Fees,,Nc,Houston,84509.0,Open,2023-12-29,2024-01-30,32,Y,N,Closed
+100898,Bank Account,Fees,Northstar Finance,Nc,,72487.0,Closed,2023-07-03,2023-07-29,26,N,N,
+100899,Credit Card,Other,Metro Loans,Nan,Columbus,27721.0,Closed,2024-01-07,2024-02-01,25,,Y,
+100900,Credit Reporting,Fees,Finserv Co,Nan,Nan,81462.0,Open,2023-09-27,2023-10-24,27,,N,
+100901,Nan,Nan,Acme Bank,Il,Los Angeles,41537.0,,2024-03-16,2024-04-11,26,No,Y,
+100903,Bank Account,Billing Disputes,,Ny,Houston,,Resolved,2024-04-10,2024-05-04,24,Yes,No,
+100905,,Collection Harassment,Nan,Nan,Detroit,95347.0,,2023-06-15,2023-07-29,44,FALSE,TRUE,Closed with explanation
+100906,Student Loan,Billing Disputes,Metro Loans,Mi,Los Angeles,82224.0,,2023-08-30,2023-09-29,30,Yes,TRUE,Closed
+100907,Debt  Collection,Collection Harassment,United Credit,Fl,Chicago,55538.0,Resolved,2023-09-23,2023-10-29,36,TRUE,Yes,Closed
+100908,Student  Loan,Incorrect Information,Finserv Co,Nc,Philadelphia,46018.0,,2024-01-20,2024-03-09,49,N,N,
+100909,Debt Collection,Incorrect Information,,Pa,New York,49710.0,Resolved,2023-12-11,2024-02-08,59,,FALSE,
+100910,Bank Account,Other,United Credit,Oh,New York,,Open,2024-03-02,2024-03-04,2,TRUE,Yes,In progress
+100911,Credit  Card,Other,Acme Bank,Fl,,28452.0,,2023-07-04,2023-08-14,41,N,Y,Closed with explanation
+100912,,Identity Theft,Acme Bank,Nc,Nan,57211.0,,2023-09-10,2023-09-19,9,TRUE,,
+100913,Mortgage,Identity Theft,Acme Bank,Tx,Charlotte,,In Progress,2023-08-04,2023-08-11,7,No,N,
+100914,Student Loan,Collection Harassment,Finserv Co,Oh,,12031.0,In Progress,2024-03-30,2024-05-15,46,N,Yes,
+100916,Credit Reporting,Billing Disputes,Nan,Nan,New York,33400.0,In Progress,2023-10-21,2023-12-10,50,No,N,
+100917,Nan,Other,Northstar Finance,Pa,Los Angeles,35257.0,In Progress,2023-03-02,2023-04-16,45,N,No,In progress
+100918,Credit Card,Incorrect Information,,,New York,65955.0,,2024-03-01,2024-04-29,59,FALSE,Yes,Closed
+100919,Credit Card,Fees,,Ny,Nan,10800.0,Closed,2023-07-12,2023-08-19,38,TRUE,,Closed
+100920,Nan,Billing Disputes,,,Philadelphia,,In Progress,2023-06-20,2023-08-10,51,,,Closed
+100921,Debt Collection,Collection Harassment,Nan,Il,Houston,50946.0,,2023-10-19,2023-10-21,2,Y,FALSE,
+100922,Credit Card,Collection Harassment,Nan,,Miami,62565.0,Closed,2023-09-07,2023-10-29,52,FALSE,Yes,Closed with explanation
+100923,Mortgage,Fees,Metro Loans,,New York,,Open,2024-02-28,2024-03-04,5,TRUE,,
+100924,Student  Loan,Collection Harassment,United Credit,Nc,Nan,,In Progress,2023-09-23,2023-10-08,15,,N,
+100925,Mortgage,Other,Nan,Nc,Detroit,37678.0,Closed,2023-09-16,2023-09-19,3,,N,
+100926,Credit Card,Other,United Credit,Nan,Houston,58094.0,In Progress,2023-02-22,2023-03-15,21,FALSE,,
+100927,Student Loan,Collection Harassment,Finserv Co,Fl,,37053.0,Open,2023-01-11,2023-02-23,43,N,N,Closed
+100928,Credit  Card,Other,,Tx,Miami,10168.0,Resolved,2023-07-19,2023-07-31,12,TRUE,No,In progress
+100929,Mortgage,Collection Harassment,,Il,Columbus,57706.0,Resolved,2024-05-14,2024-07-01,48,FALSE,No,Closed with explanation
+100931,Bank Account,Fees,Metro Loans,Nan,Nan,,Resolved,2023-11-11,2023-12-16,35,No,TRUE,
+100932,Nan,Collection Harassment,Finserv Co,Fl,Columbus,,Open,2023-11-12,2024-01-07,56,,TRUE,Closed with explanation
+100933,Credit Reporting,Billing Disputes,Northstar Finance,Ga,New York,53413.0,Open,2023-07-15,2023-08-07,23,,TRUE,
+100934,Mortgage,Fees,Metro Loans,Ny,Houston,22614.0,In Progress,2023-03-30,2023-04-16,17,Yes,No,Closed with explanation
+100935,Credit  Card,Incorrect Information,Acme Bank,Ny,Detroit,31296.0,Open,2023-01-05,2023-03-05,59,Y,N,
+100936,Credit  Card,Other,United Credit,,Nan,49411.0,,2023-06-19,2023-07-20,31,No,,Closed with explanation
+100938,Debt Collection,Fees,Metro Loans,Nan,Detroit,53755.0,In Progress,2023-04-06,2023-04-20,14,No,,
+100939,Credit Card,Identity Theft,Finserv Co,Il,Philadelphia,96658.0,Closed,2023-05-10,2023-05-19,9,Y,Y,
+100940,Debt Collection,Other,Nan,Ga,Atlanta,,In Progress,2023-01-13,2023-01-19,6,No,Y,Closed with explanation
+100941,Credit Reporting,Other,United Credit,Mi,New York,12069.0,Open,2023-10-31,2023-11-09,9,Yes,Yes,Closed with explanation
+100942,Student Loan,Identity Theft,United Credit,Fl,Philadelphia,57210.0,,2024-04-08,2024-04-15,7,N,FALSE,Closed with explanation
+100943,Bank Account,Other,Nan,Nan,Detroit,62451.0,Closed,2023-12-12,2024-01-24,43,Y,Y,
+100944,Credit Reporting,Incorrect Information,,Mi,Nan,13917.0,In Progress,2023-08-13,2023-08-11,-2,TRUE,N,Closed
+100945,Student Loan,Other,Northstar Finance,Pa,,44651.0,,2023-07-30,2023-09-03,35,No,TRUE,In progress
+100946,Bank Account,Collection Harassment,Nan,Oh,Nan,,In Progress,2023-06-03,2023-07-29,56,Y,FALSE,In progress
+100947,Credit Reporting,Billing Disputes,Nan,Il,New York,42120.0,,2023-03-13,2023-04-26,44,,,In progress
+100948,,Identity Theft,Acme Bank,,Miami,,Open,2023-10-27,2023-11-17,21,,TRUE,In progress
+100949,Student  Loan,Incorrect Information,Finserv Co,,Nan,29904.0,Closed,2023-10-11,2023-10-09,-2,Y,No,In progress
+100950,Student Loan,Billing Disputes,Northstar Finance,Nan,Nan,,Closed,2023-07-27,2023-07-22,-5,,Yes,In progress
+100952,Credit Reporting,,Nan,Il,,79553.0,In Progress,2023-05-20,2023-06-28,39,FALSE,,
+100953,Debt  Collection,Other,Nan,Nan,New York,,Open,2023-03-27,2023-05-04,38,N,Y,Closed with explanation
+100954,Credit Card,Incorrect Information,Finserv Co,Fl,Miami,69413.0,Resolved,2023-12-18,2023-12-25,7,FALSE,FALSE,
+100955,Debt Collection,Identity Theft,Acme Bank,Nan,Charlotte,84779.0,In Progress,2023-09-20,2023-11-02,43,No,No,In progress
+100956,Debt Collection,Nan,United Credit,Fl,Los Angeles,68448.0,,2023-11-13,2023-11-19,6,N,N,Closed
+100957,Credit Reporting,Other,Northstar Finance,Pa,Charlotte,69284.0,In Progress,2023-12-23,2024-01-01,9,N,FALSE,In progress
+100958,Credit Reporting,Identity Theft,Nan,Ca,Columbus,,,2024-05-05,2024-06-21,47,FALSE,TRUE,
+100959,Bank Account,Nan,Metro Loans,Ca,Columbus,15508.0,,2024-02-06,2024-04-04,58,No,Yes,
+100960,Credit Reporting,Incorrect Information,Metro Loans,Pa,Nan,46944.0,,2023-11-07,2023-11-19,12,N,Yes,
+100961,Debt Collection,Incorrect Information,Finserv Co,Ga,New York,87837.0,,2024-03-15,2024-05-08,54,,,Closed
+100962,Student  Loan,Incorrect Information,United Credit,,Los Angeles,78576.0,In Progress,2024-05-07,2024-06-21,45,Yes,,
+100964,Bank Account,Other,Acme Bank,Ca,Nan,14553.0,Open,2024-01-16,2024-01-20,4,,Yes,Closed with explanation
+100965,Debt  Collection,Fees,United Credit,,New York,28112.0,Open,2023-11-22,2023-12-06,14,,N,In progress
+100966,Debt Collection,Other,Finserv Co,Fl,Charlotte,36905.0,In Progress,2024-03-27,2024-05-05,39,N,TRUE,
+100967,Student Loan,Incorrect Information,Metro Loans,Pa,Columbus,,Resolved,2023-09-15,2023-11-13,59,Yes,,
+100968,Student Loan,Nan,Finserv Co,Tx,Detroit,,Open,2023-12-27,2024-02-12,47,TRUE,FALSE,
+100969,Debt  Collection,Incorrect Information,Metro Loans,,Columbus,51572.0,,2023-05-23,2023-06-14,22,Y,FALSE,In progress
+100970,Credit Card,,Metro Loans,Nan,,69596.0,,2024-04-26,2024-05-06,10,TRUE,Y,Closed with explanation
+100971,Credit Card,Collection Harassment,Metro Loans,Ca,New York,68000.0,Open,2023-11-08,2024-01-04,57,No,,
+100972,Credit Card,Identity Theft,Metro Loans,Ca,Nan,47703.0,Open,2024-01-27,2024-02-08,12,,Y,
+100974,Bank Account,Other,Acme Bank,Nan,Miami,30012.0,Closed,2024-03-09,2024-05-05,57,FALSE,FALSE,Closed
+100975,Student  Loan,Other,Metro Loans,Ca,Houston,13107.0,Closed,2023-02-07,2023-03-10,31,TRUE,,
+100976,Mortgage,Identity Theft,Nan,Fl,Los Angeles,77068.0,Closed,2023-02-27,2023-03-11,12,No,,
+100977,Student Loan,Collection Harassment,Metro Loans,Ga,Columbus,,,2023-09-11,2023-09-06,-5,,No,Closed with explanation
+100978,Bank Account,Billing Disputes,Nan,Ca,Philadelphia,33425.0,Open,2024-01-02,2024-01-24,22,Y,,
+100979,Credit Card,Billing Disputes,United Credit,Il,,88115.0,Closed,2024-02-09,2024-04-08,59,Y,Y,
+100980,Mortgage,Other,Nan,Ny,,,In Progress,2023-08-09,2023-09-01,23,,No,In progress
+100981,Mortgage,Billing Disputes,Nan,Oh,Columbus,32586.0,Resolved,2023-11-21,2023-12-31,40,Yes,,Closed with explanation
+100982,Credit Reporting,Other,Acme Bank,Nan,Miami,23906.0,,2023-10-04,2023-10-15,11,No,,Closed with explanation
+100983,Credit Reporting,Incorrect Information,Metro Loans,Pa,New York,26761.0,Closed,2024-04-25,2024-06-09,45,,Y,Closed with explanation
+100984,,Nan,Nan,Fl,Los Angeles,75632.0,Closed,2023-11-24,2024-01-08,45,Y,Yes,
+100985,Nan,Billing Disputes,,Pa,Los Angeles,73312.0,Resolved,2023-07-28,2023-08-31,34,TRUE,No,In progress
+100986,Debt  Collection,Collection Harassment,United Credit,Ga,New York,67852.0,In Progress,2024-04-29,2024-06-13,45,TRUE,TRUE,Closed with explanation
+100987,Mortgage,Collection Harassment,Finserv Co,Tx,Columbus,,Resolved,2023-02-23,2023-03-27,32,,Yes,
+100988,Student Loan,Incorrect Information,Nan,Ca,Columbus,16282.0,Closed,2024-05-07,2024-05-26,19,TRUE,No,
+100989,Credit Card,Collection Harassment,Metro Loans,Tx,Miami,,Resolved,2023-03-19,2023-04-30,42,N,No,Closed with explanation
+100990,Mortgage,Identity Theft,,,Columbus,20353.0,,2023-05-25,2023-07-13,49,TRUE,,
+100991,Credit Card,Fees,Finserv Co,Nan,Nan,96008.0,,2024-02-15,2024-04-04,49,FALSE,Y,Closed
+100992,,Identity Theft,Northstar Finance,Ca,Miami,67045.0,,2024-01-02,2024-01-10,8,N,N,Closed with explanation
+100993,Mortgage,Fees,Northstar Finance,Il,Philadelphia,,Open,2024-04-30,2024-06-07,38,No,N,Closed with explanation
+100994,Credit  Card,Billing Disputes,Metro Loans,Pa,Miami,61399.0,,2024-01-10,2024-01-05,-5,N,Yes,
+100996,Credit Reporting,Fees,,,New York,71739.0,Resolved,2023-06-23,2023-07-25,32,Yes,,
+100997,Bank Account,Fees,Finserv Co,,Houston,85216.0,Open,2023-01-03,2023-01-21,18,No,,
+100998,Student  Loan,,Nan,Fl,Los Angeles,,Resolved,2023-03-03,2023-05-01,59,,Y,
+100999,Credit Reporting,Fees,Finserv Co,Ny,Nan,88465.0,,2023-05-29,2023-07-20,52,,Yes,Closed
+101000,Credit Reporting,Nan,Nan,Fl,,75392.0,Resolved,2023-01-21,2023-01-18,-3,Yes,,Closed with explanation
+101001,Mortgage,Identity Theft,Nan,Nc,Charlotte,17725.0,Open,2023-09-12,2023-09-20,8,No,,Closed with explanation
+101002,Credit Reporting,Identity Theft,Metro Loans,,Philadelphia,,Open,2024-01-24,2024-02-01,8,FALSE,,Closed
+101003,Credit Reporting,Fees,Northstar Finance,Il,Philadelphia,26220.0,In Progress,2024-04-26,2024-06-18,53,,TRUE,
+101004,Credit Reporting,Other,Nan,Fl,Los Angeles,64093.0,,2023-09-02,2023-09-30,28,FALSE,N,Closed with explanation
+101005,,Collection Harassment,Metro Loans,Fl,Atlanta,21663.0,In Progress,2024-03-13,2024-04-24,42,,,In progress
+101006,Mortgage,Fees,Nan,Ny,Nan,27651.0,,2024-05-07,2024-06-23,47,TRUE,FALSE,
+101007,Bank Account,Other,Northstar Finance,Ny,New York,67868.0,,2024-03-05,2024-04-18,44,,,
+101009,Credit Reporting,Fees,Finserv Co,Nc,,71826.0,Resolved,2023-06-12,2023-06-16,4,N,,Closed
+101010,Bank Account,Billing Disputes,Acme Bank,Ny,Columbus,40877.0,,2024-05-03,2024-05-23,20,FALSE,Yes,Closed with explanation
+101011,Credit Card,Fees,Finserv Co,Tx,Philadelphia,,Open,2023-05-01,2023-05-17,16,N,Yes,Closed with explanation
+101012,Debt Collection,Fees,Nan,Nan,New York,14435.0,Open,2023-07-25,2023-09-06,43,TRUE,FALSE,In progress
+101013,Student Loan,Identity Theft,United Credit,,Houston,86885.0,,2023-02-07,2023-02-12,5,,TRUE,Closed
+101014,Bank Account,Other,Nan,Nc,Nan,37210.0,,2024-02-01,2024-02-20,19,,TRUE,
+101015,Mortgage,Other,Nan,Ga,Charlotte,65857.0,Closed,2023-11-21,2023-12-01,10,TRUE,,In progress
+101016,Mortgage,Identity Theft,,Nc,,91501.0,Resolved,2023-02-12,2023-02-19,7,Yes,,Closed
+101017,Credit Card,,Acme Bank,Pa,,32993.0,Closed,2023-04-21,2023-04-27,6,TRUE,FALSE,In progress
+101018,Mortgage,Identity Theft,Acme Bank,Tx,New York,47002.0,Open,2023-10-05,2023-10-12,7,Y,No,
+101019,Bank Account,Identity Theft,Nan,Pa,Columbus,84548.0,In Progress,2023-09-28,2023-10-29,31,No,Yes,In progress
+101020,Mortgage,Identity Theft,United Credit,Mi,Nan,87819.0,In Progress,2024-02-06,2024-02-27,21,,No,Closed with explanation
+101021,Credit Reporting,Incorrect Information,Northstar Finance,Mi,Atlanta,31169.0,,2023-05-14,2023-06-06,23,N,TRUE,In progress
+101022,Credit Card,Identity Theft,United Credit,Mi,,55778.0,,2024-04-07,2024-05-03,26,,FALSE,
+101023,Bank Account,Billing Disputes,,Nc,Detroit,,,2023-08-11,2023-09-23,43,Y,,Closed
+101024,Debt  Collection,Incorrect Information,Northstar Finance,Ny,Los Angeles,56527.0,Open,2024-02-16,2024-04-07,51,TRUE,Yes,
+101025,Student  Loan,Fees,Finserv Co,Nc,Nan,,,2023-04-30,2023-05-29,29,FALSE,Y,Closed
+101026,Credit Reporting,Identity Theft,United Credit,Nan,,10469.0,Resolved,2023-01-19,2023-02-24,36,,Y,
+101027,Bank Account,Fees,Northstar Finance,Mi,New York,93206.0,Closed,2023-01-28,2023-03-12,43,No,FALSE,
+101028,Bank Account,Identity Theft,Acme Bank,Nc,,,Resolved,2023-07-06,2023-08-14,39,TRUE,Yes,
+101029,Student Loan,Collection Harassment,Finserv Co,Fl,Philadelphia,51549.0,Open,2024-04-21,2024-04-24,3,N,,
+101030,Debt  Collection,Fees,Acme Bank,,Los Angeles,,In Progress,2023-01-25,2023-03-24,58,N,Yes,Closed with explanation
+101031,Credit  Card,,,Oh,Los Angeles,16414.0,,2023-07-04,2023-07-09,5,,TRUE,
+101032,Debt Collection,Billing Disputes,Nan,Fl,New York,53086.0,,2023-02-24,2023-03-17,21,No,,In progress
+101033,Mortgage,Other,,Oh,Los Angeles,68417.0,Closed,2024-04-10,2024-05-17,37,TRUE,No,
+101034,Debt Collection,Incorrect Information,Nan,Ca,Atlanta,33428.0,Closed,2023-12-04,2023-12-25,21,N,FALSE,Closed with explanation
+101035,Bank Account,Billing Disputes,Acme Bank,Nan,Miami,,Resolved,2024-01-17,2024-01-27,10,,TRUE,Closed
+101036,Credit  Card,,Nan,Mi,Nan,45314.0,Open,2023-12-23,2024-02-16,55,No,,Closed
+101037,Mortgage,Identity Theft,Nan,Il,Charlotte,10996.0,,2023-11-25,2023-11-24,-1,No,TRUE,
+101038,Student  Loan,Identity Theft,Acme Bank,,Detroit,,Closed,2024-01-22,2024-02-01,10,Yes,,
+101039,Debt Collection,Other,Northstar Finance,Ny,Atlanta,26296.0,Closed,2023-01-05,2023-03-05,59,N,N,
+101040,Credit  Card,Identity Theft,Metro Loans,Pa,Philadelphia,,Closed,2024-03-08,2024-04-19,42,Yes,No,In progress
+101042,Student Loan,,United Credit,Ny,New York,,,2024-01-05,2024-02-18,44,No,,
+101043,Student  Loan,Billing Disputes,Acme Bank,Mi,Los Angeles,56336.0,,2023-07-16,2023-09-12,58,N,N,
+101044,Student Loan,Billing Disputes,Nan,,,,,2024-02-05,2024-02-06,1,TRUE,,Closed with explanation
+101045,Credit Reporting,Billing Disputes,,Nc,,,Resolved,2023-07-10,2023-07-31,21,FALSE,,
+101046,,Incorrect Information,,Tx,Philadelphia,15165.0,Closed,2023-01-25,2023-02-19,25,Yes,FALSE,
+101047,,Incorrect Information,Acme Bank,Nan,Detroit,27213.0,,2024-03-29,2024-04-01,3,No,,
+101048,Credit Reporting,Billing Disputes,United Credit,Il,Los Angeles,38745.0,,2023-04-28,2023-05-06,8,Y,TRUE,
+101049,Mortgage,Incorrect Information,Northstar Finance,Nan,Los Angeles,28472.0,Resolved,2023-02-20,2023-02-26,6,TRUE,,
+101050,Mortgage,Identity Theft,Nan,Nc,Los Angeles,38927.0,,2023-11-07,2023-11-14,7,,Y,
+101051,,Fees,,Ca,Los Angeles,97214.0,Closed,2023-04-27,2023-05-18,21,No,TRUE,
+101052,Credit Reporting,Other,Northstar Finance,Ca,Miami,44144.0,In Progress,2024-03-05,2024-03-30,25,Yes,Yes,Closed with explanation
+101053,Mortgage,Collection Harassment,,Ny,Atlanta,67123.0,,2023-08-10,2023-08-20,10,FALSE,No,
+101054,Student Loan,Other,Nan,Ca,Los Angeles,71629.0,In Progress,2023-01-03,2023-01-16,13,,TRUE,
+101055,Credit Reporting,Identity Theft,,Il,Philadelphia,21712.0,,2024-04-20,2024-04-27,7,,FALSE,
+101056,Student  Loan,Identity Theft,Acme Bank,Ny,Columbus,32296.0,,2023-09-15,2023-10-31,46,TRUE,Yes,
+101057,Bank Account,Identity Theft,Metro Loans,Nan,Philadelphia,51423.0,Closed,2023-12-05,2024-01-27,53,TRUE,Yes,Closed
+101059,Credit  Card,Other,Northstar Finance,Tx,Nan,11186.0,In Progress,2023-09-23,2023-10-23,30,N,TRUE,
+101060,Credit Card,Identity Theft,Finserv Co,Nan,Los Angeles,37062.0,Resolved,2024-01-15,2024-02-20,36,N,Yes,
+101062,Credit Reporting,Other,Finserv Co,Mi,Nan,39008.0,,2023-07-20,2023-08-01,12,TRUE,,
+101063,Credit  Card,Fees,Acme Bank,Nc,Nan,64269.0,Closed,2023-12-16,2024-01-19,34,FALSE,TRUE,
+101064,Debt Collection,Collection Harassment,Metro Loans,,Chicago,95388.0,Closed,2024-03-23,2024-04-04,12,No,Yes,Closed
+101065,Mortgage,Incorrect Information,,Nc,Columbus,87845.0,Closed,2023-11-02,2023-11-04,2,Yes,FALSE,
+101066,Student  Loan,Billing Disputes,Nan,Mi,Charlotte,,,2023-12-02,2023-12-13,11,Yes,,In progress
+101067,Debt Collection,Nan,Northstar Finance,Ga,Nan,,,2023-05-08,2023-05-20,12,N,N,
+101068,Student Loan,Billing Disputes,United Credit,Ga,New York,,Open,2023-04-29,2023-05-02,3,TRUE,,In progress
+101069,Credit Card,Fees,United Credit,Il,Atlanta,,,2023-07-27,2023-07-23,-4,,N,Closed
+101070,Debt Collection,Incorrect Information,United Credit,Ga,Chicago,40943.0,Open,2024-03-02,2024-04-27,56,N,Yes,In progress
+101071,Credit Reporting,Collection Harassment,Finserv Co,Nan,Chicago,,Resolved,2023-09-20,2023-10-18,28,TRUE,Yes,In progress
+101072,Credit Reporting,Other,Northstar Finance,Pa,Miami,,Open,2023-06-24,2023-07-15,21,,Yes,
+101073,Credit  Card,Incorrect Information,Nan,Ca,Chicago,23578.0,,2024-01-25,2024-03-20,55,FALSE,Y,Closed with explanation
+101074,Debt Collection,Other,,Nc,Miami,26810.0,,2024-03-02,2024-03-11,9,FALSE,N,
+101075,Debt Collection,Billing Disputes,,Nan,Nan,,In Progress,2024-03-27,2024-04-17,21,Y,N,Closed
+101076,Bank Account,Billing Disputes,,,Miami,,,2023-05-30,2023-07-19,50,No,N,Closed
+101077,Bank Account,Other,Northstar Finance,Ga,Houston,13380.0,,2023-12-21,2024-01-26,36,,,In progress
+101078,Credit Card,Fees,Acme Bank,,Houston,60743.0,Closed,2023-10-23,2023-11-12,20,TRUE,Yes,
+101079,Student Loan,Incorrect Information,,Fl,Columbus,85810.0,Resolved,2023-08-13,2023-08-24,11,Yes,,
+101080,Mortgage,Billing Disputes,,Pa,Charlotte,48308.0,Closed,2023-07-18,2023-07-15,-3,N,No,
+101081,Mortgage,Identity Theft,Nan,Pa,Miami,38673.0,,2023-02-27,2023-02-27,0,Yes,,Closed with explanation
+101082,Student  Loan,Collection Harassment,Nan,Il,Columbus,34529.0,Resolved,2023-05-18,2023-05-23,5,,No,In progress
+101083,Student Loan,Collection Harassment,Metro Loans,Nan,,44147.0,,2023-10-02,2023-11-17,46,TRUE,Yes,
+101084,Debt Collection,Other,Acme Bank,Nan,Nan,35075.0,Resolved,2024-03-19,2024-04-24,36,,Yes,
+101085,Credit Reporting,Incorrect Information,United Credit,Il,,93178.0,Resolved,2024-03-09,2024-04-01,23,N,Y,Closed
+101086,Debt Collection,Incorrect Information,Metro Loans,Ca,New York,99290.0,Open,2023-04-04,2023-05-19,45,Yes,,
+101087,Bank Account,Billing Disputes,Acme Bank,,Nan,40895.0,,2023-12-06,2023-12-11,5,FALSE,N,
+101088,Nan,Billing Disputes,Acme Bank,,,93130.0,Closed,2023-02-12,2023-02-20,8,FALSE,No,Closed
+101089,Credit  Card,Incorrect Information,Acme Bank,,Atlanta,,In Progress,2023-12-04,2023-12-24,20,No,FALSE,
+101090,Debt  Collection,Fees,Northstar Finance,Fl,Houston,16830.0,Resolved,2023-06-20,2023-08-13,54,FALSE,TRUE,In progress
+101091,Nan,Billing Disputes,Finserv Co,Nan,Detroit,,,2023-08-13,2023-09-16,34,No,FALSE,Closed
+101092,Student  Loan,Incorrect Information,Nan,Nan,Atlanta,69088.0,Resolved,2023-12-25,2024-02-13,50,FALSE,FALSE,
+101093,Debt Collection,Fees,Finserv Co,,Miami,47991.0,Closed,2023-08-01,2023-08-12,11,FALSE,,Closed
+101094,Credit Reporting,Collection Harassment,Northstar Finance,,Miami,51118.0,Closed,2024-02-08,2024-03-29,50,No,No,Closed
+101095,Bank Account,Other,Nan,,,,Closed,2023-09-24,2023-09-23,-1,Y,N,Closed with explanation
+101096,Nan,Incorrect Information,Finserv Co,Oh,Nan,71992.0,Resolved,2024-05-14,2024-05-23,9,No,FALSE,In progress
+101097,Nan,Incorrect Information,United Credit,Ca,Columbus,36438.0,,2023-11-16,2023-12-14,28,FALSE,TRUE,
+101098,Bank Account,Other,Nan,Tx,New York,63725.0,,2023-05-29,2023-05-27,-2,No,,
+101099,Debt Collection,Collection Harassment,Nan,Nan,New York,31913.0,,2024-01-23,2024-03-13,50,FALSE,,
+101100,Debt Collection,Identity Theft,,,Charlotte,90031.0,,2023-07-23,2023-09-12,51,N,,
+101101,Mortgage,Collection Harassment,Finserv Co,Ny,Charlotte,17620.0,,2023-09-25,2023-10-25,30,Yes,No,
+101102,Bank Account,Billing Disputes,Nan,Pa,Nan,16028.0,,2023-03-10,2023-03-24,14,,TRUE,
+101103,Bank Account,Incorrect Information,,Fl,Miami,13395.0,Closed,2023-03-01,2023-03-02,1,FALSE,,
+101104,Debt Collection,Identity Theft,Finserv Co,Il,Houston,,Closed,2023-10-15,2023-11-19,35,Y,Y,Closed
+101106,Debt Collection,Billing Disputes,United Credit,Ga,,,Closed,2024-05-13,2024-06-26,44,FALSE,No,
+101108,Debt Collection,Identity Theft,Metro Loans,Oh,Columbus,26405.0,Resolved,2023-12-17,2023-12-20,3,No,No,
+101109,Mortgage,Billing Disputes,Northstar Finance,Nc,Philadelphia,43141.0,,2024-01-03,2024-01-05,2,Yes,,
+101110,Bank Account,,Metro Loans,Mi,Atlanta,21459.0,Resolved,2023-10-25,2023-12-09,45,Yes,,In progress
+101111,Mortgage,Collection Harassment,Nan,Ny,New York,52478.0,,2023-01-31,2023-02-05,5,TRUE,,
+101112,Debt  Collection,Billing Disputes,Finserv Co,Ca,Charlotte,,Resolved,2023-07-16,2023-09-10,56,,Y,Closed with explanation
+101113,Credit Card,Billing Disputes,Nan,Il,Miami,,,2023-09-05,2023-09-06,1,,,Closed
+101114,Debt Collection,Billing Disputes,Northstar Finance,Oh,Miami,79968.0,,2024-04-02,2024-05-14,42,,No,In progress
+101115,Student Loan,Incorrect Information,Finserv Co,,Charlotte,30570.0,In Progress,2023-04-20,2023-06-17,58,TRUE,No,
+101116,Student  Loan,Billing Disputes,,Nan,Nan,70503.0,,2023-09-06,2023-09-29,23,FALSE,Y,
+101117,Student Loan,Nan,United Credit,Mi,Chicago,83393.0,,2023-06-22,2023-06-20,-2,Y,No,
+101118,Student Loan,Billing Disputes,,Ny,,79856.0,Closed,2023-03-09,2023-04-29,51,Yes,FALSE,
+101119,Credit Card,Collection Harassment,United Credit,Ca,Charlotte,70288.0,Closed,2023-02-21,2023-02-28,7,No,FALSE,In progress
+101120,Mortgage,Other,United Credit,Oh,Nan,72434.0,Open,2023-07-02,2023-07-31,29,Yes,Yes,
+101121,Bank Account,Collection Harassment,,Nc,Columbus,26885.0,,2023-02-11,2023-04-10,58,FALSE,Yes,Closed
+101122,Student  Loan,Other,Finserv Co,Mi,Nan,22219.0,In Progress,2023-02-03,2023-03-18,43,TRUE,N,Closed with explanation
+101123,Bank Account,Other,Metro Loans,Ca,New York,44312.0,Resolved,2023-06-25,2023-06-23,-2,,Yes,In progress
+101124,Credit Reporting,Billing Disputes,United Credit,Nan,New York,64739.0,Closed,2023-04-11,2023-05-29,48,No,,Closed
+101125,Mortgage,Incorrect Information,Finserv Co,Oh,Detroit,65634.0,In Progress,2023-10-05,2023-10-10,5,,N,
+101126,Credit Card,Collection Harassment,Northstar Finance,Nc,Atlanta,79918.0,In Progress,2023-01-09,2023-02-21,43,FALSE,N,
+101127,Credit Card,Incorrect Information,,Ny,Charlotte,37764.0,Resolved,2023-05-31,2023-07-05,35,,Yes,Closed with explanation
+101128,Bank Account,Collection Harassment,Nan,,Nan,87895.0,Closed,2023-08-15,2023-08-28,13,FALSE,FALSE,In progress
+101129,Bank Account,Collection Harassment,,Ga,Miami,50422.0,,2024-04-26,2024-05-18,22,Y,FALSE,In progress
+101130,Mortgage,,United Credit,Fl,New York,,In Progress,2023-11-14,2023-11-16,2,FALSE,,Closed with explanation
+101131,Student Loan,Identity Theft,,Il,Los Angeles,,Closed,2024-03-16,2024-05-14,59,TRUE,TRUE,
+101132,Nan,,Acme Bank,Il,Nan,21468.0,Open,2023-06-21,2023-07-01,10,No,Y,
+101133,Mortgage,Billing Disputes,,Ny,Los Angeles,,Open,2023-08-13,2023-08-28,15,Yes,Yes,
+101134,Student Loan,Identity Theft,Nan,,Philadelphia,79398.0,,2024-03-19,2024-04-26,38,Yes,TRUE,
+101136,Bank Account,Incorrect Information,,Nan,New York,33089.0,,2024-04-24,2024-05-21,27,Yes,Yes,
+101137,Credit  Card,Incorrect Information,Finserv Co,Il,New York,,,2024-04-26,2024-05-23,27,Yes,Yes,Closed with explanation
+101138,Mortgage,Other,,Ga,Philadelphia,12873.0,Closed,2024-01-11,2024-02-12,32,TRUE,No,In progress
+101139,Debt  Collection,Collection Harassment,Acme Bank,Oh,Columbus,18043.0,Resolved,2023-09-09,2023-10-29,50,,Yes,
+101140,Debt  Collection,Collection Harassment,Finserv Co,Oh,Philadelphia,84268.0,Closed,2023-09-28,2023-10-18,20,N,Yes,
+101141,Credit  Card,Billing Disputes,Northstar Finance,Nc,New York,80523.0,Open,2024-05-05,2024-06-23,49,No,N,In progress
+101142,Credit Reporting,Incorrect Information,Metro Loans,Oh,New York,55538.0,Resolved,2023-05-23,2023-07-08,46,TRUE,FALSE,
+101143,Debt Collection,Collection Harassment,Acme Bank,Nan,Los Angeles,61309.0,Resolved,2023-06-23,2023-08-19,57,N,N,
+101144,Debt Collection,Identity Theft,Acme Bank,Ny,Columbus,39396.0,,2024-03-24,2024-05-17,54,TRUE,Yes,
+101145,Credit Card,Incorrect Information,Northstar Finance,Tx,Charlotte,,Open,2023-07-13,2023-08-28,46,N,Y,Closed
+101146,Credit Reporting,Collection Harassment,Metro Loans,Nan,Columbus,11028.0,,2023-04-28,2023-05-09,11,TRUE,Yes,Closed with explanation
+101147,Mortgage,Collection Harassment,Metro Loans,Nan,Nan,,Closed,2023-10-08,2023-11-22,45,Y,TRUE,In progress
+101148,Credit Reporting,Other,,,Chicago,,Closed,2023-06-12,2023-07-24,42,,No,Closed
+101149,Debt  Collection,Incorrect Information,Northstar Finance,Pa,Columbus,,Open,2024-03-21,2024-04-03,13,TRUE,N,
+101150,Credit Reporting,Incorrect Information,,Oh,Chicago,81335.0,Closed,2024-03-30,2024-05-08,39,Y,,Closed
+101151,Credit  Card,Nan,,Ny,Miami,,In Progress,2023-06-03,2023-06-14,11,Yes,TRUE,
+101152,,,United Credit,Fl,Detroit,54073.0,Closed,2023-09-22,2023-10-21,29,FALSE,,
+101153,Student  Loan,Incorrect Information,Northstar Finance,Nan,Miami,,Closed,2024-05-06,2024-06-21,46,N,Y,
+101154,Student  Loan,Incorrect Information,Acme Bank,Il,Philadelphia,23474.0,Resolved,2024-01-07,2024-01-14,7,No,,
+101155,Bank Account,Identity Theft,Nan,Oh,New York,51984.0,Open,2023-04-18,2023-05-04,16,N,FALSE,Closed with explanation
+101156,Credit Card,Incorrect Information,Finserv Co,Ca,Nan,42265.0,,2023-10-23,2023-12-08,46,N,TRUE,
+101157,Credit Reporting,Identity Theft,Nan,Oh,Chicago,58069.0,Closed,2023-11-06,2023-11-30,24,,TRUE,Closed with explanation
+101158,Debt Collection,Fees,,Nan,Nan,24877.0,,2023-11-23,2024-01-19,57,TRUE,TRUE,
+101159,Credit Reporting,Other,Nan,Nc,Chicago,30829.0,Resolved,2023-01-13,2023-01-08,-5,FALSE,No,
+101160,Credit Reporting,Collection Harassment,Acme Bank,Ga,Detroit,,,2023-05-30,2023-07-10,41,FALSE,Y,Closed with explanation
+101161,Credit Reporting,Incorrect Information,United Credit,Nan,Nan,48202.0,Closed,2024-03-03,2024-04-19,47,,FALSE,In progress
+101162,Student Loan,Other,,Fl,Houston,34867.0,Closed,2023-05-01,2023-06-24,54,Yes,N,In progress
+101163,Bank Account,Other,Acme Bank,Il,New York,30111.0,Open,2023-05-30,2023-06-04,5,N,,Closed
+101164,Bank Account,Incorrect Information,Acme Bank,Nc,Charlotte,59455.0,Closed,2023-06-11,2023-08-08,58,FALSE,TRUE,Closed with explanation
+101165,Credit Card,Collection Harassment,,Oh,Nan,54766.0,Resolved,2023-03-30,2023-04-19,20,No,Yes,
+101166,Debt Collection,Incorrect Information,Acme Bank,,Charlotte,28900.0,Resolved,2023-03-19,2023-04-05,17,N,FALSE,
+101167,Student Loan,Other,Finserv Co,Ny,,72912.0,,2023-06-23,2023-07-11,18,N,TRUE,Closed with explanation
+101168,Student  Loan,Incorrect Information,,Ca,New York,40930.0,,2024-03-13,2024-04-18,36,,Y,Closed
+101169,Bank Account,Identity Theft,Nan,Il,New York,40722.0,,2023-01-01,2023-02-07,37,,,In progress
+101170,Student Loan,Billing Disputes,,Oh,Columbus,53013.0,In Progress,2023-05-22,2023-06-16,25,Yes,Y,Closed
+101171,Credit Card,Other,Acme Bank,Nan,Miami,22514.0,In Progress,2023-01-31,2023-01-30,-1,No,Yes,Closed with explanation
+101172,Debt Collection,Identity Theft,United Credit,Oh,Charlotte,47802.0,,2023-10-08,2023-12-06,59,,Yes,
+101173,Debt  Collection,Collection Harassment,,Oh,Chicago,62415.0,,2023-05-06,2023-05-15,9,No,,In progress
+101174,Credit Reporting,Billing Disputes,Finserv Co,Tx,Houston,21576.0,In Progress,2024-01-31,2024-02-01,1,N,N,
+101175,Mortgage,Fees,Nan,Oh,New York,60840.0,,2023-10-20,2023-11-22,33,,N,Closed
+101176,Mortgage,Incorrect Information,,Ga,Atlanta,13497.0,Open,2024-01-27,2024-02-17,21,,Y,
+101177,Mortgage,Incorrect Information,,Nc,Detroit,,,2023-11-14,2023-12-19,35,,FALSE,Closed
+101178,Credit  Card,Identity Theft,,Nc,Philadelphia,13191.0,,2023-08-08,2023-09-28,51,No,TRUE,Closed with explanation
+101179,Bank Account,Billing Disputes,Nan,Oh,Philadelphia,,Resolved,2024-03-06,2024-03-07,1,No,,
+101180,Bank Account,,Nan,Tx,New York,,Resolved,2023-08-27,2023-09-09,13,No,,
+101181,Student  Loan,,Metro Loans,Tx,New York,65315.0,Open,2024-04-19,2024-05-17,28,,,
+101182,Credit Reporting,Collection Harassment,,Tx,Columbus,74691.0,Resolved,2024-05-12,2024-06-27,46,No,Y,Closed with explanation
+101183,Credit Card,Incorrect Information,Finserv Co,Nc,Philadelphia,52203.0,Closed,2023-10-22,2023-11-25,34,N,TRUE,
+101184,Mortgage,Identity Theft,Metro Loans,,Miami,21812.0,,2023-12-04,2023-12-23,19,,Y,
+101185,Mortgage,Identity Theft,United Credit,Nan,Los Angeles,44873.0,Closed,2023-05-08,2023-06-11,34,N,FALSE,In progress
+101186,Mortgage,Fees,Finserv Co,Il,Columbus,80827.0,Closed,2024-02-12,2024-04-10,58,,FALSE,
+101187,Student  Loan,Incorrect Information,Finserv Co,Ca,Miami,18128.0,In Progress,2023-12-02,2023-12-28,26,N,Y,Closed with explanation
+101188,Credit Card,Other,,Nc,Chicago,74409.0,,2024-03-27,2024-05-18,52,N,,Closed
+101189,Credit Card,Nan,Nan,Ny,Chicago,44719.0,,2023-05-14,2023-06-28,45,,Y,Closed with explanation
+101190,Credit Reporting,Fees,Acme Bank,Nc,Miami,10354.0,In Progress,2024-01-29,2024-02-12,14,TRUE,,In progress
+101191,Credit Reporting,Billing Disputes,United Credit,Pa,Miami,72512.0,Closed,2023-08-24,2023-09-04,11,No,,
+101192,Mortgage,Identity Theft,Northstar Finance,,New York,,,2023-04-03,2023-05-18,45,FALSE,Yes,Closed with explanation
+101193,Mortgage,Other,Metro Loans,Nc,New York,43268.0,Resolved,2023-03-27,2023-04-04,8,,N,In progress
+101194,Debt  Collection,Incorrect Information,,Nan,Charlotte,27552.0,In Progress,2023-10-09,2023-10-25,16,,N,Closed
+101195,Debt  Collection,Nan,Northstar Finance,Pa,Chicago,62558.0,,2023-06-09,2023-06-19,10,Yes,,
+101196,Credit Reporting,Fees,Finserv Co,,Nan,15050.0,In Progress,2023-02-20,2023-03-26,34,Yes,FALSE,
+101197,Debt Collection,Billing Disputes,Acme Bank,Ga,Miami,18194.0,Resolved,2023-08-02,2023-08-16,14,FALSE,Yes,Closed
+101198,Credit Card,Fees,Acme Bank,Nc,Miami,57820.0,,2023-11-23,2023-12-30,37,FALSE,,Closed
+101199,Debt Collection,Nan,Finserv Co,Pa,Atlanta,99453.0,Closed,2023-06-09,2023-08-03,55,FALSE,No,
+101200,Bank Account,Billing Disputes,Acme Bank,Oh,Nan,13566.0,,2024-04-22,2024-06-09,48,N,Y,Closed with explanation
+101201,Debt  Collection,Incorrect Information,,,Columbus,51466.0,,2024-01-25,2024-03-21,56,,No,Closed with explanation
+101202,Debt  Collection,Incorrect Information,,Pa,Chicago,,In Progress,2023-09-14,2023-09-10,-4,TRUE,No,
+101203,Credit Reporting,Identity Theft,United Credit,Ny,Detroit,36167.0,In Progress,2024-04-12,2024-05-06,24,,TRUE,
+101204,Student  Loan,Fees,Acme Bank,Pa,Nan,54366.0,Open,2023-08-05,2023-08-14,9,Y,Yes,
+101205,Mortgage,Collection Harassment,United Credit,Pa,Miami,,Open,2023-03-11,2023-05-04,54,,Yes,Closed
+101206,Mortgage,Identity Theft,,Pa,New York,75515.0,,2023-01-18,2023-02-28,41,No,,
+101207,Bank Account,Nan,Nan,Ny,,,In Progress,2024-04-14,2024-04-29,15,FALSE,Y,Closed
+101208,Debt Collection,Fees,Finserv Co,Ca,Columbus,77562.0,,2024-04-24,2024-05-25,31,FALSE,FALSE,
+101209,Debt Collection,Collection Harassment,Finserv Co,Il,Miami,70818.0,Closed,2024-01-05,2024-02-08,34,Y,,Closed
+101210,Credit  Card,Billing Disputes,,Pa,Nan,55608.0,Closed,2023-02-21,2023-03-20,27,Yes,Yes,In progress
+101211,Mortgage,Collection Harassment,,Ny,Nan,49701.0,,2023-05-27,2023-06-21,25,,,
+101213,Credit Reporting,Collection Harassment,,Il,,88684.0,Closed,2023-01-26,2023-02-19,24,N,,
+101214,Student Loan,Collection Harassment,Nan,Ny,Los Angeles,,Open,2023-05-04,2023-05-21,17,Yes,Y,
+101215,Mortgage,Identity Theft,Finserv Co,Fl,Philadelphia,70783.0,,2023-10-14,2023-12-01,48,N,No,Closed with explanation
+101216,Credit Card,Identity Theft,United Credit,Fl,Miami,,Open,2023-02-02,2023-03-25,51,,No,
+101217,Credit  Card,Billing Disputes,United Credit,Tx,,19865.0,Open,2024-05-07,2024-06-19,43,TRUE,Y,In progress
+101218,Debt Collection,Fees,Finserv Co,Nan,Detroit,21327.0,Closed,2023-08-16,2023-08-13,-3,No,FALSE,In progress
+101219,Debt  Collection,Collection Harassment,United Credit,Ca,Philadelphia,95606.0,,2023-05-12,2023-06-30,49,N,FALSE,Closed
+101220,Credit Reporting,Incorrect Information,United Credit,Nc,Houston,42691.0,Resolved,2023-09-16,2023-10-06,20,Yes,FALSE,
+101221,Credit Reporting,Billing Disputes,Northstar Finance,Mi,Miami,19939.0,Open,2024-01-31,2024-02-22,22,TRUE,Yes,
+101222,Credit Card,Identity Theft,Nan,,New York,,,2023-06-06,2023-08-01,56,Yes,,
+101223,Student Loan,Incorrect Information,Nan,Ga,Nan,11879.0,,2023-01-24,2023-03-16,51,Y,N,
+101224,Mortgage,Other,Finserv Co,Ga,Atlanta,57789.0,,2023-01-26,2023-01-24,-2,Yes,Yes,Closed
+101225,Credit  Card,Billing Disputes,Acme Bank,Nan,Houston,63185.0,Open,2024-03-01,2024-03-19,18,No,,
+101226,Credit Card,Fees,,Tx,Detroit,,,2023-11-14,2023-12-14,30,,Yes,Closed with explanation
+101228,Mortgage,Identity Theft,Finserv Co,,Chicago,53239.0,,2023-07-12,2023-07-23,11,,N,Closed with explanation
+101229,Bank Account,Other,,Oh,Los Angeles,96393.0,,2024-01-24,2024-02-22,29,,,Closed with explanation
+101230,Nan,Other,Northstar Finance,Ca,Nan,78686.0,In Progress,2023-01-31,2023-03-23,51,FALSE,FALSE,
+101231,,Incorrect Information,Nan,Nc,Charlotte,16777.0,Resolved,2024-03-24,2024-04-02,9,N,No,
+101233,Student  Loan,Collection Harassment,Finserv Co,Ca,Charlotte,77879.0,Open,2023-08-13,2023-09-24,42,,No,Closed
+101234,Nan,Collection Harassment,Nan,Ny,Los Angeles,58372.0,Closed,2023-04-14,2023-06-05,52,,Y,
+101235,Credit Card,Identity Theft,Finserv Co,Nan,New York,77788.0,Resolved,2024-05-03,2024-05-17,14,N,No,
+101236,,Incorrect Information,Acme Bank,Fl,Miami,13432.0,Resolved,2023-09-03,2023-10-03,30,N,,
+101238,Student Loan,Billing Disputes,Finserv Co,,Los Angeles,80645.0,In Progress,2023-07-17,2023-08-15,29,N,Yes,Closed with explanation
+101239,Credit Card,Identity Theft,Northstar Finance,Pa,New York,80651.0,Resolved,2023-04-26,2023-05-17,21,,TRUE,
+101240,Bank Account,Fees,United Credit,Il,Atlanta,,,2023-07-28,2023-09-11,45,Yes,No,
+101241,Credit Reporting,,Northstar Finance,Il,Charlotte,46392.0,Resolved,2023-03-17,2023-05-02,46,FALSE,,Closed
+101242,Credit Card,Identity Theft,,Nc,Charlotte,,,2023-01-01,2023-01-11,10,,No,Closed
+101243,Mortgage,Billing Disputes,Acme Bank,Ca,Miami,75506.0,,2023-05-25,2023-07-10,46,,Y,
+101244,Credit Reporting,Identity Theft,Nan,Pa,Atlanta,69403.0,Resolved,2023-02-26,2023-03-07,9,No,No,In progress
+101245,Bank Account,Incorrect Information,Finserv Co,Il,Detroit,70088.0,,2023-07-27,2023-08-17,21,N,,
+101246,Credit  Card,Collection Harassment,,Ny,Nan,25314.0,Closed,2024-03-07,2024-03-03,-4,Y,Yes,Closed with explanation
+101247,Mortgage,Incorrect Information,United Credit,Nan,New York,75808.0,Resolved,2023-03-23,2023-04-09,17,N,TRUE,Closed
+101248,Student Loan,Identity Theft,Finserv Co,Ny,,75201.0,Open,2023-01-01,2023-02-27,57,Yes,Yes,
+101249,Credit Reporting,Fees,United Credit,,,87172.0,Open,2023-02-25,2023-03-20,23,Yes,TRUE,
+101250,Mortgage,Billing Disputes,Nan,Ca,Miami,61059.0,Open,2023-09-12,2023-10-23,41,Yes,,
+101251,Debt  Collection,Identity Theft,Metro Loans,Pa,Los Angeles,,Open,2023-05-18,2023-05-20,2,,,Closed with explanation
+101252,Student Loan,Billing Disputes,Acme Bank,Ca,Detroit,,In Progress,2023-09-02,2023-10-08,36,N,Yes,Closed with explanation
+101253,Credit  Card,Fees,Acme Bank,Pa,New York,,,2023-01-15,2023-02-03,19,No,,
+101254,Credit  Card,Incorrect Information,Northstar Finance,Nc,Charlotte,,,2023-06-16,2023-07-29,43,,Y,
+101255,Student Loan,Nan,Finserv Co,Ca,Nan,,,2023-07-25,2023-09-18,55,N,FALSE,
+101256,Credit  Card,Fees,Nan,Ga,New York,,Closed,2023-08-04,2023-09-02,29,Y,,
+101257,Student Loan,Incorrect Information,Nan,Nan,New York,10286.0,In Progress,2023-10-03,2023-10-04,1,Yes,Yes,Closed
+101258,Debt  Collection,,Finserv Co,Oh,Miami,80086.0,In Progress,2024-01-26,2024-02-20,25,N,Y,Closed with explanation
+101259,Credit Card,Billing Disputes,Finserv Co,Mi,Miami,59083.0,Open,2024-02-25,2024-03-20,24,TRUE,No,
+101261,Credit Reporting,Other,Northstar Finance,Tx,Atlanta,56766.0,In Progress,2023-09-22,2023-09-20,-2,N,Y,
+101262,Mortgage,Identity Theft,Acme Bank,Ny,Nan,75041.0,,2023-05-11,2023-06-16,36,TRUE,TRUE,Closed with explanation
+101263,Credit Card,Identity Theft,,Oh,Miami,50975.0,In Progress,2023-04-25,2023-05-10,15,,,
+101264,Student Loan,Fees,United Credit,Fl,Miami,47251.0,In Progress,2023-06-11,2023-06-19,8,,Y,
+101265,Bank Account,,United Credit,Ny,Chicago,82301.0,,2023-10-26,2023-10-22,-4,TRUE,N,Closed with explanation
+101266,Student  Loan,Incorrect Information,,Nan,,,In Progress,2023-05-02,2023-06-23,52,No,,
+101267,Credit Card,Identity Theft,United Credit,Nc,Detroit,28624.0,,2024-04-02,2024-05-21,49,No,Yes,
+101268,Credit Card,Incorrect Information,Nan,Nan,Nan,84613.0,,2023-08-28,2023-10-14,47,No,Y,
+101269,Bank Account,Collection Harassment,Northstar Finance,Oh,,39383.0,Open,2024-03-07,2024-03-05,-2,Yes,Y,
+101270,Credit Reporting,Other,Acme Bank,Oh,Columbus,22356.0,Resolved,2023-12-08,2023-12-25,17,TRUE,N,In progress
+101271,Debt Collection,Identity Theft,United Credit,,New York,89056.0,In Progress,2023-06-16,2023-08-13,58,No,TRUE,
+101272,Student  Loan,Fees,Nan,Ca,,31422.0,Open,2023-04-25,2023-05-27,32,No,No,In progress
+101273,Credit Reporting,Incorrect Information,Northstar Finance,Pa,Detroit,,Open,2024-01-07,2024-01-10,3,FALSE,N,
+101274,Credit Reporting,Incorrect Information,Northstar Finance,,Los Angeles,,Resolved,2023-06-15,2023-06-19,4,Y,,
+101275,Debt  Collection,Fees,,Il,Charlotte,54238.0,Resolved,2023-05-04,2023-05-16,12,,,
+101276,Student Loan,Other,Metro Loans,Nan,New York,24947.0,Resolved,2024-04-10,2024-06-07,58,No,,
+101277,Debt  Collection,Incorrect Information,Metro Loans,Fl,Miami,24359.0,,2023-08-30,2023-09-05,6,Y,FALSE,
+101278,Bank Account,Billing Disputes,Northstar Finance,Pa,Philadelphia,,,2023-01-25,2023-03-19,53,Yes,TRUE,
+101279,,,Acme Bank,Nan,Atlanta,29614.0,Open,2023-09-05,2023-10-14,39,TRUE,No,In progress
+101280,Debt  Collection,Other,Acme Bank,Fl,Detroit,27372.0,Open,2023-08-19,2023-10-12,54,Yes,No,
+101281,Debt Collection,Identity Theft,Nan,,Nan,92093.0,In Progress,2024-03-07,2024-04-24,48,No,TRUE,In progress
+101282,Bank Account,Fees,Acme Bank,Ny,Philadelphia,63597.0,Resolved,2023-12-22,2024-01-07,16,FALSE,N,
+101283,Student Loan,Other,Northstar Finance,Fl,Los Angeles,11243.0,,2023-04-06,2023-05-24,48,,,Closed with explanation
+101284,,Fees,Finserv Co,Nc,Nan,19145.0,,2023-03-17,2023-03-22,5,TRUE,Yes,Closed with explanation
+101285,Bank Account,Incorrect Information,United Credit,Nc,Los Angeles,83253.0,,2023-10-29,2023-11-11,13,,,In progress
+101286,Credit Card,Other,,Nan,Miami,34292.0,Closed,2023-01-24,2023-02-01,8,,No,Closed with explanation
+101287,Bank Account,Collection Harassment,United Credit,,New York,23715.0,Resolved,2023-06-09,2023-06-12,3,,N,
+101288,Mortgage,Fees,Finserv Co,Mi,Miami,69896.0,Open,2023-03-11,2023-03-11,0,,Y,Closed
+101289,Credit Card,Billing Disputes,,Mi,Atlanta,85421.0,In Progress,2023-01-11,2023-01-18,7,Yes,,In progress
+101290,Credit Card,Incorrect Information,Metro Loans,Il,New York,45868.0,Open,2024-04-04,2024-04-06,2,No,FALSE,Closed
+101291,Bank Account,Collection Harassment,Nan,,Miami,76858.0,,2023-02-14,2023-03-05,19,N,Yes,
+101292,Credit Reporting,Identity Theft,United Credit,Mi,New York,47931.0,In Progress,2023-01-05,2023-01-04,-1,TRUE,,
+101293,Debt  Collection,Fees,Finserv Co,Ny,,19792.0,,2024-04-11,2024-04-09,-2,,FALSE,Closed with explanation
+101294,Debt Collection,Fees,United Credit,,Los Angeles,81812.0,Open,2023-04-05,2023-06-03,59,Yes,Yes,In progress
+101295,Credit Card,Billing Disputes,,Pa,,92704.0,,2024-02-13,2024-02-13,0,No,,
+101296,Bank Account,Nan,Nan,Oh,Columbus,98605.0,Resolved,2023-01-16,2023-01-15,-1,Y,Yes,In progress
+101297,Credit Card,Collection Harassment,Nan,Oh,Miami,,Open,2023-03-18,2023-03-14,-4,FALSE,N,
+101298,Student  Loan,Identity Theft,United Credit,,Nan,60855.0,In Progress,2023-02-25,2023-02-28,3,,No,Closed with explanation
+101299,Student  Loan,Fees,,Fl,Nan,,Closed,2023-12-20,2024-01-18,29,,Yes,In progress
+101300,Credit Reporting,Collection Harassment,,Pa,Los Angeles,17115.0,Open,2023-11-07,2023-12-25,48,FALSE,TRUE,
+101301,Mortgage,Billing Disputes,,Ny,Atlanta,95647.0,Open,2023-08-26,2023-10-07,42,,FALSE,Closed
+101302,Nan,Fees,,Il,New York,19261.0,,2023-05-01,2023-06-02,32,N,N,Closed with explanation
+101303,Mortgage,Identity Theft,Northstar Finance,Ca,,,,2023-02-14,2023-02-14,0,TRUE,Y,
+101304,Student  Loan,Incorrect Information,Finserv Co,Nc,Los Angeles,97164.0,Resolved,2023-10-12,2023-11-26,45,No,TRUE,Closed with explanation
+101305,Mortgage,Fees,,Nan,Miami,,,2023-04-26,2023-04-23,-3,TRUE,No,Closed
+101306,Credit Card,Billing Disputes,Finserv Co,Nan,New York,54433.0,Closed,2023-12-10,2023-12-31,21,,No,
+101308,Nan,Incorrect Information,Nan,,Nan,77721.0,Open,2024-02-29,2024-04-21,52,Y,Yes,Closed with explanation
+101309,Mortgage,Other,United Credit,Ny,Miami,17332.0,,2023-09-04,2023-09-18,14,N,,In progress
+101310,Student Loan,Billing Disputes,Northstar Finance,Ga,New York,70818.0,,2023-01-03,2023-02-08,36,N,TRUE,
+101311,Mortgage,Billing Disputes,Acme Bank,Pa,Columbus,,,2024-03-02,2024-03-30,28,,TRUE,In progress
+101313,Bank Account,Incorrect Information,Nan,,Atlanta,55561.0,Closed,2023-09-24,2023-11-19,56,N,N,
+101314,Bank Account,Incorrect Information,Nan,Pa,Chicago,50352.0,Resolved,2023-11-06,2023-12-17,41,,Yes,
+101315,Bank Account,Incorrect Information,Nan,Ny,Columbus,23728.0,Resolved,2023-08-17,2023-09-07,21,,,Closed with explanation
+101317,Credit Card,Collection Harassment,United Credit,Tx,New York,,,2024-03-24,2024-05-03,40,,,Closed with explanation
+101318,Mortgage,Identity Theft,,Il,Chicago,87971.0,In Progress,2024-01-22,2024-02-08,17,Y,,In progress
+101319,Bank Account,Collection Harassment,Finserv Co,Ga,Charlotte,11349.0,Open,2024-05-12,2024-05-17,5,TRUE,TRUE,Closed
+101320,Credit Card,Fees,Acme Bank,Nan,Los Angeles,31359.0,,2024-03-03,2024-03-28,25,Y,,In progress
+101322,Credit Card,Identity Theft,Finserv Co,Pa,Miami,63635.0,,2023-05-08,2023-05-14,6,N,No,
+101323,Student Loan,Fees,Finserv Co,Ny,Chicago,46092.0,Closed,2023-05-05,2023-05-27,22,Yes,No,Closed
+101324,Credit Card,Other,Finserv Co,Pa,Miami,24139.0,Open,2024-04-04,2024-05-20,46,No,,
+101326,Bank Account,Other,Metro Loans,Nc,Charlotte,96243.0,,2023-08-16,2023-08-27,11,No,FALSE,Closed
+101327,Mortgage,Identity Theft,Acme Bank,Il,,22029.0,,2024-04-29,2024-05-21,22,TRUE,No,
+101328,Mortgage,Fees,Finserv Co,Ny,Chicago,32698.0,In Progress,2023-10-29,2023-11-02,4,,N,
+101329,Mortgage,Incorrect Information,Metro Loans,Nc,Miami,53063.0,,2024-03-30,2024-05-13,44,Y,Yes,Closed with explanation
+101330,Mortgage,Other,Northstar Finance,Mi,Columbus,75396.0,Closed,2024-05-07,2024-05-18,11,N,No,Closed with explanation
+101331,Student Loan,Other,,Ca,,22294.0,,2023-02-09,2023-03-27,46,,Yes,Closed with explanation
+101332,Student Loan,Other,,Ga,Nan,30799.0,In Progress,2023-06-30,2023-08-18,49,,No,
+101333,Mortgage,Billing Disputes,,Ca,Atlanta,31166.0,Open,2024-01-03,2024-02-11,39,,TRUE,
+101334,Student Loan,Identity Theft,Finserv Co,Oh,Los Angeles,65444.0,,2024-02-11,2024-02-27,16,FALSE,Yes,
+101335,Student Loan,Collection Harassment,Finserv Co,Nc,,17417.0,In Progress,2023-03-16,2023-05-11,56,,No,Closed
+101336,Bank Account,Collection Harassment,,Nan,Nan,69333.0,Open,2023-06-09,2023-07-18,39,N,FALSE,Closed with explanation
+101337,Bank Account,Incorrect Information,Nan,Mi,New York,48291.0,,2023-10-02,2023-11-07,36,TRUE,No,In progress
+101338,Credit Reporting,Billing Disputes,,Nan,Charlotte,39558.0,,2024-02-04,2024-03-25,50,FALSE,TRUE,Closed with explanation
+101339,,Billing Disputes,Finserv Co,Fl,Nan,,Closed,2023-02-26,2023-04-19,52,,,Closed with explanation
+101340,Debt Collection,Collection Harassment,Metro Loans,,Chicago,83694.0,,2023-10-28,2023-10-28,0,Y,,
+101341,Bank Account,Incorrect Information,,Il,Philadelphia,82264.0,,2023-05-29,2023-07-20,52,,Yes,In progress
+101343,Student Loan,Collection Harassment,Acme Bank,,New York,,In Progress,2023-09-15,2023-09-23,8,Yes,FALSE,
+101344,Credit Card,Billing Disputes,Nan,Il,Charlotte,86955.0,,2023-07-27,2023-08-10,14,FALSE,Y,
+101345,Debt Collection,Collection Harassment,United Credit,Ca,Nan,25839.0,Closed,2023-11-14,2023-12-27,43,,N,
+101346,Mortgage,Other,Northstar Finance,Mi,Miami,,Resolved,2024-02-16,2024-03-11,24,TRUE,TRUE,Closed
+101348,Student  Loan,Fees,Finserv Co,Tx,Nan,61989.0,,2024-03-06,2024-04-12,37,,Yes,
+101350,Credit Reporting,Identity Theft,,Nc,New York,60353.0,Resolved,2023-01-15,2023-03-10,54,N,Yes,Closed
+101351,Credit Card,Identity Theft,Acme Bank,Tx,Houston,43881.0,Resolved,2024-01-03,2024-01-05,2,,Yes,
+101352,Bank Account,Identity Theft,Nan,Ga,Los Angeles,63335.0,Resolved,2023-06-23,2023-07-07,14,FALSE,Y,
+101353,Bank Account,Other,Nan,Ga,New York,,Resolved,2023-07-11,2023-09-08,59,FALSE,,Closed
+101354,Bank Account,Identity Theft,Metro Loans,Nan,Chicago,52967.0,,2023-01-10,2023-02-10,31,FALSE,,
+101355,Credit Reporting,Incorrect Information,Nan,,,62714.0,In Progress,2023-12-18,2023-12-29,11,Y,N,Closed with explanation
+101356,Mortgage,Incorrect Information,Finserv Co,Tx,,64022.0,In Progress,2023-03-24,2023-04-06,13,Y,Yes,
+101357,Bank Account,Collection Harassment,Metro Loans,Ca,New York,39696.0,,2023-11-26,2023-12-13,17,Yes,Yes,
+101358,Student Loan,Fees,Metro Loans,,Los Angeles,36960.0,Resolved,2024-02-27,2024-03-11,13,Y,Y,In progress
+101360,Student Loan,Collection Harassment,,Tx,Miami,46795.0,In Progress,2023-12-21,2024-01-25,35,FALSE,,
+101361,Mortgage,Fees,Nan,Oh,Nan,24483.0,Resolved,2023-05-31,2023-06-23,23,FALSE,TRUE,
+101362,Credit Reporting,Incorrect Information,United Credit,Pa,Chicago,,Resolved,2024-01-05,2024-02-08,34,FALSE,,Closed with explanation
+101363,Credit Card,Billing Disputes,,Il,New York,95588.0,In Progress,2024-02-17,2024-02-22,5,,No,
+101364,Debt  Collection,Identity Theft,Nan,Mi,Miami,35209.0,Closed,2023-06-08,2023-07-13,35,,,
+101365,Bank Account,Incorrect Information,Nan,Il,,76507.0,Resolved,2023-03-04,2023-04-28,55,Yes,TRUE,Closed
+101366,Credit Card,Billing Disputes,,Oh,Philadelphia,,In Progress,2024-03-21,2024-03-24,3,,N,Closed
+101367,Debt Collection,Identity Theft,,,Los Angeles,97506.0,Open,2023-03-15,2023-03-31,16,No,TRUE,
+101368,Bank Account,Incorrect Information,Metro Loans,Pa,Atlanta,29124.0,,2023-10-24,2023-12-03,40,FALSE,Y,In progress
+101369,Bank Account,Incorrect Information,Nan,Ny,Los Angeles,45446.0,,2023-04-29,2023-06-03,35,FALSE,TRUE,
+101370,Credit Card,Collection Harassment,Metro Loans,Nan,Chicago,,Open,2023-03-05,2023-04-12,38,Yes,,In progress
+101371,Mortgage,Other,United Credit,Fl,Los Angeles,28128.0,Closed,2024-01-24,2024-02-24,31,Y,,Closed
+101372,Mortgage,Collection Harassment,,Nan,New York,59484.0,Resolved,2023-03-13,2023-04-21,39,,,Closed
+101373,Bank Account,Billing Disputes,Finserv Co,Nan,Charlotte,80694.0,,2023-12-02,2024-01-05,34,No,N,
+101374,Mortgage,Incorrect Information,Nan,Ga,Miami,12127.0,In Progress,2023-12-13,2023-12-12,-1,No,,In progress
+101375,Student Loan,Fees,Nan,,Philadelphia,80966.0,Open,2023-03-28,2023-04-21,24,No,Yes,
+101377,Student  Loan,Incorrect Information,United Credit,Mi,Miami,33646.0,Resolved,2024-02-02,2024-01-31,-2,FALSE,N,
+101378,Credit  Card,Incorrect Information,Acme Bank,Pa,Nan,91851.0,,2023-09-11,2023-10-02,21,,FALSE,Closed with explanation
+101379,Credit Reporting,Incorrect Information,United Credit,,Nan,93464.0,,2023-03-02,2023-03-25,23,TRUE,N,Closed
+101380,Credit  Card,Fees,,,New York,89237.0,Closed,2024-05-10,2024-05-10,0,Y,Yes,In progress
+101381,Credit Card,Identity Theft,,Nan,Miami,,,2023-05-13,2023-07-11,59,,FALSE,
+101382,Credit Card,Fees,Metro Loans,Tx,Houston,84070.0,Open,2023-01-03,2023-01-12,9,Y,N,In progress
+101383,Credit  Card,Identity Theft,,Nc,Nan,44512.0,Open,2024-04-07,2024-04-23,16,Y,TRUE,
+101384,Credit Reporting,Collection Harassment,Acme Bank,Il,Detroit,99298.0,,2023-01-09,2023-02-01,23,TRUE,Yes,
+101385,Credit  Card,Other,Nan,Ca,Los Angeles,,,2023-10-04,2023-11-22,49,No,Yes,
+101386,Student Loan,Fees,Nan,Il,Los Angeles,62775.0,Closed,2024-05-11,2024-06-23,43,Y,TRUE,
+101387,Debt Collection,Incorrect Information,Metro Loans,Ca,Detroit,10514.0,,2023-10-16,2023-11-30,45,,,Closed
+101388,Credit Card,Other,,Ca,Miami,96631.0,,2023-10-20,2023-10-30,10,TRUE,FALSE,
+101389,Debt Collection,Fees,Metro Loans,Nan,Miami,63266.0,Open,2023-07-14,2023-09-01,49,,,Closed with explanation
+101390,Credit Card,,Metro Loans,Ga,Charlotte,,Open,2023-03-05,2023-04-22,48,,,
+101391,Bank Account,Billing Disputes,,Tx,Philadelphia,38191.0,,2024-03-24,2024-04-23,30,,Yes,
+101393,Debt  Collection,Identity Theft,Northstar Finance,Nan,New York,57016.0,Resolved,2023-02-15,2023-02-12,-3,,TRUE,
+101394,Mortgage,Identity Theft,United Credit,Nc,Charlotte,87708.0,Resolved,2024-03-16,2024-04-29,44,FALSE,TRUE,Closed
+101395,Student Loan,Collection Harassment,United Credit,Nc,,59399.0,In Progress,2023-07-27,2023-09-22,57,,,In progress
+101396,Bank Account,,Northstar Finance,Tx,New York,81321.0,In Progress,2023-09-26,2023-10-21,25,TRUE,TRUE,
+101397,Mortgage,Other,United Credit,Ca,Nan,29299.0,Resolved,2023-03-24,2023-04-23,30,,,
+101398,Debt Collection,Fees,United Credit,Ca,Nan,,Open,2023-11-07,2023-12-04,27,No,,In progress
+101399,Credit Card,Other,United Credit,Ny,New York,75920.0,Resolved,2023-04-02,2023-04-02,0,N,TRUE,Closed with explanation
+101400,Credit Reporting,Fees,United Credit,,Atlanta,90664.0,Closed,2023-05-17,2023-06-21,35,Y,TRUE,Closed with explanation
+101401,Student Loan,Incorrect Information,Metro Loans,Pa,Los Angeles,15187.0,,2023-12-27,2024-02-06,41,Yes,Yes,
+101402,Bank Account,Incorrect Information,United Credit,,Detroit,17982.0,Open,2023-08-12,2023-10-06,55,Yes,FALSE,In progress
+101404,Bank Account,Identity Theft,,,Detroit,46004.0,In Progress,2023-10-25,2023-11-20,26,No,,Closed with explanation
+101405,Bank Account,Incorrect Information,,Il,,,In Progress,2023-03-08,2023-05-04,57,,Yes,Closed
+101406,Credit Card,Nan,,Oh,Philadelphia,67604.0,Resolved,2023-05-28,2023-06-26,29,No,No,
+101407,Credit Reporting,Incorrect Information,Nan,Oh,Columbus,,,2023-06-21,2023-07-27,36,,FALSE,
+101408,Credit Reporting,Nan,Northstar Finance,Ny,Miami,76401.0,,2023-11-28,2024-01-01,34,Yes,N,Closed with explanation
+101409,Credit Reporting,Other,Metro Loans,Nan,Detroit,,In Progress,2024-05-03,2024-07-01,59,N,TRUE,Closed
+101410,Credit Reporting,Incorrect Information,United Credit,Nc,Nan,,,2024-02-23,2024-04-05,42,Yes,N,
+101411,Credit Reporting,Identity Theft,Metro Loans,Pa,Detroit,62761.0,Resolved,2023-04-05,2023-04-07,2,Yes,FALSE,
+101412,Student Loan,Incorrect Information,Northstar Finance,Ga,Chicago,88825.0,Closed,2023-01-10,2023-01-09,-1,,FALSE,Closed
+101413,Credit Card,Other,Metro Loans,Nan,,14311.0,Open,2023-01-26,2023-02-16,21,Yes,No,
+101414,Debt Collection,Identity Theft,Nan,Ny,Miami,74919.0,Open,2023-10-25,2023-11-22,28,,,
+101415,Mortgage,Other,,Mi,Atlanta,56982.0,Closed,2023-03-20,2023-04-27,38,TRUE,N,
+101416,Mortgage,,Northstar Finance,Nan,Houston,96119.0,,2023-04-26,2023-05-22,26,N,TRUE,
+101417,,Other,United Credit,Nan,Columbus,55337.0,In Progress,2024-02-28,2024-03-27,28,,TRUE,In progress
+101418,Student  Loan,Collection Harassment,Metro Loans,Nc,Miami,26076.0,In Progress,2024-03-12,2024-05-05,54,N,FALSE,Closed with explanation
+101419,Debt  Collection,Collection Harassment,Metro Loans,Ca,Detroit,75169.0,In Progress,2024-02-24,2024-03-11,16,N,Y,In progress
+101420,Student Loan,Other,,Nan,Houston,95529.0,Closed,2023-05-07,2023-06-03,27,N,Yes,Closed with explanation
+101421,Credit Card,Identity Theft,United Credit,Nan,Houston,11455.0,,2023-11-06,2023-12-07,31,FALSE,No,
+101422,Mortgage,Fees,Nan,Oh,,,Open,2023-11-02,2023-11-27,25,,,
+101423,Credit Reporting,Billing Disputes,Finserv Co,Nc,Atlanta,69515.0,Resolved,2023-04-03,2023-05-30,57,TRUE,No,In progress
+101424,Debt Collection,Identity Theft,United Credit,Nc,New York,60005.0,,2023-10-04,2023-11-30,57,Y,No,Closed with explanation
+101425,Bank Account,Billing Disputes,,Ca,Philadelphia,59373.0,,2023-09-20,2023-10-18,28,,,
+101426,Debt Collection,Collection Harassment,United Credit,Fl,Los Angeles,18117.0,In Progress,2023-07-18,2023-08-11,24,TRUE,No,Closed with explanation
+101427,Credit  Card,Nan,United Credit,,Columbus,,,2024-01-11,2024-02-13,33,,N,Closed
+101428,Nan,Collection Harassment,Nan,,Los Angeles,,Closed,2023-12-05,2023-12-11,6,N,Y,
+101429,Student Loan,Identity Theft,Nan,Fl,Philadelphia,86434.0,Closed,2023-09-24,2023-10-16,22,No,FALSE,
+101430,Nan,Nan,Metro Loans,Pa,Detroit,45109.0,In Progress,2023-12-29,2024-01-07,9,,TRUE,
+101431,Mortgage,Collection Harassment,Northstar Finance,Nan,Atlanta,41311.0,Open,2024-01-17,2024-01-21,4,FALSE,TRUE,In progress
+101432,Bank Account,Collection Harassment,Nan,Tx,Philadelphia,17344.0,Closed,2023-10-11,2023-10-12,1,Y,TRUE,Closed with explanation
+101433,Credit Reporting,Other,Finserv Co,Fl,Miami,61020.0,,2023-05-14,2023-06-16,33,,,
+101434,Nan,Billing Disputes,Finserv Co,Ny,Miami,68329.0,,2024-01-15,2024-01-10,-5,Yes,TRUE,In progress
+101435,Debt  Collection,Incorrect Information,Finserv Co,Fl,Miami,35265.0,Closed,2023-12-25,2024-01-31,37,,TRUE,
+101436,Mortgage,Billing Disputes,Metro Loans,Nc,Los Angeles,,Closed,2024-05-06,2024-05-29,23,TRUE,,Closed with explanation
+101437,Debt  Collection,Collection Harassment,Finserv Co,Il,Philadelphia,94423.0,In Progress,2023-03-16,2023-04-03,18,TRUE,Yes,
+101438,Debt Collection,Nan,Metro Loans,,Los Angeles,25676.0,Open,2023-07-29,2023-09-12,45,Yes,,
+101439,Bank Account,Collection Harassment,Acme Bank,Nan,Miami,61541.0,Open,2024-04-07,2024-05-07,30,No,No,In progress
+101440,Credit  Card,Billing Disputes,Northstar Finance,Nan,,11661.0,,2024-04-16,2024-05-27,41,TRUE,Yes,In progress
+101442,Student Loan,Other,United Credit,Mi,,26114.0,,2023-01-07,2023-01-04,-3,No,TRUE,In progress
+101443,Debt Collection,Incorrect Information,Finserv Co,Ga,,45606.0,Closed,2023-01-18,2023-01-27,9,FALSE,,
+101444,Debt Collection,Nan,United Credit,,Miami,22365.0,,2024-02-03,2024-03-06,32,FALSE,N,Closed
+101445,Debt Collection,Identity Theft,Northstar Finance,Nan,Los Angeles,23262.0,,2023-09-18,2023-09-23,5,FALSE,N,
+101447,Student Loan,Collection Harassment,Nan,Ca,Atlanta,90694.0,Resolved,2023-08-03,2023-08-04,1,,,Closed
+101448,Mortgage,,Metro Loans,Il,Detroit,63916.0,Closed,2023-07-23,2023-09-17,56,N,,Closed with explanation
+101449,Student Loan,Identity Theft,Northstar Finance,Fl,New York,39625.0,,2024-04-14,2024-06-10,57,No,FALSE,
+101450,Credit  Card,Incorrect Information,Metro Loans,Nc,Los Angeles,80090.0,In Progress,2023-02-17,2023-02-22,5,,Y,
+101451,Debt Collection,Billing Disputes,Acme Bank,,,11657.0,Closed,2024-01-22,2024-02-12,21,,,Closed
+101452,Bank Account,Identity Theft,Finserv Co,Ca,Miami,63719.0,,2024-03-20,2024-04-24,35,N,Yes,In progress
+101453,Credit Reporting,Fees,Nan,Nc,Los Angeles,71509.0,,2023-11-25,2023-12-02,7,N,,
+101454,Mortgage,,Finserv Co,Fl,Charlotte,82840.0,Resolved,2023-07-17,2023-08-02,16,,,
+101455,Credit Card,Fees,Northstar Finance,Pa,Miami,63232.0,Closed,2023-12-08,2024-01-13,36,Y,TRUE,Closed
+101456,Credit Card,Incorrect Information,Nan,Nc,Atlanta,79090.0,In Progress,2023-08-23,2023-09-07,15,TRUE,Y,Closed with explanation
+101458,Student Loan,Billing Disputes,Acme Bank,Tx,Chicago,81758.0,,2023-03-16,2023-04-06,21,FALSE,N,
+101459,Student Loan,Collection Harassment,Finserv Co,Pa,New York,25808.0,In Progress,2023-06-29,2023-07-12,13,FALSE,Yes,
+101460,Debt Collection,Collection Harassment,,,Los Angeles,,,2024-04-25,2024-06-08,44,Y,Y,
+101461,Bank Account,Billing Disputes,Nan,Il,Miami,,Open,2023-05-13,2023-05-17,4,,TRUE,
+101462,Debt Collection,Nan,Finserv Co,,Charlotte,45185.0,Open,2023-03-31,2023-04-09,9,FALSE,Y,Closed
+101463,Mortgage,Incorrect Information,,,New York,27285.0,Closed,2023-12-07,2023-12-18,11,TRUE,,Closed
+101464,Debt Collection,Collection Harassment,Finserv Co,Pa,Nan,23494.0,Open,2023-04-10,2023-06-02,53,,,Closed
+101465,Mortgage,,Acme Bank,Nc,Houston,32991.0,,2024-04-04,2024-05-30,56,Yes,TRUE,In progress
+101466,Nan,Identity Theft,Finserv Co,Oh,,75948.0,Open,2024-05-06,2024-05-11,5,,Y,
+101468,Nan,Billing Disputes,Northstar Finance,Pa,Atlanta,63772.0,Resolved,2024-04-01,2024-05-15,44,FALSE,TRUE,In progress
+101469,Bank Account,,United Credit,Il,New York,45102.0,,2023-05-02,2023-05-28,26,TRUE,FALSE,
+101470,Student Loan,Billing Disputes,Acme Bank,Ca,Nan,59238.0,,2023-04-17,2023-06-06,50,Y,No,
+101471,Mortgage,Billing Disputes,Nan,Ny,Miami,64377.0,Open,2023-06-21,2023-07-09,18,Y,N,In progress
+101472,Credit Reporting,Other,,Il,Miami,26580.0,,2023-08-23,2023-10-21,59,TRUE,N,
+101473,Debt Collection,Fees,,,Philadelphia,36725.0,In Progress,2024-03-15,2024-05-01,47,,Y,Closed with explanation
+101474,Bank Account,Incorrect Information,Nan,Fl,,89388.0,,2024-01-02,2024-01-11,9,N,No,Closed
+101475,Credit Reporting,Nan,,Tx,Miami,11088.0,Resolved,2023-11-19,2023-12-31,42,Yes,,Closed
+101476,Debt Collection,Fees,Metro Loans,Il,Chicago,96106.0,,2024-03-15,2024-03-28,13,N,N,Closed
+101477,Credit  Card,Fees,Metro Loans,Nc,Los Angeles,96785.0,,2023-11-19,2023-12-06,17,Yes,TRUE,Closed
+101478,Student Loan,Billing Disputes,Metro Loans,Fl,Nan,32789.0,,2023-07-09,2023-07-20,11,,Yes,In progress
+101479,Credit Card,Fees,Finserv Co,Fl,New York,38863.0,Open,2023-07-26,2023-09-03,39,TRUE,Y,
+101480,Debt Collection,Identity Theft,Northstar Finance,Ca,Los Angeles,28619.0,,2023-09-16,2023-09-28,12,No,No,
+101481,Credit Reporting,Collection Harassment,Metro Loans,Il,Miami,60458.0,Open,2023-02-14,2023-03-22,36,TRUE,Y,In progress
+101482,Debt Collection,Fees,Nan,Fl,Detroit,29252.0,,2024-01-06,2024-02-07,32,TRUE,,In progress
+101483,Bank Account,Billing Disputes,Metro Loans,,Nan,,Resolved,2023-11-23,2024-01-05,43,TRUE,TRUE,Closed
+101484,Debt  Collection,Other,Acme Bank,Nan,New York,44867.0,Closed,2024-01-01,2024-02-29,59,TRUE,,
+101485,Mortgage,Identity Theft,United Credit,Pa,Los Angeles,97068.0,Closed,2023-09-24,2023-09-19,-5,,N,
+101486,Mortgage,Identity Theft,Nan,Ca,Houston,86789.0,,2024-01-27,2024-03-26,59,,,
+101487,Debt  Collection,Other,Nan,Ca,,46117.0,Resolved,2024-04-19,2024-04-21,2,Y,No,
+101489,Debt Collection,Other,Finserv Co,Oh,Los Angeles,12194.0,,2023-08-11,2023-08-28,17,,TRUE,
+101491,Student  Loan,Other,Nan,Il,Los Angeles,,Open,2024-01-25,2024-03-06,41,Yes,FALSE,Closed with explanation
+101492,Credit Card,Billing Disputes,United Credit,Il,Atlanta,,Closed,2024-03-27,2024-05-16,50,TRUE,N,In progress
+101493,Credit Reporting,Fees,United Credit,Fl,Miami,45846.0,,2023-12-16,2024-01-06,21,Yes,Yes,Closed with explanation
+101494,Debt Collection,Identity Theft,,Ga,New York,,In Progress,2024-03-08,2024-05-02,55,Yes,,Closed with explanation
+101495,Bank Account,Incorrect Information,Metro Loans,Mi,Nan,85587.0,Open,2024-03-06,2024-03-21,15,No,TRUE,Closed with explanation
+101496,Bank Account,Identity Theft,,Ny,Nan,46558.0,Resolved,2024-02-04,2024-02-12,8,Y,TRUE,Closed with explanation
+101497,Mortgage,Identity Theft,Acme Bank,Oh,Nan,52300.0,,2023-09-09,2023-09-28,19,Yes,TRUE,Closed
+101498,Credit Reporting,Incorrect Information,Acme Bank,Mi,Detroit,46316.0,Resolved,2023-02-19,2023-03-20,29,,Yes,Closed
+101499,Mortgage,Other,Northstar Finance,Mi,New York,54760.0,,2023-01-02,2023-02-09,38,N,Y,
+101500,Credit Card,Fees,Northstar Finance,Ga,,68351.0,Open,2023-04-13,2023-06-01,49,TRUE,FALSE,
+101501,Bank Account,Incorrect Information,Nan,Mi,New York,59450.0,Resolved,2024-01-07,2024-01-21,14,,,In progress
+101503,,Fees,Metro Loans,Pa,Nan,24937.0,,2023-08-16,2023-10-11,56,,Y,
+101504,Debt Collection,Identity Theft,United Credit,Ga,New York,88727.0,Resolved,2023-01-12,2023-02-04,23,No,N,Closed
+101505,Credit Card,Fees,Nan,Il,Nan,35616.0,,2023-04-16,2023-04-26,10,FALSE,N,Closed
+101506,Credit Card,Collection Harassment,Acme Bank,Oh,Miami,11464.0,Open,2024-05-04,2024-07-02,59,,Yes,
+101507,Debt Collection,Identity Theft,Metro Loans,Ca,Nan,13513.0,Open,2024-05-09,2024-06-02,24,Yes,,In progress
+101508,Mortgage,Fees,,Il,Los Angeles,79659.0,,2023-07-08,2023-09-05,59,,No,
+101509,Credit Reporting,Collection Harassment,Acme Bank,Ca,Atlanta,44825.0,Open,2024-02-07,2024-04-01,54,,N,Closed with explanation
+101510,Credit Reporting,Identity Theft,Acme Bank,Pa,Nan,83028.0,Open,2024-04-10,2024-05-12,32,N,,Closed
+101512,,Fees,Metro Loans,Ga,Los Angeles,37385.0,,2024-03-19,2024-05-04,46,No,No,Closed
+101513,Credit Card,Collection Harassment,Metro Loans,,New York,98014.0,In Progress,2023-11-11,2024-01-07,57,FALSE,N,In progress
+101514,Mortgage,Identity Theft,Nan,Ny,New York,,Resolved,2023-07-17,2023-07-29,12,TRUE,TRUE,Closed
+101515,Credit Card,Fees,Metro Loans,Nan,New York,14335.0,Resolved,2023-11-10,2023-11-07,-3,FALSE,FALSE,
+101516,Debt Collection,Collection Harassment,Northstar Finance,Il,Miami,,In Progress,2023-06-09,2023-06-24,15,Y,Y,Closed
+101517,Mortgage,Identity Theft,Acme Bank,Nan,New York,64288.0,In Progress,2023-06-24,2023-07-30,36,No,TRUE,
+101518,Nan,Incorrect Information,Nan,Mi,Nan,25479.0,Resolved,2023-11-01,2023-12-01,30,,,In progress
+101519,,Other,Finserv Co,,Charlotte,40875.0,,2023-10-13,2023-10-13,0,TRUE,,
+101520,Credit Card,Incorrect Information,Northstar Finance,Ca,Nan,54170.0,,2023-10-18,2023-11-18,31,,,Closed
+101521,Credit Card,Fees,Northstar Finance,,Houston,23150.0,In Progress,2023-07-12,2023-07-18,6,,,
+101522,,Billing Disputes,United Credit,Ny,Miami,74970.0,In Progress,2023-07-24,2023-08-20,27,N,,
+101523,Credit  Card,Other,Northstar Finance,Nan,Atlanta,34956.0,Open,2023-01-06,2023-02-07,32,Y,TRUE,
+101524,Credit Card,Fees,Northstar Finance,Mi,New York,94359.0,,2023-10-28,2023-12-03,36,,,
+101525,Mortgage,Collection Harassment,Metro Loans,Oh,,82150.0,Closed,2023-10-15,2023-11-05,21,FALSE,N,
+101526,Bank Account,Fees,,Pa,Philadelphia,,In Progress,2024-04-12,2024-05-03,21,FALSE,FALSE,Closed
+101527,Mortgage,Incorrect Information,Nan,Ca,Los Angeles,20778.0,,2023-09-10,2023-10-19,39,,,Closed
+101528,Mortgage,Incorrect Information,Finserv Co,,Los Angeles,,,2023-08-22,2023-10-04,43,No,Yes,Closed
+101529,Debt Collection,Collection Harassment,United Credit,Nan,,23132.0,In Progress,2023-02-03,2023-03-22,47,Y,,
+101530,Bank Account,Other,Metro Loans,,New York,,In Progress,2023-04-09,2023-04-25,16,Yes,,
+101531,Mortgage,Billing Disputes,United Credit,Nan,New York,80312.0,Closed,2023-06-19,2023-07-11,22,N,,
+101532,Mortgage,Other,Acme Bank,,Philadelphia,,Resolved,2023-07-08,2023-07-24,16,N,,
+101533,Debt Collection,Collection Harassment,United Credit,Nan,Miami,73662.0,Open,2023-07-01,2023-07-30,29,N,No,In progress
+101534,Credit Card,Billing Disputes,Northstar Finance,Pa,Miami,14300.0,,2023-07-17,2023-07-20,3,No,Y,
+101535,Debt  Collection,Billing Disputes,Metro Loans,Mi,Philadelphia,33904.0,,2024-01-20,2024-02-11,22,,Yes,In progress
+101536,Credit Reporting,Collection Harassment,Northstar Finance,Fl,Chicago,,Closed,2023-03-07,2023-03-14,7,N,TRUE,
+101537,Debt Collection,Other,,,Miami,84552.0,Closed,2023-06-16,2023-07-15,29,N,N,
+101538,Nan,Incorrect Information,,Nc,Los Angeles,79922.0,Resolved,2023-03-23,2023-05-12,50,,N,
+101539,Student Loan,Fees,Finserv Co,Oh,Atlanta,57937.0,Resolved,2023-06-03,2023-08-01,59,N,FALSE,
+101540,Credit Card,Other,Acme Bank,Nc,Nan,13245.0,Resolved,2023-12-09,2024-01-02,24,,,
+101541,Credit  Card,Identity Theft,Acme Bank,Fl,Los Angeles,36404.0,Open,2023-01-24,2023-01-22,-2,No,Yes,In progress
+101542,Credit Card,Identity Theft,Finserv Co,Nc,Charlotte,80522.0,,2023-06-19,2023-06-28,9,,,In progress
+101543,Credit Reporting,Other,,Oh,Atlanta,17308.0,Open,2023-01-12,2023-01-13,1,,Y,In progress
+101544,Credit Reporting,Identity Theft,Nan,Il,,,In Progress,2024-04-22,2024-06-05,44,,,
+101545,Bank Account,Incorrect Information,,,Columbus,73352.0,,2023-12-30,2024-02-27,59,,TRUE,Closed with explanation
+101546,Bank Account,Incorrect Information,Metro Loans,Ny,Los Angeles,,,2023-05-02,2023-06-02,31,FALSE,N,
+101547,Bank Account,Fees,Nan,Nan,Los Angeles,29550.0,Resolved,2023-04-10,2023-04-16,6,TRUE,No,
+101548,Bank Account,Identity Theft,,Tx,Houston,32025.0,Open,2023-02-19,2023-02-15,-4,,No,Closed with explanation
+101549,Credit Reporting,Collection Harassment,Acme Bank,Tx,Columbus,45423.0,Open,2024-01-12,2024-01-27,15,TRUE,Y,
+101551,Credit Card,Incorrect Information,,Ca,New York,,Open,2024-03-16,2024-03-22,6,Yes,Yes,Closed with explanation
+101553,Debt Collection,Billing Disputes,United Credit,,Atlanta,61065.0,,2023-06-21,2023-07-02,11,,,
+101554,Debt Collection,Other,Acme Bank,Nc,Houston,,Resolved,2023-08-28,2023-10-19,52,No,Y,
+101556,Credit  Card,Fees,,Ny,Los Angeles,,,2023-04-12,2023-04-24,12,Y,Y,Closed with explanation
+101557,Credit Reporting,Nan,Metro Loans,Nan,Miami,95916.0,,2024-05-02,2024-06-10,39,No,TRUE,
+101558,Bank Account,Other,Metro Loans,Nc,Nan,38748.0,,2023-04-03,2023-04-02,-1,Y,N,
+101559,Bank Account,Collection Harassment,Finserv Co,Ga,Nan,88416.0,Open,2023-08-28,2023-08-23,-5,,TRUE,In progress
+101560,Debt Collection,Collection Harassment,Acme Bank,,Miami,25753.0,In Progress,2023-09-19,2023-09-17,-2,N,Y,In progress
+101561,Debt Collection,Incorrect Information,,Pa,Philadelphia,,,2023-08-23,2023-09-24,32,,,
+101563,Debt Collection,Nan,Metro Loans,Nan,Los Angeles,,In Progress,2023-08-16,2023-10-02,47,Y,N,
+101564,Credit Reporting,Identity Theft,Acme Bank,Ga,Detroit,,Closed,2023-05-10,2023-05-06,-4,,,
+101565,Mortgage,,Nan,Nan,Miami,25862.0,,2023-03-05,2023-03-01,-4,,,Closed
+101566,Credit Card,Identity Theft,Acme Bank,Mi,Nan,80549.0,In Progress,2023-01-23,2023-03-14,50,Y,FALSE,Closed
+101567,Debt Collection,Other,,,Columbus,72721.0,,2023-01-05,2023-01-06,1,FALSE,TRUE,
+101568,Credit Reporting,Other,,Il,New York,,In Progress,2023-08-29,2023-09-03,5,N,,Closed
+101570,Debt Collection,Collection Harassment,Metro Loans,Oh,Nan,95286.0,Open,2024-04-24,2024-05-28,34,,N,In progress
+101571,Bank Account,Other,Northstar Finance,Mi,Philadelphia,74316.0,Open,2023-05-03,2023-05-12,9,N,FALSE,Closed with explanation
+101572,Bank Account,Fees,,,Chicago,31502.0,Open,2023-11-23,2023-12-16,23,Yes,Yes,
+101573,Mortgage,Incorrect Information,Metro Loans,Fl,Columbus,92066.0,Closed,2023-12-03,2024-01-10,38,N,No,
+101574,Credit Reporting,Other,Nan,Nan,Detroit,46613.0,In Progress,2023-09-05,2023-09-28,23,TRUE,Yes,
+101575,Bank Account,Fees,Acme Bank,,Nan,17172.0,Open,2024-03-17,2024-04-05,19,No,N,
+101576,Credit Card,Billing Disputes,Nan,,Nan,83216.0,Open,2023-02-25,2023-02-24,-1,FALSE,TRUE,In progress
+101577,Debt Collection,Identity Theft,Nan,,New York,88184.0,,2023-04-28,2023-05-22,24,No,N,
+101578,Credit Reporting,Collection Harassment,United Credit,,Charlotte,49859.0,,2023-05-07,2023-06-23,47,Yes,Yes,
+101579,Debt Collection,Incorrect Information,,Mi,Houston,73352.0,Closed,2023-03-09,2023-04-13,35,TRUE,N,
+101580,Bank Account,Collection Harassment,,Oh,Nan,86531.0,Open,2023-06-06,2023-06-09,3,,Yes,Closed with explanation
+101582,Student Loan,Billing Disputes,Finserv Co,Nan,Nan,43167.0,Open,2024-01-18,2024-01-13,-5,Yes,,
+101583,Credit Reporting,Identity Theft,Metro Loans,Fl,,34057.0,In Progress,2023-05-31,2023-06-30,30,N,Y,
+101584,Credit Card,Incorrect Information,Acme Bank,Nc,Houston,55064.0,Closed,2024-03-14,2024-03-20,6,Yes,Yes,Closed
+101585,Bank Account,Incorrect Information,Metro Loans,Mi,Columbus,65857.0,,2024-03-26,2024-05-18,53,,Yes,In progress
+101586,Credit Card,Other,Metro Loans,Pa,Columbus,,,2023-02-22,2023-03-10,16,FALSE,N,In progress
+101588,Bank Account,Other,Northstar Finance,Nan,Nan,46504.0,Closed,2024-05-07,2024-06-06,30,TRUE,N,
+101589,Credit Card,Other,Nan,Ca,,80509.0,Closed,2023-11-03,2023-12-12,39,No,TRUE,Closed
+101590,Debt Collection,Identity Theft,Northstar Finance,Nan,,48816.0,,2024-05-06,2024-05-10,4,Y,Yes,In progress
+101591,Mortgage,Billing Disputes,Metro Loans,,Miami,97317.0,,2023-06-27,2023-08-19,53,N,FALSE,
+101592,Credit Card,Collection Harassment,Nan,Nan,Nan,33754.0,Closed,2024-04-21,2024-04-29,8,TRUE,FALSE,Closed
+101593,Student  Loan,Incorrect Information,Nan,Nan,Los Angeles,73425.0,,2023-10-22,2023-12-08,47,No,Yes,
+101595,Mortgage,Billing Disputes,Finserv Co,Ny,Charlotte,94916.0,Resolved,2023-07-25,2023-07-29,4,FALSE,Yes,Closed
+101597,Credit Reporting,Fees,,Ca,Nan,27707.0,In Progress,2024-04-15,2024-04-22,7,Yes,FALSE,Closed with explanation
+101598,Credit Card,Other,Finserv Co,Fl,,88076.0,Resolved,2023-06-02,2023-07-05,33,TRUE,,
+101599,Mortgage,Billing Disputes,Northstar Finance,Mi,Miami,91097.0,,2023-04-22,2023-06-18,57,N,TRUE,
+101600,Student Loan,Incorrect Information,United Credit,Nc,Columbus,77262.0,Resolved,2023-10-04,2023-11-29,56,FALSE,N,
+101601,Nan,Other,Metro Loans,Nc,Detroit,,,2023-08-01,2023-09-21,51,TRUE,,
+101602,Credit Reporting,Incorrect Information,Metro Loans,Nan,,,,2023-02-18,2023-03-17,27,FALSE,No,
+101603,Bank Account,Fees,Nan,Tx,New York,69990.0,Open,2024-02-13,2024-03-15,31,,No,
+101604,Credit Card,Billing Disputes,Acme Bank,,Columbus,,,2024-02-27,2024-03-12,14,TRUE,N,
+101605,Credit Reporting,Collection Harassment,Nan,Nc,Nan,,,2024-01-07,2024-03-01,54,FALSE,Yes,In progress
+101606,Credit  Card,Identity Theft,,Pa,Nan,10629.0,,2023-11-05,2023-12-01,26,Y,Yes,
+101607,,Fees,,Oh,Nan,16619.0,In Progress,2023-07-21,2023-09-04,45,,Y,
+101608,Bank Account,Other,United Credit,Ga,Detroit,41003.0,Resolved,2023-09-29,2023-10-17,18,N,No,
+101609,Bank Account,Fees,United Credit,Ga,Los Angeles,71353.0,In Progress,2023-09-18,2023-10-31,43,FALSE,FALSE,Closed
+101610,Credit Card,Incorrect Information,Metro Loans,Il,Nan,49626.0,,2023-03-24,2023-04-02,9,,TRUE,
+101611,Credit  Card,Identity Theft,Metro Loans,Fl,Los Angeles,,In Progress,2023-02-10,2023-03-24,42,Y,N,In progress
+101612,Bank Account,Incorrect Information,Northstar Finance,Tx,Chicago,52281.0,Closed,2023-05-07,2023-05-04,-3,Yes,N,
+101613,Mortgage,Other,Metro Loans,Il,Miami,32649.0,,2023-08-16,2023-08-17,1,No,Yes,In progress
+101614,Bank Account,Identity Theft,,Fl,Houston,77385.0,Open,2023-03-22,2023-04-08,17,No,N,
+101615,Debt Collection,Fees,,Ga,Los Angeles,75109.0,In Progress,2023-02-23,2023-03-21,26,Yes,Yes,
+101616,Bank Account,Incorrect Information,,Nan,Atlanta,96651.0,Closed,2024-03-01,2024-04-11,41,TRUE,Y,Closed
+101617,Nan,Identity Theft,Nan,Ca,Chicago,84310.0,In Progress,2023-07-07,2023-07-25,18,Y,FALSE,Closed with explanation
+101618,Mortgage,Collection Harassment,Finserv Co,Il,New York,44199.0,In Progress,2023-10-20,2023-10-16,-4,Yes,,Closed with explanation
+101620,Student Loan,Identity Theft,Acme Bank,,Los Angeles,41553.0,,2024-01-03,2024-01-26,23,Y,Y,Closed with explanation
+101621,Debt  Collection,Fees,Acme Bank,Mi,Nan,,In Progress,2024-01-05,2024-02-04,30,Y,FALSE,
+101622,Bank Account,Collection Harassment,,Fl,,64945.0,In Progress,2023-05-29,2023-07-04,36,,,
+101623,Bank Account,Other,Nan,Pa,Los Angeles,85116.0,Open,2024-02-28,2024-03-10,11,FALSE,Y,
+101624,Credit  Card,Fees,Northstar Finance,Nan,Charlotte,35312.0,,2023-07-05,2023-08-08,34,FALSE,,
+101625,Credit Reporting,Fees,,,Miami,,,2024-02-22,2024-03-29,36,FALSE,Y,
+101626,Bank Account,Collection Harassment,United Credit,Nc,Los Angeles,22721.0,In Progress,2023-07-22,2023-09-05,45,,FALSE,
+101627,Student Loan,Identity Theft,Nan,Fl,Miami,57822.0,In Progress,2023-02-25,2023-03-25,28,Y,No,
+101628,,Identity Theft,Northstar Finance,Mi,Houston,96537.0,In Progress,2024-01-16,2024-03-03,47,Yes,Y,
+101629,Credit Reporting,Incorrect Information,Acme Bank,Mi,Miami,66433.0,,2023-01-16,2023-01-25,9,TRUE,,
+101630,,Fees,Northstar Finance,Mi,Detroit,82856.0,Closed,2024-01-22,2024-03-03,41,Yes,N,
+101631,Student Loan,Fees,Northstar Finance,Ny,Nan,,,2023-01-22,2023-01-19,-3,No,Yes,In progress
+101632,Debt Collection,Billing Disputes,Metro Loans,Mi,Miami,96264.0,,2023-04-14,2023-04-15,1,,,
+101633,Student Loan,Collection Harassment,Acme Bank,Ny,Houston,,,2023-10-29,2023-12-19,51,TRUE,No,
+101634,Mortgage,Incorrect Information,Northstar Finance,Nan,Chicago,29604.0,,2024-04-15,2024-05-10,25,FALSE,Yes,In progress
+101636,Credit Card,Collection Harassment,United Credit,Ga,Chicago,11602.0,Open,2023-03-02,2023-04-05,34,TRUE,Y,
+101637,Credit Reporting,Other,Nan,Mi,New York,63332.0,Closed,2023-04-27,2023-06-06,40,Y,No,Closed
+101638,Mortgage,Fees,Nan,Ny,Chicago,49353.0,Open,2024-03-24,2024-04-03,10,No,,Closed with explanation
+101640,Credit Card,Identity Theft,,Fl,Detroit,94023.0,In Progress,2023-02-20,2023-02-17,-3,,FALSE,
+101641,Credit Card,Incorrect Information,Northstar Finance,Fl,Nan,69608.0,Open,2023-07-12,2023-09-01,51,,Y,
+101642,Credit Reporting,Other,Nan,Mi,Houston,22449.0,Resolved,2023-05-13,2023-05-22,9,Yes,TRUE,
+101643,Student  Loan,Incorrect Information,Nan,,Los Angeles,22533.0,Open,2023-03-30,2023-05-01,32,TRUE,FALSE,Closed with explanation
+101644,Mortgage,Billing Disputes,Nan,Oh,Philadelphia,20546.0,In Progress,2024-02-28,2024-03-23,24,N,,Closed
+101646,Student  Loan,Fees,Northstar Finance,Ga,Los Angeles,,,2023-03-31,2023-04-21,21,No,TRUE,
+101647,Credit Reporting,Fees,United Credit,Il,Nan,33777.0,,2023-11-22,2023-11-22,0,Yes,,Closed
+101648,Credit  Card,Other,,Nc,Charlotte,78850.0,Resolved,2023-07-26,2023-08-01,6,No,,
+101650,Mortgage,Fees,,Pa,Detroit,80732.0,Closed,2023-08-13,2023-09-30,48,Yes,N,
+101651,Student Loan,Nan,Metro Loans,Nan,Houston,54644.0,Closed,2023-04-03,2023-05-04,31,Y,TRUE,Closed with explanation
+101652,Debt Collection,Collection Harassment,Northstar Finance,Nan,,72583.0,,2023-05-03,2023-06-27,55,FALSE,,
+101653,Credit Card,Billing Disputes,Northstar Finance,,,,,2024-03-15,2024-04-07,23,,No,Closed
+101654,Mortgage,Fees,Acme Bank,Nan,,14796.0,Open,2023-12-22,2023-12-30,8,FALSE,FALSE,Closed
+101655,Nan,Incorrect Information,Metro Loans,Nan,New York,,Closed,2023-03-09,2023-04-12,34,No,,
+101656,Student  Loan,Collection Harassment,Nan,Nan,Columbus,75095.0,Closed,2024-03-01,2024-04-25,55,Y,N,
+101657,Credit Card,Collection Harassment,Metro Loans,,,,Open,2023-10-15,2023-11-13,29,Y,,In progress
+101658,Credit Reporting,Fees,United Credit,Nan,Miami,50376.0,Resolved,2024-03-13,2024-03-09,-4,No,N,Closed
+101659,Bank Account,Fees,,,Atlanta,49468.0,Open,2024-01-09,2024-01-23,14,,,Closed with explanation
+101661,Credit Reporting,Fees,Finserv Co,,Nan,30728.0,Resolved,2023-09-25,2023-10-23,28,N,Yes,
+101662,Credit Card,Identity Theft,United Credit,Nc,New York,36561.0,,2023-09-23,2023-11-18,56,N,,In progress
+101663,Credit Card,Identity Theft,Northstar Finance,Mi,Los Angeles,10523.0,In Progress,2023-12-26,2024-01-23,28,Y,FALSE,
+101664,Student Loan,Collection Harassment,Metro Loans,,Detroit,55102.0,,2023-05-05,2023-04-30,-5,N,No,
+101665,Credit  Card,Fees,Metro Loans,Pa,Miami,52887.0,Closed,2023-06-16,2023-08-06,51,FALSE,FALSE,Closed
+101666,Credit Card,Identity Theft,Metro Loans,Ca,,39668.0,Resolved,2023-05-03,2023-06-16,44,,TRUE,
+101667,Debt Collection,Other,,Nan,New York,25878.0,Open,2023-05-29,2023-07-09,41,N,,In progress
+101668,Credit Reporting,Other,Acme Bank,Nc,New York,97276.0,,2023-03-22,2023-05-19,58,No,Y,Closed with explanation
+101669,Student  Loan,Fees,Metro Loans,Pa,Detroit,71064.0,Resolved,2023-01-19,2023-01-26,7,,Y,
+101670,Nan,Identity Theft,Metro Loans,Nan,Nan,52726.0,Closed,2024-04-15,2024-06-07,53,Y,Yes,
+101671,Credit  Card,Other,Northstar Finance,Ny,Nan,,,2023-02-07,2023-02-17,10,Yes,,In progress
+101672,Mortgage,,Nan,Oh,New York,43493.0,,2024-03-19,2024-05-16,58,TRUE,,
+101673,Student Loan,Incorrect Information,,Fl,Columbus,,Open,2023-01-02,2023-01-09,7,,FALSE,
+101674,Credit Card,Other,Metro Loans,Il,Philadelphia,,,2024-01-24,2024-02-23,30,Y,Y,
+101675,Debt  Collection,,Acme Bank,,Columbus,79354.0,,2023-06-14,2023-07-30,46,Y,,
+101676,Nan,Identity Theft,Acme Bank,Ga,Miami,68548.0,In Progress,2023-09-16,2023-09-16,0,Y,Y,Closed
+101677,Mortgage,Billing Disputes,United Credit,Ca,Columbus,,Resolved,2023-05-22,2023-05-21,-1,,FALSE,
+101678,,Incorrect Information,,Pa,Los Angeles,10219.0,,2023-09-03,2023-10-23,50,,TRUE,Closed
+101679,Bank Account,Collection Harassment,United Credit,Fl,Philadelphia,67406.0,In Progress,2023-08-14,2023-08-12,-2,,,
+101680,Credit Reporting,Collection Harassment,United Credit,Nan,Nan,65662.0,Resolved,2023-09-22,2023-10-26,34,No,,In progress
+101681,,Identity Theft,Finserv Co,Il,,47120.0,Open,2023-07-16,2023-09-09,55,,Y,
+101682,,Billing Disputes,Acme Bank,Il,Houston,,,2023-09-26,2023-10-30,34,Y,Yes,
+101683,Bank Account,,Acme Bank,Il,Miami,,,2024-02-17,2024-03-14,26,,No,Closed
+101684,Credit Reporting,Billing Disputes,Northstar Finance,Tx,Miami,43770.0,Closed,2023-08-06,2023-08-28,22,,FALSE,Closed
+101685,Nan,Billing Disputes,Finserv Co,Nan,Miami,34482.0,In Progress,2023-06-30,2023-08-05,36,FALSE,Y,Closed with explanation
+101686,Credit Card,Incorrect Information,Metro Loans,Nc,Los Angeles,73570.0,Closed,2023-03-07,2023-04-08,32,,No,
+101687,Student Loan,Fees,Northstar Finance,Oh,,53376.0,In Progress,2023-06-29,2023-07-26,27,No,,In progress
+101688,Bank Account,Identity Theft,United Credit,Pa,Los Angeles,60164.0,Closed,2023-03-04,2023-03-08,4,FALSE,FALSE,
+101689,Credit Card,Identity Theft,Finserv Co,Mi,,68346.0,,2023-04-02,2023-05-10,38,Yes,No,
+101690,Mortgage,Identity Theft,Nan,Ca,Houston,43178.0,,2024-04-21,2024-06-03,43,FALSE,FALSE,In progress
+101691,Credit Reporting,Incorrect Information,,,Houston,23707.0,,2023-02-14,2023-03-27,41,Y,FALSE,
+101692,Bank Account,Billing Disputes,Northstar Finance,Ga,Nan,,,2023-08-30,2023-08-29,-1,,,
+101693,Mortgage,Billing Disputes,Acme Bank,Fl,New York,94567.0,,2024-02-22,2024-04-02,40,N,,
+101694,Mortgage,Incorrect Information,,Ga,Charlotte,55492.0,Open,2024-04-21,2024-06-02,42,,,
+101695,,Billing Disputes,Acme Bank,,Detroit,47530.0,,2023-03-15,2023-03-21,6,Y,,In progress
+101696,Mortgage,Identity Theft,United Credit,Tx,Nan,38742.0,,2023-03-23,2023-05-12,50,Yes,,In progress
+101697,Credit  Card,Fees,United Credit,Ga,Nan,74946.0,Open,2023-07-06,2023-08-04,29,FALSE,FALSE,
+101698,Bank Account,Billing Disputes,Nan,Nc,Los Angeles,92162.0,Open,2023-10-05,2023-10-30,25,No,TRUE,Closed
+101699,Credit Reporting,Fees,Nan,,Columbus,79204.0,,2024-04-24,2024-06-04,41,FALSE,,Closed with explanation
+101701,Mortgage,Fees,United Credit,Nan,Columbus,52790.0,Closed,2023-03-24,2023-04-23,30,,Yes,Closed
+101702,Debt Collection,Fees,United Credit,Nan,New York,,In Progress,2023-05-07,2023-05-22,15,Y,No,
+101703,Credit  Card,Collection Harassment,United Credit,Nan,Chicago,87068.0,,2024-03-13,2024-05-07,55,N,N,
+101704,Bank Account,Billing Disputes,Acme Bank,Pa,Houston,45115.0,In Progress,2023-01-16,2023-03-15,58,FALSE,Y,Closed with explanation
+101705,Mortgage,Identity Theft,,Mi,Atlanta,96784.0,In Progress,2023-07-10,2023-07-13,3,,TRUE,Closed with explanation
+101706,Credit Card,Identity Theft,Metro Loans,Fl,Charlotte,84468.0,In Progress,2023-03-01,2023-04-12,42,No,Y,Closed with explanation
+101707,Mortgage,Collection Harassment,Metro Loans,,Los Angeles,,Open,2023-03-20,2023-03-16,-4,FALSE,,
+101708,Nan,Other,,,New York,15088.0,Open,2024-04-03,2024-04-21,18,N,,Closed
+101709,Credit Reporting,Other,Northstar Finance,Il,Chicago,,In Progress,2023-01-01,2023-02-28,58,,Y,
+101710,Debt  Collection,Fees,Finserv Co,Ga,Miami,36830.0,Open,2023-06-10,2023-06-16,6,FALSE,,
+101711,Debt Collection,Incorrect Information,Nan,,New York,78513.0,,2024-04-02,2024-04-21,19,,Yes,Closed
+101712,Nan,Incorrect Information,Northstar Finance,Ny,,,In Progress,2023-11-01,2023-11-10,9,Y,,
+101713,,Billing Disputes,Nan,Mi,Nan,,Resolved,2023-02-05,2023-03-19,42,Y,FALSE,Closed with explanation
+101714,Bank Account,Incorrect Information,,,Nan,12848.0,In Progress,2023-08-21,2023-09-15,25,,FALSE,
+101715,Bank Account,Fees,United Credit,Nan,Charlotte,,,2024-04-30,2024-06-02,33,Yes,N,In progress
+101716,Student Loan,Identity Theft,United Credit,Tx,Nan,92696.0,In Progress,2023-07-20,2023-09-14,56,TRUE,Yes,
+101717,Mortgage,Collection Harassment,,Nan,Columbus,74908.0,Open,2023-09-22,2023-10-20,28,,,Closed
+101718,Student Loan,Collection Harassment,Northstar Finance,,,74517.0,In Progress,2023-09-23,2023-11-04,42,,Yes,
+101719,Bank Account,Identity Theft,Acme Bank,Ny,Columbus,36327.0,Closed,2023-11-27,2023-11-28,1,FALSE,N,
+101720,Credit  Card,Billing Disputes,Finserv Co,Nc,New York,80107.0,Resolved,2024-02-24,2024-04-20,56,,,In progress
+101722,Bank Account,Other,Metro Loans,,Columbus,57923.0,In Progress,2024-05-09,2024-06-28,50,Yes,TRUE,
+101723,Student  Loan,Collection Harassment,Acme Bank,Ny,Houston,87051.0,In Progress,2023-03-13,2023-04-19,37,,TRUE,Closed
+101724,Mortgage,Nan,Metro Loans,,,,Resolved,2024-02-14,2024-03-04,19,No,Y,Closed with explanation
+101725,Student Loan,Fees,Northstar Finance,Ga,Atlanta,39212.0,,2024-02-13,2024-02-20,7,FALSE,,
+101726,Credit Card,,,Fl,,67481.0,,2024-01-06,2024-02-25,50,Y,No,In progress
+101727,Student Loan,Collection Harassment,Nan,Pa,,94881.0,,2023-07-05,2023-08-20,46,,FALSE,In progress
+101728,Bank Account,Billing Disputes,United Credit,Nan,Nan,,Open,2023-08-23,2023-09-02,10,TRUE,,Closed
+101729,Credit  Card,Identity Theft,Nan,,Detroit,54861.0,Resolved,2024-02-24,2024-03-28,33,,Y,
+101730,Credit Card,Identity Theft,Nan,Il,Miami,63719.0,Open,2023-03-18,2023-04-22,35,,FALSE,
+101731,Student Loan,Identity Theft,Nan,,Miami,97835.0,In Progress,2024-02-19,2024-03-16,26,,Y,
+101732,Mortgage,Identity Theft,United Credit,Nc,Chicago,,,2024-04-05,2024-05-30,55,No,,
+101733,Debt  Collection,Fees,Metro Loans,Tx,Nan,55224.0,Resolved,2023-12-07,2023-12-10,3,N,,
+101734,Credit Card,Fees,Acme Bank,Nc,Nan,35287.0,,2023-06-20,2023-07-01,11,N,Y,Closed
+101735,Nan,Fees,United Credit,,New York,91527.0,,2023-10-07,2023-10-08,1,Yes,No,Closed
+101736,Bank Account,Identity Theft,United Credit,Ny,Nan,,,2023-01-26,2023-03-07,40,Yes,Yes,Closed with explanation
+101737,,Identity Theft,Metro Loans,Ca,Nan,,,2024-04-10,2024-05-16,36,Yes,FALSE,
+101738,Credit  Card,Other,Finserv Co,Ny,New York,12870.0,,2023-06-21,2023-08-19,59,,,
+101739,Credit  Card,Identity Theft,Finserv Co,Ga,Atlanta,20358.0,,2023-01-29,2023-02-28,30,N,No,Closed
+101740,Bank Account,Billing Disputes,Metro Loans,Ny,Nan,44791.0,Closed,2024-02-02,2024-02-06,4,,,
+101741,Bank Account,Incorrect Information,Nan,,Houston,24388.0,Closed,2023-11-25,2023-12-19,24,,,In progress
+101742,Student  Loan,Billing Disputes,Acme Bank,Ca,,89383.0,In Progress,2023-11-08,2023-11-08,0,Yes,N,
+101743,Credit Reporting,Incorrect Information,Metro Loans,Ca,Nan,,,2023-01-28,2023-03-07,38,,No,Closed
+101744,Student  Loan,Other,Nan,Fl,,26246.0,In Progress,2024-01-11,2024-02-18,38,No,FALSE,Closed with explanation
+101745,Credit Card,Identity Theft,Nan,Nan,Nan,84615.0,Open,2023-11-15,2024-01-04,50,N,TRUE,
+101746,Mortgage,Nan,Finserv Co,Nan,Los Angeles,22720.0,,2024-02-01,2024-02-18,17,,,
+101747,Credit Reporting,Incorrect Information,Metro Loans,Fl,Philadelphia,80858.0,,2024-02-18,2024-03-04,15,Y,TRUE,In progress
+101748,Bank Account,Nan,Finserv Co,Ga,Nan,,Resolved,2023-04-16,2023-04-15,-1,,Yes,In progress
+101749,Credit Reporting,Fees,Finserv Co,Nan,Charlotte,,,2023-04-16,2023-05-07,21,TRUE,No,
+101750,Bank Account,Fees,Nan,,New York,48537.0,,2024-04-06,2024-05-01,25,Yes,N,
+101751,Credit Card,Identity Theft,Acme Bank,Tx,Los Angeles,,,2023-09-23,2023-11-06,44,,N,Closed with explanation
+101752,Debt Collection,Identity Theft,United Credit,,Philadelphia,,Closed,2023-08-07,2023-09-19,43,Yes,Y,
+101753,Student  Loan,Other,,Nan,Philadelphia,20900.0,Open,2023-05-24,2023-05-28,4,FALSE,,Closed
+101754,Bank Account,Identity Theft,Nan,Nan,Houston,85249.0,In Progress,2023-11-16,2023-11-29,13,N,Y,
+101755,Credit Card,Other,Finserv Co,Ga,Atlanta,36391.0,,2024-01-12,2024-02-09,28,No,FALSE,In progress
+101756,Credit  Card,Incorrect Information,,Pa,Atlanta,51767.0,,2023-01-02,2023-01-18,16,TRUE,Y,Closed
+101757,Credit Reporting,Other,Acme Bank,Nan,Chicago,,Open,2023-10-04,2023-09-30,-4,Y,,Closed
+101758,Credit Reporting,Incorrect Information,Finserv Co,Nan,Chicago,97566.0,,2024-05-11,2024-06-29,49,Yes,,
+101759,Student Loan,Fees,United Credit,Ga,Nan,81121.0,In Progress,2023-05-21,2023-07-02,42,TRUE,,
+101760,Credit Card,Fees,,Nan,Nan,,,2023-05-21,2023-06-18,28,Yes,,Closed
+101761,Bank Account,Incorrect Information,Metro Loans,Pa,Nan,75433.0,,2024-03-15,2024-03-30,15,TRUE,FALSE,
+101762,Bank Account,Fees,Acme Bank,Ca,New York,22908.0,In Progress,2023-07-18,2023-07-15,-3,,TRUE,
+101763,Bank Account,Fees,Acme Bank,Nan,,32144.0,Open,2023-08-18,2023-09-11,24,,Yes,
+101765,Debt Collection,Identity Theft,Nan,Ga,Nan,13360.0,In Progress,2024-02-03,2024-03-21,47,,,
+101766,Mortgage,Nan,Metro Loans,Nc,Miami,54006.0,,2023-03-06,2023-05-01,56,,,In progress
+101767,Mortgage,Fees,Metro Loans,Tx,Columbus,54471.0,,2023-08-06,2023-08-17,11,Yes,TRUE,Closed with explanation
+101768,Student Loan,Billing Disputes,Northstar Finance,Ga,,12674.0,,2023-03-18,2023-04-24,37,TRUE,,In progress
+101769,Credit Card,Other,Metro Loans,Ny,,69539.0,Resolved,2024-01-29,2024-02-05,7,No,N,
+101770,Credit Card,Billing Disputes,Acme Bank,Nan,Miami,10799.0,Open,2023-11-13,2023-11-15,2,Yes,Yes,Closed
+101771,Debt Collection,Fees,Northstar Finance,Nan,New York,81356.0,Resolved,2023-09-06,2023-09-23,17,N,,In progress
+101772,Student Loan,Incorrect Information,Metro Loans,Oh,Los Angeles,73490.0,In Progress,2023-07-16,2023-09-06,52,N,TRUE,Closed with explanation
+101774,Bank Account,Collection Harassment,Nan,,Charlotte,20646.0,Closed,2024-04-05,2024-05-01,26,Yes,No,Closed
+101775,Bank Account,Collection Harassment,Finserv Co,Ca,Chicago,88332.0,,2023-11-20,2023-12-03,13,N,N,
+101776,Credit Card,Fees,,Ny,Nan,59302.0,Resolved,2023-06-09,2023-06-13,4,No,FALSE,
+101777,Mortgage,Other,United Credit,Fl,Columbus,87699.0,In Progress,2023-07-26,2023-08-07,12,Yes,No,
+101778,Credit Card,Collection Harassment,,Ny,Nan,72639.0,Open,2023-12-30,2024-01-03,4,N,,Closed
+101779,Student Loan,Collection Harassment,Acme Bank,Nc,,69074.0,Open,2023-12-26,2024-01-02,7,Yes,TRUE,
+101780,Student Loan,Incorrect Information,Finserv Co,Ga,Detroit,12901.0,In Progress,2023-08-19,2023-09-27,39,,No,
+101781,Mortgage,Identity Theft,Nan,Ga,Nan,72278.0,Resolved,2023-06-01,2023-06-04,3,,FALSE,
+101782,Mortgage,Identity Theft,,Ca,Nan,50386.0,,2023-11-26,2023-11-24,-2,,,
+101783,Mortgage,Fees,Finserv Co,Nan,Charlotte,86430.0,,2023-11-26,2023-12-26,30,Yes,Y,
+101784,Credit Reporting,Fees,Nan,,Los Angeles,,In Progress,2023-10-27,2023-11-09,13,N,TRUE,
+101785,Debt  Collection,Billing Disputes,Finserv Co,Nc,Los Angeles,16691.0,Closed,2023-02-06,2023-03-02,24,,FALSE,Closed with explanation
+101786,Student Loan,Identity Theft,Acme Bank,Ny,Nan,90074.0,Closed,2023-08-25,2023-08-29,4,TRUE,No,
+101787,Debt Collection,Other,Northstar Finance,Pa,Los Angeles,15661.0,Open,2023-11-03,2023-11-11,8,Y,TRUE,
+101788,Student Loan,Collection Harassment,Nan,Nan,Philadelphia,36930.0,Open,2024-04-20,2024-05-13,23,,TRUE,
+101789,Bank Account,Collection Harassment,Metro Loans,Nan,Chicago,,,2023-09-20,2023-10-29,39,Y,Y,Closed
+101791,Credit Reporting,Billing Disputes,,,Detroit,23787.0,,2023-10-05,2023-11-04,30,Yes,FALSE,
+101792,Student Loan,Identity Theft,Acme Bank,,Chicago,86007.0,Resolved,2023-03-30,2023-04-27,28,FALSE,,
+101793,,Other,Finserv Co,Ga,,29994.0,Resolved,2023-02-15,2023-02-27,12,Yes,N,Closed with explanation
+101794,Credit Reporting,Fees,Northstar Finance,Pa,Miami,,,2023-12-06,2023-12-19,13,,No,In progress
+101795,Mortgage,Collection Harassment,Metro Loans,Ga,Houston,18130.0,,2024-05-08,2024-05-30,22,Y,,
+101796,Credit Card,Incorrect Information,,Ny,Los Angeles,45272.0,Open,2024-02-28,2024-02-25,-3,Yes,No,Closed with explanation
+101797,Bank Account,Incorrect Information,Metro Loans,Ga,Miami,66078.0,,2023-10-19,2023-11-27,39,,Yes,Closed
+101798,Mortgage,Fees,,Ny,Philadelphia,73999.0,Closed,2023-01-21,2023-02-24,34,,Y,
+101799,,Other,Nan,Ny,Detroit,88523.0,Resolved,2024-05-08,2024-05-22,14,,,
+101800,Mortgage,Incorrect Information,Finserv Co,Ga,,83456.0,Resolved,2023-08-13,2023-09-01,19,N,,Closed with explanation
+101801,Debt Collection,Fees,Metro Loans,Ga,New York,56678.0,Closed,2023-05-25,2023-06-10,16,Yes,Y,In progress
+101802,Debt Collection,Other,Finserv Co,,Chicago,,Resolved,2024-03-22,2024-04-28,37,No,TRUE,
+101803,Mortgage,Incorrect Information,Metro Loans,Ga,Detroit,33512.0,Resolved,2024-01-09,2024-02-22,44,Yes,,
+101804,,Other,Finserv Co,,Miami,99353.0,,2024-01-10,2024-01-12,2,Yes,FALSE,
+101805,Bank Account,Fees,,,Miami,,,2023-05-19,2023-06-09,21,No,,Closed
+101806,Debt  Collection,Other,Acme Bank,Il,Nan,91774.0,In Progress,2024-05-10,2024-05-05,-5,TRUE,Yes,
+101807,Credit Card,Incorrect Information,Nan,Nan,Los Angeles,,,2023-08-15,2023-09-08,24,,No,
+101808,Bank Account,Fees,Finserv Co,Oh,Columbus,,,2023-09-23,2023-10-04,11,TRUE,Yes,Closed
+101809,Credit  Card,Identity Theft,Acme Bank,Nc,Atlanta,84317.0,Open,2024-01-11,2024-01-27,16,No,,
+101810,Mortgage,Fees,,Ca,Chicago,75053.0,,2023-11-26,2023-12-20,24,TRUE,Y,Closed with explanation
+101811,Debt Collection,Identity Theft,Acme Bank,Tx,Miami,28069.0,,2023-03-28,2023-04-13,16,No,N,Closed with explanation
+101812,Credit Card,Fees,Finserv Co,Ga,Atlanta,57160.0,Open,2023-06-01,2023-06-21,20,N,TRUE,In progress
+101813,Debt Collection,Nan,,Fl,Los Angeles,29210.0,,2023-06-30,2023-08-13,44,,TRUE,Closed
+101814,Mortgage,Incorrect Information,Northstar Finance,Nc,Columbus,78482.0,Open,2024-04-18,2024-06-04,47,No,Yes,Closed with explanation
+101815,Credit Reporting,Incorrect Information,,Ca,,12694.0,In Progress,2023-12-24,2023-12-19,-5,,,Closed with explanation
+101816,Credit Reporting,Identity Theft,Acme Bank,Fl,Nan,84427.0,,2023-07-03,2023-07-22,19,Y,N,
+101817,Credit Card,Collection Harassment,Metro Loans,Mi,Philadelphia,93613.0,,2024-01-03,2024-02-22,50,FALSE,,Closed with explanation
+101818,Bank Account,Fees,Finserv Co,Nc,Nan,12090.0,,2024-01-05,2024-02-03,29,Y,,
+101819,Bank Account,Nan,Northstar Finance,,Nan,66734.0,,2023-07-17,2023-07-25,8,No,FALSE,Closed with explanation
+101820,Debt Collection,Billing Disputes,Northstar Finance,Nan,Detroit,17121.0,Closed,2023-07-21,2023-08-23,33,N,FALSE,
+101821,Debt Collection,Billing Disputes,United Credit,,New York,42415.0,,2024-03-23,2024-03-27,4,N,,Closed with explanation
+101822,Student  Loan,Billing Disputes,United Credit,Ny,Detroit,40281.0,Resolved,2023-10-08,2023-10-04,-4,TRUE,Y,
+101823,Debt Collection,Other,Acme Bank,Nc,Los Angeles,56772.0,,2023-03-16,2023-04-21,36,No,Y,Closed with explanation
+101824,Credit Card,Other,Metro Loans,Fl,Philadelphia,92584.0,Resolved,2023-12-26,2024-01-23,28,,FALSE,In progress
+101825,Debt Collection,Billing Disputes,Northstar Finance,Fl,Houston,51543.0,Open,2023-10-22,2023-12-05,44,FALSE,No,
+101826,Mortgage,Billing Disputes,Acme Bank,Tx,Detroit,45844.0,Resolved,2023-09-12,2023-09-29,17,,,Closed
+101827,Debt Collection,Collection Harassment,Northstar Finance,Oh,Miami,18350.0,,2023-12-29,2024-02-17,50,,Yes,Closed with explanation
+101828,Mortgage,Fees,Acme Bank,Ca,Philadelphia,89875.0,,2024-03-29,2024-04-20,22,FALSE,,
+101829,Credit Card,Identity Theft,Finserv Co,Ga,Atlanta,38322.0,In Progress,2023-06-15,2023-07-27,42,No,Y,
+101830,Credit Reporting,,Finserv Co,Tx,New York,51618.0,Closed,2023-07-29,2023-07-30,1,TRUE,Yes,In progress
+101831,Credit Card,Identity Theft,,Ga,Los Angeles,,,2023-04-05,2023-04-06,1,,TRUE,Closed with explanation
+101832,Student Loan,Identity Theft,Finserv Co,Nc,Nan,35996.0,,2023-11-20,2024-01-04,45,Yes,Y,Closed
+101833,Student Loan,,Metro Loans,Tx,Miami,59800.0,,2023-07-21,2023-09-08,49,N,Y,Closed
+101834,Bank Account,Other,Finserv Co,Ca,Nan,91057.0,,2023-06-21,2023-08-16,56,No,N,
+101835,Credit Reporting,Nan,Northstar Finance,,Nan,39600.0,,2023-12-15,2023-12-31,16,,TRUE,Closed
+101836,Credit Card,Identity Theft,Northstar Finance,Nan,Atlanta,60459.0,In Progress,2023-07-24,2023-07-20,-4,,No,In progress
+101837,Mortgage,Fees,,Fl,Nan,88806.0,,2023-08-21,2023-10-18,58,Yes,Yes,Closed
+101838,Credit  Card,Other,Northstar Finance,Nan,Los Angeles,42443.0,In Progress,2023-08-09,2023-09-12,34,,N,Closed
+101839,Nan,Other,,Fl,Chicago,36534.0,,2023-05-10,2023-05-21,11,Y,Y,
+101840,Bank Account,Collection Harassment,United Credit,Nan,Nan,,Open,2023-03-04,2023-04-17,44,,TRUE,In progress
+101841,Credit Reporting,Billing Disputes,United Credit,Ca,Detroit,91715.0,Closed,2024-02-18,2024-04-11,53,Yes,FALSE,
+101842,Mortgage,Identity Theft,,Ny,New York,29387.0,In Progress,2023-06-12,2023-07-27,45,FALSE,Yes,Closed with explanation
+101844,Credit Reporting,Billing Disputes,Acme Bank,Tx,Columbus,22537.0,,2023-11-30,2024-01-15,46,,,
+101846,Student Loan,Identity Theft,,Ca,Nan,42834.0,,2023-11-24,2023-12-30,36,No,Yes,Closed with explanation
+101847,Debt Collection,Fees,,Oh,,73446.0,,2024-01-02,2024-01-14,12,Y,,
+101848,Nan,Incorrect Information,Finserv Co,Fl,Atlanta,,,2023-11-28,2024-01-22,55,Yes,,
+101849,Debt Collection,Incorrect Information,,Ca,Columbus,11357.0,Resolved,2023-06-02,2023-07-30,58,,TRUE,
+101850,Student Loan,Identity Theft,Metro Loans,,,,Open,2023-01-10,2023-03-09,58,FALSE,,In progress
+101851,Mortgage,Billing Disputes,Nan,,Miami,10367.0,Resolved,2024-03-19,2024-04-30,42,FALSE,,
+101852,Credit Reporting,Other,Nan,,Chicago,15897.0,Closed,2023-06-13,2023-06-10,-3,N,,Closed with explanation
+101853,Credit  Card,Fees,,Tx,New York,52569.0,Closed,2024-02-07,2024-02-25,18,FALSE,,
+101854,Debt Collection,Identity Theft,United Credit,Pa,Los Angeles,,,2023-04-09,2023-05-02,23,TRUE,No,Closed with explanation
+101855,Mortgage,Collection Harassment,Nan,Il,Chicago,,Resolved,2023-03-23,2023-05-19,57,FALSE,Yes,
+101856,Bank Account,,Acme Bank,Il,Nan,46780.0,,2024-01-25,2024-02-24,30,N,FALSE,
+101857,Bank Account,Other,United Credit,Pa,Miami,50671.0,In Progress,2024-04-14,2024-05-13,29,FALSE,FALSE,Closed with explanation
+101858,Credit Reporting,Billing Disputes,Northstar Finance,Ga,Charlotte,,In Progress,2024-03-06,2024-03-10,4,FALSE,TRUE,
+101859,Student Loan,Fees,Metro Loans,Oh,Atlanta,69538.0,,2024-01-11,2024-02-26,46,FALSE,No,
+101860,Mortgage,Other,Metro Loans,Il,Los Angeles,45368.0,Resolved,2023-05-04,2023-05-20,16,,,
+101861,Credit  Card,Collection Harassment,,,,,,2024-04-01,2024-04-01,0,Y,N,In progress
+101862,Credit Reporting,Identity Theft,Metro Loans,,Columbus,18027.0,Open,2023-11-30,2024-01-28,59,,FALSE,
+101863,Debt  Collection,Other,,Il,Columbus,44798.0,Resolved,2023-03-28,2023-04-04,7,Yes,TRUE,In progress
+101864,Credit Card,Incorrect Information,Metro Loans,Fl,Miami,62299.0,,2023-03-06,2023-03-02,-4,N,,Closed
+101865,,Incorrect Information,Acme Bank,Ga,Nan,11888.0,,2024-03-11,2024-03-11,0,N,FALSE,
+101866,Nan,Fees,,Pa,,92766.0,,2023-05-18,2023-06-11,24,,FALSE,
+101867,,Collection Harassment,,,Miami,,Open,2024-01-18,2024-01-19,1,Yes,,Closed with explanation
+101868,Bank Account,Fees,Northstar Finance,Ny,Miami,34803.0,Open,2023-05-21,2023-06-18,28,N,FALSE,Closed
+101870,Bank Account,Collection Harassment,Acme Bank,Ca,,85258.0,,2023-05-22,2023-06-07,16,,TRUE,
+101871,Credit Reporting,Fees,United Credit,Ca,New York,43016.0,Resolved,2023-05-21,2023-05-16,-5,N,,
+101872,Debt  Collection,Identity Theft,Acme Bank,Pa,Detroit,93539.0,Closed,2023-12-04,2023-12-30,26,FALSE,No,In progress
+101873,Debt Collection,Billing Disputes,Finserv Co,Il,New York,,,2024-04-02,2024-04-06,4,No,TRUE,
+101874,Bank Account,,Acme Bank,,Detroit,67288.0,,2024-03-31,2024-05-28,58,,Y,
+101875,Credit  Card,Collection Harassment,Nan,Nan,Columbus,28341.0,Open,2024-01-06,2024-01-19,13,,Yes,
+101876,Credit Card,Fees,Metro Loans,Ca,Miami,99542.0,Open,2023-04-12,2023-05-07,25,Yes,TRUE,
+101877,Nan,Other,Northstar Finance,,,27337.0,Closed,2024-04-25,2024-04-21,-4,FALSE,Yes,
+101878,Mortgage,Fees,,Nc,Los Angeles,12995.0,Open,2023-09-29,2023-10-02,3,No,Yes,
+101879,Mortgage,Billing Disputes,Finserv Co,Pa,,85134.0,,2023-12-17,2023-12-15,-2,FALSE,,Closed with explanation
+101881,Mortgage,Fees,,Oh,Los Angeles,92905.0,Open,2024-01-20,2024-03-02,42,,FALSE,
+101882,Bank Account,Identity Theft,Nan,Tx,New York,87130.0,Resolved,2024-04-21,2024-06-16,56,Yes,Yes,In progress
+101883,Student  Loan,Collection Harassment,Finserv Co,Nan,Houston,59774.0,In Progress,2023-10-19,2023-12-17,59,Y,Yes,In progress
+101884,,Billing Disputes,United Credit,Ny,Chicago,92502.0,,2023-11-02,2023-11-14,12,FALSE,N,Closed
+101885,Nan,Other,Northstar Finance,Ny,Houston,54282.0,In Progress,2024-01-08,2024-02-23,46,Y,N,
+101886,Nan,Identity Theft,Northstar Finance,Fl,Charlotte,53034.0,,2023-05-08,2023-06-04,27,FALSE,Yes,
+101887,Credit  Card,Incorrect Information,Finserv Co,Tx,New York,26267.0,,2023-06-03,2023-05-31,-3,No,Y,
+101888,Credit Reporting,Billing Disputes,United Credit,Ny,Miami,80897.0,Open,2023-11-09,2023-11-09,0,No,No,Closed
+101889,Mortgage,Identity Theft,,Pa,Atlanta,38448.0,Closed,2023-02-02,2023-03-04,30,TRUE,TRUE,Closed with explanation
+101890,Debt Collection,Other,United Credit,Pa,Nan,27557.0,Closed,2023-06-10,2023-07-02,22,FALSE,FALSE,
+101891,Credit Card,Identity Theft,Finserv Co,Ca,Philadelphia,43258.0,Closed,2023-12-25,2023-12-20,-5,No,N,Closed with explanation
+101892,Debt Collection,Fees,Finserv Co,,Houston,64281.0,Resolved,2024-05-03,2024-06-27,55,,TRUE,Closed with explanation
+101893,Credit Reporting,Other,United Credit,Nan,,34300.0,Open,2023-09-17,2023-10-29,42,,No,Closed
+101894,Debt Collection,Fees,Metro Loans,Nan,Houston,42277.0,In Progress,2023-07-19,2023-08-15,27,Yes,,Closed
+101895,Bank Account,Billing Disputes,,Ga,Atlanta,,Open,2023-08-09,2023-10-07,59,Y,Yes,In progress
+101896,Credit  Card,Incorrect Information,Northstar Finance,,Columbus,63655.0,Resolved,2023-12-09,2024-02-05,58,TRUE,TRUE,Closed
+101897,Credit Card,Incorrect Information,Acme Bank,Il,Nan,74265.0,,2023-09-30,2023-11-27,58,N,Y,Closed
+101898,Student Loan,Identity Theft,United Credit,Pa,Houston,70799.0,In Progress,2023-01-12,2023-01-23,11,Y,N,
+101899,Credit Card,Identity Theft,Nan,Ny,Miami,22704.0,In Progress,2023-09-27,2023-11-18,52,TRUE,TRUE,
+101900,Nan,Fees,Acme Bank,Mi,Nan,41235.0,In Progress,2023-07-20,2023-08-16,27,,FALSE,Closed
+101901,Mortgage,Incorrect Information,United Credit,Ca,New York,68363.0,Closed,2023-12-17,2024-01-28,42,Y,,In progress
+101902,Credit Card,Identity Theft,Finserv Co,Mi,Columbus,29461.0,In Progress,2024-03-13,2024-05-02,50,No,TRUE,
+101903,Bank Account,Incorrect Information,Acme Bank,Nan,Chicago,,,2024-04-26,2024-05-01,5,FALSE,No,
+101904,Credit Reporting,Incorrect Information,Acme Bank,Fl,Charlotte,,Open,2023-11-02,2023-11-26,24,TRUE,TRUE,
+101905,Credit Card,Identity Theft,United Credit,Nc,Nan,,,2023-07-01,2023-07-04,3,FALSE,TRUE,
+101906,Student  Loan,Incorrect Information,Acme Bank,Il,Chicago,69755.0,Open,2023-08-10,2023-08-23,13,FALSE,,
+101907,Bank Account,Other,Acme Bank,Pa,Philadelphia,21680.0,Open,2023-03-30,2023-04-20,21,,TRUE,
+101908,Student Loan,Fees,Northstar Finance,Ga,Atlanta,70918.0,Closed,2024-04-12,2024-06-01,50,FALSE,,
+101909,Credit Card,Fees,Acme Bank,Fl,Miami,27498.0,Closed,2024-02-28,2024-04-19,51,TRUE,FALSE,Closed with explanation
+101910,Credit Reporting,Other,,,Nan,,Closed,2024-03-02,2024-03-22,20,N,TRUE,
+101911,Credit Card,Fees,Acme Bank,Pa,Los Angeles,60986.0,,2023-06-14,2023-06-30,16,N,Y,Closed
+101912,Credit Reporting,Identity Theft,Metro Loans,Oh,Atlanta,,,2023-06-11,2023-07-10,29,Y,Y,
+101913,Bank Account,Incorrect Information,Nan,,Miami,,,2024-03-04,2024-04-27,54,N,Yes,
+101914,,Incorrect Information,Nan,Fl,New York,,Open,2023-09-30,2023-11-27,58,TRUE,TRUE,Closed with explanation
+101915,,Incorrect Information,Nan,Oh,Miami,48942.0,,2023-12-19,2023-12-28,9,FALSE,,In progress
+101916,Bank Account,Billing Disputes,United Credit,,Chicago,71932.0,,2023-09-02,2023-09-09,7,,Yes,
+101917,Credit Card,Billing Disputes,Finserv Co,Pa,Charlotte,77343.0,Open,2023-08-10,2023-09-19,40,N,,Closed with explanation
+101918,Bank Account,,,Ca,Nan,,In Progress,2023-11-13,2023-11-27,14,FALSE,,
+101919,Student Loan,Other,Acme Bank,Fl,New York,93831.0,,2024-02-11,2024-02-18,7,N,N,
+101920,,Collection Harassment,,,Nan,40203.0,Open,2023-06-17,2023-06-14,-3,Y,Y,Closed with explanation
+101921,Mortgage,Other,,Nan,Detroit,81405.0,Open,2024-02-09,2024-03-01,21,No,TRUE,Closed with explanation
+101922,Mortgage,Identity Theft,Northstar Finance,,Chicago,,Resolved,2023-05-03,2023-05-23,20,Y,,Closed with explanation
+101923,Mortgage,Incorrect Information,Northstar Finance,Fl,Los Angeles,61926.0,In Progress,2023-07-21,2023-08-21,31,FALSE,Yes,In progress
+101924,Credit Card,Fees,Acme Bank,,Nan,42455.0,In Progress,2024-04-01,2024-04-09,8,No,N,
+101925,Mortgage,Incorrect Information,Acme Bank,Pa,Miami,86789.0,,2024-04-22,2024-06-02,41,Yes,Yes,Closed
+101926,Bank Account,Incorrect Information,Nan,,Los Angeles,20567.0,Resolved,2024-04-06,2024-05-15,39,Y,FALSE,
+101927,Mortgage,Incorrect Information,Nan,Nan,New York,90649.0,,2023-06-08,2023-07-03,25,,Yes,Closed
+101928,Student Loan,Billing Disputes,Acme Bank,Tx,Detroit,28660.0,Open,2024-02-26,2024-03-03,6,No,Y,Closed
+101929,Student  Loan,Other,Finserv Co,,Miami,,Open,2024-04-13,2024-05-10,27,No,FALSE,
+101930,Student Loan,Other,Acme Bank,Nc,Houston,,Closed,2024-05-04,2024-06-11,38,N,,
+101931,Bank Account,Billing Disputes,Nan,Nan,Charlotte,11239.0,Closed,2023-01-11,2023-01-30,19,N,No,Closed
+101932,Mortgage,Incorrect Information,,Nan,Nan,,Closed,2024-01-08,2024-01-20,12,,TRUE,In progress
+101933,Credit Reporting,Fees,Metro Loans,Tx,,59307.0,,2024-05-13,2024-06-09,27,No,No,In progress
+101934,Credit  Card,Collection Harassment,Metro Loans,Nan,Nan,33966.0,Open,2024-01-18,2024-02-05,18,N,TRUE,In progress
+101935,Debt Collection,Other,Acme Bank,Tx,Chicago,63810.0,Open,2023-04-27,2023-05-18,21,Y,Yes,In progress
+101936,Debt Collection,Incorrect Information,Northstar Finance,Fl,Houston,,Closed,2024-01-17,2024-02-03,17,No,,
+101937,Bank Account,Other,United Credit,Tx,Atlanta,57396.0,Closed,2023-08-29,2023-10-09,41,Y,TRUE,In progress
+101939,Student  Loan,Collection Harassment,Acme Bank,,Chicago,76534.0,Closed,2023-11-10,2023-12-04,24,FALSE,N,Closed
+101940,Credit Reporting,Identity Theft,,Il,,48204.0,Resolved,2023-08-17,2023-09-11,25,,No,
+101941,Debt Collection,Collection Harassment,Nan,Pa,Houston,93253.0,Open,2023-12-16,2024-01-22,37,No,TRUE,
+101942,Credit Reporting,Incorrect Information,Acme Bank,Oh,Philadelphia,69594.0,Open,2023-05-01,2023-05-19,18,N,No,
+101943,Credit  Card,Billing Disputes,Acme Bank,Mi,Los Angeles,13107.0,,2023-10-31,2023-11-01,1,Y,TRUE,In progress
+101944,Credit Reporting,Collection Harassment,Acme Bank,Nc,Los Angeles,58735.0,Open,2023-11-19,2024-01-08,50,,FALSE,Closed
+101945,Credit  Card,Other,Acme Bank,Ga,Los Angeles,,Open,2023-11-13,2023-11-11,-2,Yes,N,
+101946,Credit Reporting,Incorrect Information,Nan,,Miami,21836.0,Open,2023-05-25,2023-06-26,32,N,Y,Closed with explanation
+101947,Debt Collection,Incorrect Information,Acme Bank,Oh,Nan,95535.0,Resolved,2023-06-02,2023-06-14,12,Y,N,Closed with explanation
+101948,Credit Reporting,Incorrect Information,Nan,Nan,Nan,,,2023-05-09,2023-05-17,8,Y,,
+101949,Credit Card,Billing Disputes,Northstar Finance,Nan,Atlanta,17502.0,,2023-08-19,2023-08-16,-3,,,
+101950,,Other,Finserv Co,Mi,New York,30026.0,,2023-10-20,2023-12-12,53,TRUE,Yes,
+101951,Credit Reporting,Billing Disputes,,Ny,New York,,Open,2023-07-01,2023-07-23,22,N,Y,Closed
+101952,Credit Card,Fees,United Credit,Fl,Nan,63995.0,In Progress,2023-07-24,2023-08-10,17,,Yes,
+101953,Mortgage,Billing Disputes,Metro Loans,Nc,Atlanta,83796.0,Resolved,2023-05-24,2023-07-06,43,,No,
+101954,Credit Card,Collection Harassment,Acme Bank,Oh,Los Angeles,,,2023-04-20,2023-04-17,-3,No,,
+101955,Mortgage,Other,Acme Bank,Fl,Nan,20528.0,In Progress,2023-11-25,2023-12-26,31,N,,
+101956,Debt Collection,,Metro Loans,Il,Charlotte,44882.0,,2024-02-13,2024-03-11,27,N,N,
+101957,Bank Account,Fees,Acme Bank,Ca,Philadelphia,27979.0,,2023-05-26,2023-06-25,30,N,FALSE,In progress
+101958,Mortgage,Collection Harassment,Nan,Fl,Atlanta,60096.0,,2024-03-06,2024-03-09,3,Y,Y,In progress
+101959,Credit  Card,Other,United Credit,Nan,Chicago,34247.0,,2023-10-13,2023-12-08,56,,N,
+101960,Credit  Card,Other,Acme Bank,Ny,,97309.0,,2023-03-25,2023-04-04,10,,,In progress
+101961,Credit Reporting,Identity Theft,Metro Loans,,Miami,43947.0,,2023-07-02,2023-08-10,39,Yes,Y,
+101962,Credit Reporting,Fees,Metro Loans,Il,Chicago,38277.0,Resolved,2023-01-04,2023-02-16,43,,Y,Closed with explanation
+101963,Mortgage,Collection Harassment,,,Los Angeles,98603.0,In Progress,2023-01-20,2023-02-06,17,,No,Closed with explanation
+101964,Credit  Card,Identity Theft,Northstar Finance,Fl,Houston,56817.0,In Progress,2023-06-18,2023-06-21,3,Y,No,In progress
+101965,Credit Card,Collection Harassment,Metro Loans,,Atlanta,25343.0,,2023-08-16,2023-08-30,14,N,Yes,Closed
+101966,Credit Reporting,Billing Disputes,,Nc,Los Angeles,53232.0,Closed,2024-02-03,2024-03-21,47,Yes,,
+101967,Student Loan,Other,Northstar Finance,,New York,,Resolved,2023-03-09,2023-05-01,53,Y,,
+101968,Student Loan,Fees,,Ny,Los Angeles,74497.0,Resolved,2024-02-24,2024-04-19,55,No,N,
+101969,Mortgage,Collection Harassment,Nan,,Chicago,61632.0,In Progress,2023-04-28,2023-05-07,9,,TRUE,In progress
+101971,Credit Card,Identity Theft,Finserv Co,Pa,Atlanta,94611.0,Open,2023-12-16,2023-12-20,4,Y,Yes,Closed with explanation
+101972,Bank Account,Incorrect Information,Finserv Co,Ny,,75615.0,,2024-01-23,2024-03-04,41,N,TRUE,
+101973,Bank Account,Other,Northstar Finance,,Miami,40650.0,Open,2023-10-30,2023-11-21,22,,No,Closed
+101974,Mortgage,Billing Disputes,Finserv Co,Nc,Miami,28136.0,Open,2023-02-27,2023-04-09,41,,,Closed with explanation
+101975,Student Loan,Collection Harassment,Acme Bank,,Nan,57642.0,Closed,2023-02-27,2023-04-07,39,,Y,
+101976,Bank Account,Identity Theft,Acme Bank,Ga,Nan,,Resolved,2023-07-15,2023-09-12,59,Y,FALSE,
+101977,Debt Collection,Fees,Acme Bank,Tx,Chicago,,Closed,2023-08-14,2023-09-09,26,Y,Y,In progress
+101978,Credit  Card,Nan,United Credit,Il,Detroit,83004.0,,2024-05-14,2024-05-31,17,TRUE,No,Closed
+101979,,Collection Harassment,Finserv Co,Oh,Philadelphia,91842.0,,2023-05-24,2023-06-22,29,Y,TRUE,In progress
+101980,Nan,Other,Nan,Tx,Detroit,,In Progress,2023-04-07,2023-04-12,5,Yes,No,
+101981,Mortgage,Incorrect Information,Nan,,Charlotte,,,2024-04-17,2024-04-19,2,,N,Closed with explanation
+101982,Mortgage,Identity Theft,Acme Bank,,,98581.0,Open,2023-03-18,2023-04-15,28,Yes,Y,
+101983,Bank Account,Incorrect Information,Metro Loans,Ga,New York,11070.0,Open,2023-01-14,2023-03-03,48,No,,
+101984,Mortgage,Fees,United Credit,Nc,Miami,42830.0,In Progress,2023-07-31,2023-08-29,29,,TRUE,
+101985,Debt Collection,Collection Harassment,Metro Loans,Mi,,76404.0,,2023-07-20,2023-09-03,45,FALSE,FALSE,Closed with explanation
+101986,Student Loan,Collection Harassment,,Mi,Nan,54789.0,Resolved,2023-11-06,2023-11-12,6,FALSE,TRUE,
+101987,Bank Account,Incorrect Information,Northstar Finance,Ny,Houston,81269.0,,2024-03-14,2024-04-07,24,No,,
+101988,Bank Account,Other,Finserv Co,Ga,Los Angeles,52706.0,Resolved,2024-04-11,2024-05-15,34,Y,N,In progress
+101989,Credit Card,Billing Disputes,Nan,Nan,,,In Progress,2023-05-25,2023-06-11,17,No,,
+101990,Debt Collection,Billing Disputes,United Credit,,Houston,49029.0,,2024-05-05,2024-04-30,-5,FALSE,,
+101991,Debt  Collection,Billing Disputes,Acme Bank,Nc,Los Angeles,,,2023-11-13,2023-11-12,-1,TRUE,,
+101992,Credit Card,Identity Theft,Metro Loans,Nc,Chicago,,,2024-04-14,2024-05-18,34,FALSE,,
+101994,Credit  Card,Fees,United Credit,Pa,Detroit,,Resolved,2023-03-10,2023-03-22,12,,FALSE,
+101995,Student Loan,Collection Harassment,Nan,Oh,Miami,22734.0,Resolved,2023-10-22,2023-11-02,11,FALSE,Y,Closed with explanation
+101996,Bank Account,Collection Harassment,Acme Bank,Mi,Philadelphia,61089.0,Open,2024-01-31,2024-01-28,-3,Yes,No,Closed
+101997,Student  Loan,Other,Metro Loans,Nan,Chicago,99599.0,Closed,2023-05-05,2023-06-30,56,TRUE,No,Closed with explanation
+101998,Nan,Billing Disputes,Finserv Co,Fl,Columbus,65673.0,,2023-05-16,2023-05-18,2,No,TRUE,
+101999,Credit Reporting,Incorrect Information,Metro Loans,Il,Philadelphia,83465.0,Closed,2023-08-27,2023-10-10,44,Y,No,In progress

@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>How JavaScript Works | Infographic</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700;900&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg-color: #0f172a;
+            --card-bg: rgba(30, 41, 59, 0.7);
+            --neon-cyan: #06b6d4;
+            --neon-purple: #8b5cf6;
+            --neon-orange: #f97316;
+            --neon-green: #10b981;
+            --text-main: #e2e8f0;
+            --text-muted: #94a3b8;
+            --border: 1px solid rgba(255,255,255,0.1);
+        }
+
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+
+        body {
+            background-color: var(--bg-color);
+            color: var(--text-main);
+            font-family: 'Inter', sans-serif;
+            display: flex;
+            justify-content: center;
+            padding: 40px 20px;
+            background-image: 
+                radial-gradient(circle at 10% 20%, rgba(139, 92, 246, 0.15) 0%, transparent 20%),
+                radial-gradient(circle at 90% 80%, rgba(6, 182, 212, 0.15) 0%, transparent 20%);
+        }
+
+        .container {
+            width: 100%;
+            max-width: 900px;
+            display: flex;
+            flex-direction: column;
+            gap: 40px;
+            position: relative;
+        }
+
+        /* HEADER */
+        header {
+            text-align: center;
+            padding: 40px;
+            border-bottom: 2px solid var(--neon-cyan);
+            background: linear-gradient(180deg, rgba(6,182,212,0.1) 0%, transparent 100%);
+        }
+
+        h1 {
+            font-size: 4rem;
+            font-weight: 900;
+            letter-spacing: -2px;
+            text-transform: uppercase;
+            background: -webkit-linear-gradient(45deg, var(--neon-cyan), var(--neon-purple));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-bottom: 10px;
+        }
+
+        .subtitle {
+            font-family: 'JetBrains Mono', monospace;
+            color: var(--neon-orange);
+            font-size: 1.2rem;
+            letter-spacing: 1px;
+        }
+
+        /* SECTIONS */
+        .section {
+            background: var(--card-bg);
+            backdrop-filter: blur(10px);
+            border: var(--border);
+            border-radius: 16px;
+            padding: 30px;
+            position: relative;
+            overflow: hidden;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+        }
+
+        .section-title {
+            font-size: 1.8rem;
+            font-weight: 700;
+            margin-bottom: 20px;
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            border-left: 5px solid var(--neon-cyan);
+            padding-left: 15px;
+        }
+
+        .tag {
+            background: rgba(6, 182, 212, 0.1);
+            color: var(--neon-cyan);
+            padding: 4px 8px;
+            border-radius: 4px;
+            font-size: 0.8rem;
+            font-family: 'JetBrains Mono', monospace;
+            text-transform: uppercase;
+        }
+
+        p { color: var(--text-muted); line-height: 1.6; margin-bottom: 15px; }
+
+        /* CODE BLOCKS */
+        pre {
+            background: #000;
+            padding: 20px;
+            border-radius: 8px;
+            border: 1px solid #333;
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.9rem;
+            color: #ccc;
+            overflow-x: auto;
+            margin: 15px 0;
+        }
+        .kw { color: var(--neon-purple); } /* keyword */
+        .fn { color: var(--neon-cyan); } /* function */
+        .str { color: var(--neon-green); } /* string */
+        .num { color: var(--neon-orange); } /* number */
+        .comment { color: #555; font-style: italic; }
+
+        /* DIAGRAM: V8 ENGINE */
+        .v8-flow {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-top: 20px;
+        }
+        .v8-step {
+            flex: 1;
+            background: rgba(255,255,255,0.05);
+            padding: 15px 10px;
+            text-align: center;
+            border-radius: 8px;
+            border: 1px solid var(--neon-purple);
+            font-weight: bold;
+            font-size: 0.9rem;
+            min-width: 100px;
+            position: relative;
+        }
+        .v8-step::after {
+            content: '→';
+            position: absolute;
+            right: -15px;
+            top: 50%;
+            transform: translateY(-50%);
+            color: var(--neon-muted);
+        }
+        .v8-step:last-child::after { content: ''; }
+        
+        /* DIAGRAM: EVENT LOOP */
+        .event-loop-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+            align-items: center;
+        }
+        .loop-visual {
+            position: relative;
+            height: 250px;
+            border: 1px dashed #333;
+            border-radius: 12px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .circle-loop {
+            width: 120px;
+            height: 120px;
+            border: 4px solid var(--neon-cyan);
+            border-top: 4px solid transparent;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            font-weight: bold;
+            font-size: 0.9rem;
+            color: var(--neon-cyan);
+            animation: spin 4s linear infinite;
+            box-shadow: 0 0 20px rgba(6,182,212,0.4);
+        }
+        @keyframes spin { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }
+
+        .stack-box, .queue-box {
+            background: rgba(255,255,255,0.05);
+            border: 1px solid #444;
+            padding: 10px;
+            border-radius: 8px;
+            position: absolute;
+            width: 120px;
+            text-align: center;
+            font-size: 0.8rem;
+            font-weight: bold;
+        }
+        .stack-box { top: 20px; left: 20px; border-color: var(--neon-purple); color: var(--neon-purple); }
+        .queue-box { bottom: 20px; right: 20px; border-color: var(--neon-green); color: var(--neon-green); }
+        
+        .arrow-path {
+            position: absolute;
+            width: 100%; height: 100%;
+            pointer-events: none;
+        }
+
+        /* DIAGRAM: MEMORY HEAP */
+        .heap-diagram {
+            display: flex;
+            gap: 20px;
+        }
+        .heap-block {
+            flex: 2;
+            background: rgba(255,255,255,0.03);
+            height: 150px;
+            border-radius: 12px;
+            border: 2px dashed #555;
+            position: relative;
+            padding: 10px;
+        }
+        .object {
+            width: 40px; height: 40px;
+            background: var(--neon-orange);
+            opacity: 0.6;
+            border-radius: 4px;
+            position: absolute;
+        }
+        .stack-diagram {
+            flex: 1;
+            display: flex;
+            flex-direction: column-reverse;
+            gap: 5px;
+            border: 2px solid var(--neon-purple);
+            padding: 5px;
+            border-radius: 8px;
+            height: 150px;
+        }
+        .stack-frame {
+            background: var(--neon-purple);
+            color: #fff;
+            padding: 5px;
+            text-align: center;
+            font-size: 0.7rem;
+            border-radius: 4px;
+        }
+
+        /* ASYNC TIMELINE */
+        .timeline {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 20px;
+            position: relative;
+        }
+        .timeline::before {
+            content: '';
+            position: absolute;
+            top: 50%; left: 0; right: 0;
+            height: 2px;
+            background: #333;
+            z-index: 0;
+        }
+        .milestone {
+            background: var(--bg-color);
+            border: 2px solid var(--neon-cyan);
+            padding: 10px 20px;
+            border-radius: 20px;
+            z-index: 1;
+            text-align: center;
+        }
+        .milestone span { display: block; font-size: 0.8rem; color: var(--text-muted); }
+        .milestone strong { color: var(--neon-cyan); }
+
+        /* FOOTER */
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            font-size: 0.9rem;
+            color: var(--text-muted);
+            font-family: 'JetBrains Mono', monospace;
+        }
+
+        /* RESPONSIVE */
+        @media (max-width: 600px) {
+            .v8-flow { flex-direction: column; }
+            .v8-step { width: 100%; margin-bottom: 10px; }
+            .v8-step::after { content: '↓'; right: 50%; top: 100%; transform: translate(50%, 5px); }
+            .event-loop-container { grid-template-columns: 1fr; }
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- HEADER -->
+        <header>
+            <h1>How JS Works</h1>
+            <div class="subtitle">INTERPRETED &bullet; NON-BLOCKING &bullet; ASYNCHRONOUS</div>
+        </header>
+
+        <!-- INTRO -->
+        <div class="section">
+            <div class="section-title">
+                Core Identity
+                <span class="tag">Overview</span>
+            </div>
+            <p>JavaScript is a <strong>high-level, single-threaded, garbage-collected</strong> language. It performs one task at a time (single thread) but uses the <strong>Event Loop</strong> to handle asynchronous tasks like fetching data without freezing the user interface.</p>
+            <div style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 10px; margin-top: 20px;">
+                <div style="text-align: center; padding: 10px; background: rgba(255,255,255,0.05); border-radius: 8px;">
+                    <strong style="color:var(--neon-purple)">Single Threaded</strong><br><span style="font-size:0.8rem">One Call Stack</span>
+                </div>
+                <div style="text-align: center; padding: 10px; background: rgba(255,255,255,0.05); border-radius: 8px;">
+                    <strong style="color:var(--neon-cyan)">Interpreted</strong><br><span style="font-size:0.8rem">JIT Compiled</span>
+                </div>
+                <div style="text-align: center; padding: 10px; background: rgba(255,255,255,0.05); border-radius: 8px;">
+                    <strong style="color:var(--neon-green)">Dynamic</strong><br><span style="font-size:0.8rem">Weakly Typed</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- ENGINE -->
+        <div class="section">
+            <div class="section-title">
+                The Engine (V8)
+                <span class="tag">Under the Hood</span>
+            </div>
+            <p>The V8 engine (used in Chrome & Node.js) translates your JS code into machine code your processor understands.</p>
+            <div class="v8-flow">
+                <div class="v8-step">JS Source</div>
+                <div class="v8-step">Parser</div>
+                <div class="v8-step">AST</div>
+                <div class="v8-step">Interpreter<br><span style="font-size:0.7rem; color:#888;">(Ignition)</span></div>
+                <div class="v8-step" style="border-color: var(--neon-cyan);">JIT Compiler<br><span style="font-size:0.7rem; color:#888;">(TurboFan)</span></div>
+                <div class="v8-step" style="background: var(--neon-cyan); color: #000;">Machine Code</div>
+            </div>
+        </div>
+
+        <!-- CALL STACK & HEAP -->
+        <div class="section">
+            <div class="section-title">Memory & Execution</div>
+            <div class="event-loop-container">
+                <div>
+                    <h3 style="color: var(--neon-purple); margin-bottom: 10px;">The Call Stack (LIFO)</h3>
+                    <p style="font-size: 0.9rem;">Tracks where we are in the code. Functions are pushed on top when called and popped off when they return.</p>
+                    <div class="heap-diagram">
+                        <div class="stack-diagram">
+                            <div class="stack-frame">multiply(a, b)</div>
+                            <div class="stack-frame">calculate()</div>
+                            <div class="stack-frame">main()</div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <h3 style="color: var(--neon-orange); margin-bottom: 10px;">The Memory Heap</h3>
+                    <p style="font-size: 0.9rem;">Unstructured memory where objects and variables are stored. The Garbage Collector cleans this up automatically.</p>
+                    <div class="heap-block">
+                        <div class="object" style="top: 20px; left: 30px;"></div>
+                        <div class="object" style="top: 60px; right: 40px; background: var(--neon-cyan);"></div>
+                        <div class="object" style="bottom: 20px; left: 50px; background: var(--neon-purple);"></div>
+                        <div style="position: absolute; bottom: 10px; right: 10px; font-size: 0.7rem; color: #777;">Heap Space</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- EVENT LOOP -->
+        <div class="section">
+            <div class="section-title">
+                The Event Loop
+                <span class="tag" style="color: var(--neon-green); background: rgba(16, 185, 129, 0.1);">Crucial</span>
+            </div>
+            <p>JavaScript offloads slow tasks (timers, API calls) to the browser. When done, they sit in a Queue. The <strong>Event Loop</strong> waits for the Stack to be empty, then pushes tasks from Queue to Stack.</p>
+            
+            <div class="loop-visual">
+                <div class="stack-box">Call Stack<br><span style="font-size:0.7rem; opacity:0.7;">(Currently Empty)</span></div>
+                
+                <div class="circle-loop">
+                    EVENT<br>LOOP
+                </div>
+                
+                <div class="queue-box">Callback Queue<br><span style="font-size:0.7rem; opacity:0.7;">(Waiting Tasks)</span></div>
+                
+                <!-- Simple arrows visualized via CSS borders handled in structure -->
+                <div style="position: absolute; top: 20px; right: 40%; font-size: 0.8rem; color: #666;">Web APIs offload here →</div>
+            </div>
+            
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin-top: 20px;">
+                <div style="border: 1px solid var(--neon-cyan); padding: 15px; border-radius: 8px;">
+                    <strong style="color: var(--neon-cyan)">Microtasks (Priority 1)</strong>
+                    <ul style="font-size: 0.8rem; margin-top: 10px; margin-left: 20px; color: #ccc;">
+                        <li>Promises (.then)</li>
+                        <li>queueMicrotask</li>
+                        <li>MutationObserver</li>
+                    </ul>
+                </div>
+                <div style="border: 1px solid var(--neon-green); padding: 15px; border-radius: 8px;">
+                    <strong style="color: var(--neon-green)">Macrotasks (Priority 2)</strong>
+                    <ul style="font-size: 0.8rem; margin-top: 10px; margin-left: 20px; color: #ccc;">
+                        <li>setTimeout / setInterval</li>
+                        <li>DOM Events</li>
+                        <li>I/O operations</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- ASYNC CODE -->
+        <div class="section">
+            <div class="section-title">Async Evolution</div>
+            <div class="timeline">
+                <div class="milestone">
+                    <span>2010s</span>
+                    <strong>Callbacks</strong>
+                </div>
+                <div class="milestone">
+                    <span>2015 (ES6)</span>
+                    <strong>Promises</strong>
+                </div>
+                <div class="milestone">
+                    <span>2017 (ES8)</span>
+                    <strong>Async/Await</strong>
+                </div>
+            </div>
+            <br>
+            <pre><span class="comment">// Modern Async Pattern</span>
+<span class="kw">async function</span> <span class="fn">fetchData</span>() {
+  <span class="kw">try</span> {
+    <span class="kw">const</span> res = <span class="kw">await</span> <span class="fn">fetch</span>(<span class="str">'/api'</span>);
+    <span class="kw">const</span> data = <span class="kw">await</span> res.<span class="fn">json</span>();
+    console.<span class="fn">log</span>(data); 
+  } <span class="kw">catch</span> (err) {
+    console.<span class="fn">error</span>(err);
+  }
+}</pre>
+        </div>
+
+        <footer>
+            Generated for the Modern Developer &bull; 2025 Aesthetic
+        </footer>
+    </div>
+
+</body>
+</html>
